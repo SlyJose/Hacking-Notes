@@ -1,5 +1,5 @@
 
-NetNTLM works using a challenge-response mechanism. 
+[[NetNTLM]] works using a challenge-response mechanism. 
 
 
 ##  📗 Authentication Process 
@@ -15,9 +15,9 @@ NetNTLM works using a challenge-response mechanism.
 
 Note that the user's password (or hash) is never transmitted through the network for security.
 
-Note: The described process applies when using a domain account. If a local account is used, the server can verify the response to the challenge itself without requiring interaction with the [[domain controller]] since it has the password hash stored locally on its SAM.
+Note: The described process applies when using a domain account. If a local account is used, the server can verify the response to the challenge itself without requiring interaction with the [[Domain Controller]] since it has the password hash stored locally on its SAM.
 
-
+While [[NetNTLM]] should be considered obsolete, most networks will have both protocols enabled.
 ### Properties
 ---
 📆 created   {{22-10-2023}} 21:14

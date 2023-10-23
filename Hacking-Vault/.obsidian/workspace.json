@@ -11,11 +11,28 @@
             "id": "34afd54ae2f6fba9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5756ed0ce7b96e21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Domain Controller.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Windows/Domain Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Windows/Domain Controller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Windows/Domain Controller.md"
+              }
             }
           }
         ]
@@ -139,49 +160,50 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "34afd54ae2f6fba9",
+  "active": "04c17dd92067aeb4",
   "lastOpenFiles": [
-    "NetNTLM.md",
-    "Domain Controller.md",
-    "SYSVOL.md",
-    "Group Policy Objects.md",
+    "Windows/Computers.md",
+    "Windows/Active Directory.md",
+    "Windows/Windows Domain.md",
+    "Windows/Forest.md",
+    "Windows/Trust Relationship.md",
+    "Windows/Tree.md",
+    "trees.md",
+    "Windows/Domain Controller.md",
+    "Windows/Groups.md",
+    "Windows/security context.md",
+    "Windows/Organizational Unit.md",
+    "Windows/Users.md",
+    "Pictures/Forest.png",
+    "Pictures/Tree.png",
+    "Windows/NetNTLM.md",
+    "Windows/Service Accounts.md",
+    "Obsidian-Templates/Markdown.md",
     "Obsidian-Templates/Obsidian.md",
-    "Active Directory.md",
-    "Organizational Unit.md",
+    "Windows/SYSVOL.md",
+    "Windows/Group Policy Objects.md",
     "AI/Artificial Intelligence.md",
-    "Ticket Granting Service (TGS).md",
-    "Kerberos.md",
-    "Service Principal Name (SPN).md",
-    "Ticket Granting Ticket (TGT).md",
+    "Windows/Ticket Granting Service (TGS).md",
+    "Windows/Kerberos.md",
+    "Windows/Service Principal Name (SPN).md",
+    "Windows/Ticket Granting Ticket (TGT).md",
     "Pictures/TGT-3.png",
     "Pictures/TGT-2.png",
     "Pictures/NetNTLM.png",
     "Pictures/TGT-1.png",
-    "Service Accounts.md",
-    "Security Groups.md",
-    "Groups.md",
-    "Jose Urena.md",
-    "Users.md",
-    "Computers.md",
+    "Windows/Security Groups.md",
+    "Windows/Jose Urena.md",
     "AI/Deep learning.md",
-    "AI/Neural Networks.md",
-    "AI/Machine Learning.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Obsidian-Templates/Markdown.md",
     "Pictures/simple_neural_network.png",
     "Pictures/deep_neural_network.png",
     "AI",
     "Pictures/old_laptop.png",
-    "Linux/Untitled.md",
     "Blog",
     "Cloud",
     "Red_Team",
     "Linux",
     "Windows",
     "Pictures/windows.png",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Pictures/extended_syntax_markdown.png",
-    "Pictures/basic_syntax_markdown.png",
     "Pictures",
     "Obsidian-Templates",
     "Obsidian-Templates/ContentNote-Template",

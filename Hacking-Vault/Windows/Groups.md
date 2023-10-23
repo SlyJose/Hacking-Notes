@@ -8,7 +8,13 @@ Groups can be categorized in the following:
 - [[Security Groups]]
 - [[Organizational Unit]]
 
+These are default [[Groups]] created in the [[Active Directory]] environment:
 
+- Builtin : default groups available to any Windows host
+- [[Computers]]
+- [[Domain Controller]]s
+- [[Users]]
+- [[Service Accounts]]
 
 
 ### Properties
