@@ -30,9 +30,64 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9c556c6b3a8ced1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "ee2530ddd96dcfad"
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "018d8ee241a6b61a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30c960ca755266c6",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Windows/Active Directory.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            },
+            "group": "ee2530ddd96dcfad"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Domain Controller.md",
+                "file": "Windows/Active Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Domain Controller.md",
+                "file": "Windows/Active Directory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Domain Controller.md"
+                "file": "Windows/Active Directory.md"
               }
             }
           }
@@ -160,40 +215,40 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "04c17dd92067aeb4",
+  "active": "30c960ca755266c6",
   "lastOpenFiles": [
-    "Windows/Computers.md",
-    "Windows/Active Directory.md",
-    "Windows/Windows Domain.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Windows/Ticket Granting Ticket (TGT).md",
+    "Azure Active Directory.md",
+    "Windows/Domain Controller.md",
     "Windows/Forest.md",
+    "Windows/SYSVOL.md",
     "Windows/Trust Relationship.md",
+    "Windows/Security Groups.md",
+    "Windows/Groups.md",
+    "Windows/Active Directory.md",
+    "Windows/Service Accounts.md",
+    "Windows/Users.md",
+    "Windows/Computers.md",
+    "Windows/Windows Domain.md",
     "Windows/Tree.md",
     "trees.md",
-    "Windows/Domain Controller.md",
-    "Windows/Groups.md",
     "Windows/security context.md",
     "Windows/Organizational Unit.md",
-    "Windows/Users.md",
     "Pictures/Forest.png",
     "Pictures/Tree.png",
     "Windows/NetNTLM.md",
-    "Windows/Service Accounts.md",
     "Obsidian-Templates/Markdown.md",
     "Obsidian-Templates/Obsidian.md",
-    "Windows/SYSVOL.md",
     "Windows/Group Policy Objects.md",
     "AI/Artificial Intelligence.md",
     "Windows/Ticket Granting Service (TGS).md",
     "Windows/Kerberos.md",
-    "Windows/Service Principal Name (SPN).md",
-    "Windows/Ticket Granting Ticket (TGT).md",
     "Pictures/TGT-3.png",
     "Pictures/TGT-2.png",
     "Pictures/NetNTLM.png",
     "Pictures/TGT-1.png",
-    "Windows/Security Groups.md",
-    "Windows/Jose Urena.md",
-    "AI/Deep learning.md",
     "Pictures/simple_neural_network.png",
     "Pictures/deep_neural_network.png",
     "AI",
