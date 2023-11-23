@@ -13,51 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Active Directory.md",
+                "file": "Breaching Active Directory.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5756ed0ce7b96e21",
+            "id": "039fa84fdb6e54b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Domain Controller.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a9c556c6b3a8ced1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Active Directory.md",
+                "file": "LDAP Pass-back Attack.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "ee2530ddd96dcfad"
+            "group": "81f81a9a9df19f37"
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
-        "id": "018d8ee241a6b61a",
+        "id": "8618a79a5714b33c",
         "type": "tabs",
         "children": [
           {
-            "id": "30c960ca755266c6",
+            "id": "9dba62a0deb68a11",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Windows/Active Directory.md",
+                "file": "LDAP Pass-back Attack.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -81,11 +69,11 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 1,
-                  "close": false
+                  "close": true
                 }
               }
             },
-            "group": "ee2530ddd96dcfad"
+            "group": "81f81a9a9df19f37"
           }
         ]
       }
@@ -153,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Active Directory.md",
+                "file": "LDAP Pass-back Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Active Directory.md",
+                "file": "LDAP Pass-back Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Active Directory.md"
+                "file": "LDAP Pass-back Attack.md"
               }
             }
           }
@@ -215,19 +203,27 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "30c960ca755266c6",
+  "active": "039fa84fdb6e54b4",
   "lastOpenFiles": [
+    "LDAP.md",
+    "Windows/NetNTLM.md",
+    "Windows/Domain Controller.md",
+    "LDAP Pass-back Attack.md",
+    "NetNTLM Authenticated Services.md",
+    "Breaching Active Directory.md",
+    "Brute Forcing Authentication Services.md",
+    "Pictures/LDAP.png",
+    "[[NetNTLM.md",
+    "Windows/Active Directory.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
     "Windows/Ticket Granting Ticket (TGT).md",
-    "Azure Active Directory.md",
-    "Windows/Domain Controller.md",
+    "Windows/Azure Active Directory.md",
     "Windows/Forest.md",
     "Windows/SYSVOL.md",
     "Windows/Trust Relationship.md",
     "Windows/Security Groups.md",
     "Windows/Groups.md",
-    "Windows/Active Directory.md",
     "Windows/Service Accounts.md",
     "Windows/Users.md",
     "Windows/Computers.md",
@@ -238,13 +234,6 @@
     "Windows/Organizational Unit.md",
     "Pictures/Forest.png",
     "Pictures/Tree.png",
-    "Windows/NetNTLM.md",
-    "Obsidian-Templates/Markdown.md",
-    "Obsidian-Templates/Obsidian.md",
-    "Windows/Group Policy Objects.md",
-    "AI/Artificial Intelligence.md",
-    "Windows/Ticket Granting Service (TGS).md",
-    "Windows/Kerberos.md",
     "Pictures/TGT-3.png",
     "Pictures/TGT-2.png",
     "Pictures/NetNTLM.png",
@@ -258,7 +247,6 @@
     "Red_Team",
     "Linux",
     "Windows",
-    "Pictures/windows.png",
     "Pictures",
     "Obsidian-Templates",
     "Obsidian-Templates/ContentNote-Template",

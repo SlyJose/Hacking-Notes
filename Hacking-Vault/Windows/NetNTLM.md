@@ -18,6 +18,10 @@ Note that the user's password (or hash) is never transmitted through the network
 Note: The described process applies when using a domain account. If a local account is used, the server can verify the response to the challenge itself without requiring interaction with the [[Domain Controller]] since it has the password hash stored locally on its SAM.
 
 While [[NetNTLM]] should be considered obsolete, most networks will have both protocols enabled.
+
+Services that use [[NetNTLM]] can also be exposed to the internet. Check [[NetNTLM Authenticated Services]]
+
+
 ### Properties
 ---
 📆 created   {{22-10-2023}} 21:14
