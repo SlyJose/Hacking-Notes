@@ -1,26 +1,26 @@
 
-[[NetNTLM]] works using a challenge-response mechanism. 
+Windows Authentication protocol. This protocol is used when a user wants to authenticate in a Windows network. It has been replaced partially by [[Kerberos]].
 
 
-##  📗 Authentication Process 
+# 🚀 - Authentication
+---
+This protocol uses another method for authentication: [[NetNTLM Authentication Process]]
 
-1. The client sends an authentication request to the server they want to access.
-2. The server generates a random number and sends it as a challenge to the client.
-3. The client combines their NTLM password hash with the challenge (and other known data) to generate a response to the challenge and sends it back to the server for verification.
-4. The server forwards the challenge and the response to the [[Domain Controller]] for verification.
-5. The [[Domain Controller]] uses the challenge to recalculate the response and compares it to the original response sent by the client. If they both match, the client is authenticated; otherwise, access is denied. The authentication result is sent back to the server.
-6. The server forwards the authentication result to the client.
+While [[NetNTLM]] should be considered obsolete, most networks will have both ([[NetNTLM]] and [[Kerberos]]) protocols enabled.
 
-![[NetNTLM.png]]
+Authentication protocols like [[NetNTLM]] use [[SMB]] for transport help over the network and reach their workstation/server destinations. 
 
-Note that the user's password (or hash) is never transmitted through the network for security.
+---
 
-Note: The described process applies when using a domain account. If a local account is used, the server can verify the response to the challenge itself without requiring interaction with the [[Domain Controller]] since it has the password hash stored locally on its SAM.
-
-While [[NetNTLM]] should be considered obsolete, most networks will have both protocols enabled.
+# 📜 Services using NetNTLM
 
 Services that use [[NetNTLM]] can also be exposed to the internet. Check [[NetNTLM Authenticated Services]]
 
+
+# ❗❗ Authentication Risks
+
+- Since the [[NetNTLM]] Challenges can be intercepted, we can use offline cracking techniques to recover the password associated with the [[NetNTLM]] Challenge. However, this cracking process is significantly slower than cracking [[NetNTLM]] hashes directly.
+- We can use a rogue device to stage a man in the middle attack, relaying the [[SMB]] authentication between the client and server, which will provide us with an active authenticated session and access to the target server.
 
 ### Properties
 ---

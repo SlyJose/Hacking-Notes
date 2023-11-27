@@ -4,7 +4,7 @@ Services that use [[NetNTLM]] can also be exposed to the internet. The following
 - Internally-hosted Exchange (Mail) servers that expose an Outlook Web App (OWA) login portal.
 - Remote Desktop Protocol (RDP) service of a server being exposed to the internet.
 - Exposed VPN endpoints that were integrated with [[Active Directory]]
-- Web applications that are internet-facing and make use of NetNTLM.
+- Web applications that are internet-facing and make use of [[NetNTLM]].
 
 # 🖊️ Risks
 

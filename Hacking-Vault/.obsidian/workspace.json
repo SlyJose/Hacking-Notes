@@ -13,24 +13,47 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Breaching Active Directory.md",
+                "file": "LLMNR.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "039fa84fdb6e54b4",
+            "id": "84c92fb7fb14f195",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LDAP Pass-back Attack.md",
+                "file": "Responder.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "81f81a9a9df19f37"
+            }
+          },
+          {
+            "id": "5934c239b46f43cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SMB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ffd800cc59258a14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NetNTLM Authentication Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -45,7 +68,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LDAP Pass-back Attack.md",
+                "file": "Responder.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -72,8 +95,7 @@
                   "close": true
                 }
               }
-            },
-            "group": "81f81a9a9df19f37"
+            }
           }
         ]
       }
@@ -121,7 +143,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -141,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LDAP Pass-back Attack.md",
+                "file": "Responder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LDAP Pass-back Attack.md",
+                "file": "Responder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LDAP Pass-back Attack.md"
+                "file": "Responder.md"
               }
             }
           }
@@ -203,18 +226,24 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "039fa84fdb6e54b4",
+  "active": "84c92fb7fb14f195",
   "lastOpenFiles": [
-    "LDAP.md",
+    "SMB.md",
+    "NetNTLM Authentication Process.md",
+    "Responder.md",
     "Windows/NetNTLM.md",
-    "Windows/Domain Controller.md",
-    "LDAP Pass-back Attack.md",
-    "NetNTLM Authenticated Services.md",
+    "LLMNR.md",
     "Breaching Active Directory.md",
+    "NetNTLM Authenticated Services.md",
+    "Windows/Active Directory.md",
+    "NetBios Name Service (NBNS).md",
+    "NetBIOS.md",
+    "LDAP.md",
     "Brute Forcing Authentication Services.md",
+    "LDAP Pass-back Attack.md",
+    "Windows/Domain Controller.md",
     "Pictures/LDAP.png",
     "[[NetNTLM.md",
-    "Windows/Active Directory.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
     "Windows/Ticket Granting Ticket (TGT).md",
@@ -226,12 +255,6 @@
     "Windows/Groups.md",
     "Windows/Service Accounts.md",
     "Windows/Users.md",
-    "Windows/Computers.md",
-    "Windows/Windows Domain.md",
-    "Windows/Tree.md",
-    "trees.md",
-    "Windows/security context.md",
-    "Windows/Organizational Unit.md",
     "Pictures/Forest.png",
     "Pictures/Tree.png",
     "Pictures/TGT-3.png",

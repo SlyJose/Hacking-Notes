@@ -1,8 +1,6 @@
 Since [[Active Directory]] environments usually detect a lot of authentication attempts, usually password spraying against [[NetNTLM Authenticated Services]] is the best way to proceed.
 
 
-Description of Topic/Concept/Tool/Technology goes here
-
 # 🖊️ Methods
 
 - You can use [[Hydra]] to assist with the password spray.
@@ -30,8 +28,9 @@ def password_spray(self, password, url):
 
 In order to use this you can run it like this:
 
-`python ntlm_passwordspray.py -u <userfile> -f <fqdn> -p <password> -a <attackurl>
-`
+`python ntlm_passwordspray.py -u <userfile> -f <fqdn> -p <password> -a <attackurl>`
+
+In the fqdn parameter use the root domain example `google.com` and in the attackurl use `autsite.google.com`
 
 
 # 📔 Description
