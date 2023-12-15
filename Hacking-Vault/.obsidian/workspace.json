@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLMNR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84c92fb7fb14f195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Responder.md",
+                "file": "Microsoft Deployment Toolkit.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8618a79a5714b33c",
@@ -68,7 +56,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Responder.md",
+                "file": "NetNTLM Authentication Process.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -91,7 +79,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.5,
                   "close": true
                 }
               }
@@ -164,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Responder.md",
+                "file": "NetNTLM Authentication Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Responder.md",
+                "file": "NetNTLM Authentication Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Responder.md"
+                "file": "NetNTLM Authentication Process.md"
               }
             }
           }
@@ -226,20 +214,26 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "84c92fb7fb14f195",
+  "active": "ffd800cc59258a14",
   "lastOpenFiles": [
     "SMB.md",
     "NetNTLM Authentication Process.md",
-    "Responder.md",
-    "Windows/NetNTLM.md",
-    "LLMNR.md",
+    "Microsoft Deployment Toolkit.md",
     "Breaching Active Directory.md",
-    "NetNTLM Authenticated Services.md",
+    "Authentication Relays.md",
     "Windows/Active Directory.md",
+    "Windows/Service Principal Name (SPN).md",
+    "Windows/Users.md",
+    "Windows/Kerberos.md",
+    "Windows/Groups.md",
+    "Responder.md",
+    "LLMNR.md",
+    "Windows/NetNTLM.md",
+    "Brute Forcing Authentication Services.md",
     "NetBios Name Service (NBNS).md",
     "NetBIOS.md",
+    "NetNTLM Authenticated Services.md",
     "LDAP.md",
-    "Brute Forcing Authentication Services.md",
     "LDAP Pass-back Attack.md",
     "Windows/Domain Controller.md",
     "Pictures/LDAP.png",
@@ -249,12 +243,6 @@
     "Windows/Ticket Granting Ticket (TGT).md",
     "Windows/Azure Active Directory.md",
     "Windows/Forest.md",
-    "Windows/SYSVOL.md",
-    "Windows/Trust Relationship.md",
-    "Windows/Security Groups.md",
-    "Windows/Groups.md",
-    "Windows/Service Accounts.md",
-    "Windows/Users.md",
     "Pictures/Forest.png",
     "Pictures/Tree.png",
     "Pictures/TGT-3.png",

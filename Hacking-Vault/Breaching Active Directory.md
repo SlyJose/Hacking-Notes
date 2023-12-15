@@ -7,8 +7,8 @@ Being an outsider (not contact to the AD environment), you can try the following
 ---
 1. [[Brute Forcing Authentication Services]]
 2. [[LDAP Pass-back Attack]]
-3. Authentication Relays
-4. Microsoft Deployment Toolkit
+3. [[Authentication Relays]]
+4. [[Microsoft Deployment Toolkit]]
 5. Configuration Files
 
 ---
