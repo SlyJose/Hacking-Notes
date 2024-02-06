@@ -6,49 +6,99 @@
       {
         "id": "e2924462b61d0d9e",
         "type": "tabs",
+        "dimension": 58.86917960088692,
         "children": [
-          {
-            "id": "34afd54ae2f6fba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Microsoft Deployment Toolkit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5934c239b46f43cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SMB.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "ffd800cc59258a14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NetNTLM Authentication Process.md",
+                "file": "Windows/Authentication Relays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc255bc5c0273866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian-Templates/Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c76d1b56090124ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command&Control/Cobalt Strike.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55625ec62d2cf284",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command&Control/Cobalt Strike.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59b407858d895a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command&Control/Cobalt Strike Payloads.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "21895f171dc6c005",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command&Control/Cobalt Strike.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56ababd9db12da4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command&Control/DNS Listener.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
+        "dimension": 41.130820399113084,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -56,7 +106,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "NetNTLM Authentication Process.md",
+                "file": "Command&Control/Cobalt Strike.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -79,7 +129,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.5,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -131,8 +181,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NetNTLM Authentication Process.md",
+                "file": "Command&Control/Cobalt Strike.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NetNTLM Authentication Process.md",
+                "file": "Command&Control/Cobalt Strike.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NetNTLM Authentication Process.md"
+                "file": "Command&Control/Cobalt Strike.md"
               }
             }
           }
@@ -214,53 +263,53 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "ffd800cc59258a14",
+  "active": "21895f171dc6c005",
   "lastOpenFiles": [
-    "SMB.md",
-    "NetNTLM Authentication Process.md",
-    "Microsoft Deployment Toolkit.md",
-    "Breaching Active Directory.md",
-    "Authentication Relays.md",
-    "Windows/Active Directory.md",
-    "Windows/Service Principal Name (SPN).md",
-    "Windows/Users.md",
-    "Windows/Kerberos.md",
-    "Windows/Groups.md",
-    "Responder.md",
-    "LLMNR.md",
-    "Windows/NetNTLM.md",
-    "Brute Forcing Authentication Services.md",
-    "NetBios Name Service (NBNS).md",
-    "NetBIOS.md",
-    "NetNTLM Authenticated Services.md",
-    "LDAP.md",
-    "LDAP Pass-back Attack.md",
-    "Windows/Domain Controller.md",
-    "Pictures/LDAP.png",
-    "[[NetNTLM.md",
+    "Command&Control/Beacon.md",
+    "Command&Control/Cobalt Strike.md",
+    "Command&Control/Cobalt Strike Payloads.md",
+    "Command&Control/Team Server Setup.md",
+    "Command&Control/Listeners.md",
+    "Command&Control/Pivot Listener.md",
+    "Command&Control/Raw TCP Listener.md",
+    "Pictures/pivot_listener.png",
+    "Command&Control/DNS Beacon.md",
+    "Command&Control/TCP Beacon.md",
+    "Pictures/tcp_beacon.png",
+    "HTTP/HTTP-HTTPS Listener.md",
+    "Command&Control/HTTP Beacon.md",
+    "Command&Control/DNS Listener.md",
+    "Pictures/cobalt_stream3.png",
+    "Pictures/cobalt_stream2.png",
+    "Pictures/Cobalt_Stream.png",
+    "Pictures/Cobalt Stream.png",
+    "Command&Control/Payloads.md",
+    "Command&Control/SMB Listener.md",
+    "Windows/SMB.md",
+    "Windows/Authentication Relays.md",
+    "Windows/Microsoft Deployment Toolkit.md",
+    "HTTP",
+    "Obsidian-Templates/Obsidian.md",
     "Obsidian-Templates/ConceptNote-Template.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Windows/Ticket Granting Ticket (TGT).md",
-    "Windows/Azure Active Directory.md",
     "Windows/Forest.md",
+    "Command&Control",
+    "Windows/Active Directory.md",
+    "Windows/Tree.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Windows/Jose Urena.md",
+    "Windows/Breaching Active Directory.md",
+    "Windows/NetNTLM Authentication Process.md",
+    "Pictures/LDAP.png",
     "Pictures/Forest.png",
     "Pictures/Tree.png",
     "Pictures/TGT-3.png",
-    "Pictures/TGT-2.png",
-    "Pictures/NetNTLM.png",
-    "Pictures/TGT-1.png",
-    "Pictures/simple_neural_network.png",
-    "Pictures/deep_neural_network.png",
     "AI",
-    "Pictures/old_laptop.png",
     "Blog",
     "Cloud",
     "Red_Team",
     "Linux",
     "Windows",
     "Pictures",
-    "Obsidian-Templates",
-    "Obsidian-Templates/ContentNote-Template",
-    "Obsidian-Templates/ConceptNote-Template"
+    "Obsidian-Templates"
   ]
 }
