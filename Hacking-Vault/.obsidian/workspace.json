@@ -6,99 +6,39 @@
       {
         "id": "e2924462b61d0d9e",
         "type": "tabs",
-        "dimension": 58.86917960088692,
+        "dimension": 58.86917960088693,
         "children": [
           {
-            "id": "ffd800cc59258a14",
+            "id": "6ae16fabb272b03a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Authentication Relays.md",
+                "file": "CRTO-Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dc255bc5c0273866",
+            "id": "5e2b83993859b860",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Templates/Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c76d1b56090124ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command&Control/Cobalt Strike.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55625ec62d2cf284",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command&Control/Cobalt Strike.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59b407858d895a20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command&Control/Cobalt Strike Payloads.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21895f171dc6c005",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command&Control/Cobalt Strike.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56ababd9db12da4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command&Control/DNS Listener.md",
+                "file": "COM Objects Hijack.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 41.130820399113084,
+        "dimension": 41.13082039911308,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -106,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md",
+                "file": "COM Objects Hijack.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#changeme",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md",
+                "file": "COM Objects Hijack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md",
+                "file": "COM Objects Hijack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md"
+                "file": "COM Objects Hijack.md"
               }
             }
           }
@@ -263,42 +204,42 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "21895f171dc6c005",
+  "active": "5e2b83993859b860",
   "lastOpenFiles": [
-    "Command&Control/Beacon.md",
+    "Pictures/procmon-filter.png",
+    "Installation.md",
+    "COM Objects Hijack.md",
+    "Cyberkill Chain.md",
+    "Reconnaissance.md",
+    "COM Objects.md",
+    "CRTO-Cheatsheet.md",
+    "Delivery.md",
+    "DNS Enumeration.md",
+    "HTML Smuggling.md",
+    "HTTPS Offloading.md",
+    "Internal Phishing.md",
+    "Password Spraying.md",
+    "Registry AutoRun.md",
+    "Remote Template Injection.md",
+    "Seatbelt.md",
+    "Startup Folder.md",
+    "Task Scheduler.md",
+    "VBA Macros.md",
+    "Command&Control/DNS Listener.md",
     "Command&Control/Cobalt Strike.md",
     "Command&Control/Cobalt Strike Payloads.md",
-    "Command&Control/Team Server Setup.md",
-    "Command&Control/Listeners.md",
-    "Command&Control/Pivot Listener.md",
-    "Command&Control/Raw TCP Listener.md",
+    "Obsidian-Templates/Obsidian.md",
+    "Windows/Authentication Relays.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Command&Control/Beacon.md",
     "Pictures/pivot_listener.png",
-    "Command&Control/DNS Beacon.md",
-    "Command&Control/TCP Beacon.md",
     "Pictures/tcp_beacon.png",
-    "HTTP/HTTP-HTTPS Listener.md",
-    "Command&Control/HTTP Beacon.md",
-    "Command&Control/DNS Listener.md",
     "Pictures/cobalt_stream3.png",
     "Pictures/cobalt_stream2.png",
     "Pictures/Cobalt_Stream.png",
     "Pictures/Cobalt Stream.png",
-    "Command&Control/Payloads.md",
-    "Command&Control/SMB Listener.md",
-    "Windows/SMB.md",
-    "Windows/Authentication Relays.md",
-    "Windows/Microsoft Deployment Toolkit.md",
     "HTTP",
-    "Obsidian-Templates/Obsidian.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Windows/Forest.md",
     "Command&Control",
-    "Windows/Active Directory.md",
-    "Windows/Tree.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Windows/Jose Urena.md",
-    "Windows/Breaching Active Directory.md",
-    "Windows/NetNTLM Authentication Process.md",
     "Pictures/LDAP.png",
     "Pictures/Forest.png",
     "Pictures/Tree.png",

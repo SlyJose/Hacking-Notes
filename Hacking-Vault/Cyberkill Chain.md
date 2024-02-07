@@ -1,14 +1,18 @@
+The model identifies what the adversaries must complete in order to achieve their objective.
 
+The seven steps of the Cyber Kill Chain® enhance visibility into an attack and enrich an analyst’s understanding of an adversary’s tactics, techniques and procedures.
 
-## 🚀 - Project Data
+## 🚀 - Phases
 ---
-1. Project Name:
-2. Project Sponsor:
-3. Project Manager:
-4. Date of Approval:
-5. Last Revision Date:
+1. [[Reconnaissance]]
+2. [[Weaponization]]
+3. [[Delivery]]
+4. [[Exploitation]]
+5. [[Installation]]
+6. Command and Control
+7. [[Actions on Objectives]]
 
----
+
 
 ## 📜 Project Information
 
@@ -46,6 +50,6 @@
 
 ### Properties
 ---
-📆 created   {{date}} {{time}}
-🏷️ tags: #changeme  
+📆 created   {{07-02-2024}} 08:51
+🏷️ tags: #redteam #crto   
 ---
