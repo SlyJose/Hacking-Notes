@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COM Objects Hijack.md",
+                "file": "Beacon + Mimikatz.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 41.13082039911308,
+        "dimension": 41.13082039911307,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -46,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "COM Objects Hijack.md",
+                "file": "Beacon + Mimikatz.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -104,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#changeme",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "COM Objects Hijack.md",
+                "file": "Beacon + Mimikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "COM Objects Hijack.md",
+                "file": "Beacon + Mimikatz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "COM Objects Hijack.md"
+                "file": "Beacon + Mimikatz.md"
               }
             }
           }
@@ -206,32 +205,36 @@
   },
   "active": "5e2b83993859b860",
   "lastOpenFiles": [
-    "Pictures/procmon-filter.png",
-    "Installation.md",
-    "COM Objects Hijack.md",
-    "Cyberkill Chain.md",
-    "Reconnaissance.md",
-    "COM Objects.md",
-    "CRTO-Cheatsheet.md",
-    "Delivery.md",
-    "DNS Enumeration.md",
-    "HTML Smuggling.md",
-    "HTTPS Offloading.md",
-    "Internal Phishing.md",
-    "Password Spraying.md",
-    "Registry AutoRun.md",
-    "Remote Template Injection.md",
-    "Seatbelt.md",
-    "Startup Folder.md",
-    "Task Scheduler.md",
-    "VBA Macros.md",
-    "Command&Control/DNS Listener.md",
-    "Command&Control/Cobalt Strike.md",
-    "Command&Control/Cobalt Strike Payloads.md",
-    "Obsidian-Templates/Obsidian.md",
-    "Windows/Authentication Relays.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
+    "Beacon + Mimikatz.md",
+    "Actions on Objectives.md",
+    "dcsync.md",
+    "Windows/Active Directory.md",
+    "Windows/Kerberos.md",
+    "Windows/NetNTLM.md",
+    "Windows/NetNTLM Authentication Process.md",
+    "Windows/LDAP.md",
+    "Windows/Jose Urena.md",
+    "Windows/Groups.md",
+    "Cyberkill Chain.md",
+    "Installation.md",
+    "WMI Event Subscriptions.md",
+    "Create Windows Services.md",
+    "Pictures/service.png",
+    "Exploitation.md",
+    "UAC Bypass.md",
+    "Pictures/uac-bypass.png",
+    "Windows Services.md",
+    "Weak Service Binary Permissions.md",
+    "Command&Control/TCP Beacon.md",
     "Command&Control/Beacon.md",
+    "Command&Control/Cobalt Strike.md",
+    "Weak Service Permissions.md",
+    "Unquoted Service Paths.md",
+    "Pictures/system-beacon.png",
+    "Command&Control/Listeners.md",
+    "Pictures/procmon-filter.png",
     "Pictures/pivot_listener.png",
     "Pictures/tcp_beacon.png",
     "Pictures/cobalt_stream3.png",
@@ -240,10 +243,6 @@
     "Pictures/Cobalt Stream.png",
     "HTTP",
     "Command&Control",
-    "Pictures/LDAP.png",
-    "Pictures/Forest.png",
-    "Pictures/Tree.png",
-    "Pictures/TGT-3.png",
     "AI",
     "Blog",
     "Cloud",

@@ -21,5 +21,6 @@ To connect to it, from another beacon you run "connect" and it will link it.
 ---
 📆 created   {{06-02-2024}} 11:35
 🏷️ tags: #redteam #crto   
+
 ---
 

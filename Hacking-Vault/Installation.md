@@ -3,7 +3,7 @@ After cybercriminals have exploited their target’s vulnerabilities to gain acc
 
 Installation phase includes persistence attempts to maintain access to the victim machine. 
 
-## 🖊️ Host Persistence
+### 🖊️ Host Persistence (as User) Methods
 
 - [[Task Scheduler]]
 - [[Startup Folder]]
@@ -11,8 +11,11 @@ Installation phase includes persistence attempts to maintain access to the victi
 - [[COM Objects Hijack]]
 
 
-## 📔 Description
+### 📔 Host Persistence (as System) Methods
 
+These beacons must be P2P or DNS to work properly
+- [[Create Windows Services]]
+- [[WMI Event Subscriptions]]
 - 
 
 ##  📗 Action to perform 

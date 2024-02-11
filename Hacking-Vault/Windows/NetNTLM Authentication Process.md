@@ -18,21 +18,11 @@ Note: The described process applies when using a domain account. If a local acco
 
 
 
-# 🖊️ Sub-Topic
-
-
-# 📔 Description
-
-- 
-
-##  📗 Action to perform 
-
-1. 
-
 
 ### Properties
 ---
 📆 created   {{23-11-2023}} 17:27
 🏷️ tags: #activedirectory 
+
 ---
 

@@ -24,22 +24,10 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 
 
-
-# 🖊️ Sub-Topic
-
-
-# 📔 Description
-
-- 
-
-##  📗 Action to perform 
-
-1. 
-
-
 ### Properties
 ---
 📆 created   {{22-10-2023}} 20:23
 🏷️ tags: #activedirectory 
+
 ---
 

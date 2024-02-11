@@ -26,5 +26,6 @@ Services that use [[NetNTLM]] can also be exposed to the internet. Check [[NetNT
 ---
 📆 created   {{22-10-2023}} 21:14
 🏷️ tags: #activedirectory   
+
 ---
 
