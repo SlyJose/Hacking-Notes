@@ -24,5 +24,6 @@ A company may have an [[Organizational Unit]] per department and apply specific 
 ---
 📆 created   {{22-10-2023}} 19:21
 🏷️ tags: #activedirectory 
+
 ---
 

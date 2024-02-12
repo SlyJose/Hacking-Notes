@@ -10,12 +10,16 @@ Description of Topic/Concept/Tool/Technology goes here
 
 ##  📗 Action to perform 
 
-1. 
+
+### ⚠ Opsec
+
+
 
 
 ### Properties
 ---
 📆 created   {{date}} {{time}}
-🏷️ tags: #changeme  
+🏷️ tags: #redteam #crto 
+
 ---
 

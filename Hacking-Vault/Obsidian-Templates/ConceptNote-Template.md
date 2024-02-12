@@ -47,5 +47,6 @@
 ### Properties
 ---
 📆 created   {{date}} {{time}}
-🏷️ tags: #changeme  
+🏷️ tags: #redteam #crto 
+
 ---

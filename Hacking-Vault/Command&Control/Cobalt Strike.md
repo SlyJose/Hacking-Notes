@@ -11,14 +11,11 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 
 # 📜 Team Server
 
-### 1️⃣  [[Team Server Setup]]
+#### 1️⃣  [[Team Server Setup]]
 
+#### 2️⃣ [[Malleable C2 Profile]]
 
-### 2️⃣ [[Malleable C2 Profile]]
-
-
-## 3️⃣ -> Business Case
-- Outline the justification for starting the project, including: financials and time scales if applicable.
+#### 3️⃣ 
 
 --- 
 # ⚠ Constraints

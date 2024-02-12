@@ -9,7 +9,7 @@ The seven steps of the Cyber Kill Chain® enhance visibility into an attack and
 3. [[Delivery]]
 4. [[Exploitation]]
 5. [[Installation]]
-6. Command and Control
+6. [[Command and Control]]
 7. [[Actions on Objectives]]
 
 
