@@ -26,22 +26,9 @@ Whilst conducting active recon, consider doing so via a proxy or VPN service to 
 
 
 
-
---- 
-# 📦-> Deliverables and Benefits
-
-## 1️⃣ -> Project Deliverables
-- Outline what deliverables are to be produced by the project 
-
-## 2️⃣ -> Benefits
-- Describe the benefits from the project
-
---- 
-# ❗❗ -> Risks
-- Describe any known risks or possible risks here
-
 ### Properties
 ---
 📆 created   {{07-02-2024}} 08:57
 🏷️ tags: #redteam #crto   
+
 ---

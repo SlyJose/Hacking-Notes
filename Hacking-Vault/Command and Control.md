@@ -3,11 +3,9 @@ After gaining initial access to a network, attackers may establish command and c
 
 This can involve setting up backdoors, remote access tools, or other means of controlling and managing the compromised environment.
 
-## 🖊️ Lateral Movement Techniques
+## 🖊️ Areas of impact
 
-- [[Pass the Hash]]
-- [[Pass the Ticket]]
-- [[Overpass the Hash]]
+1) [[Lateral Movement]]
 
 
 ## 📔 Environment Recoinnaissance Tooling

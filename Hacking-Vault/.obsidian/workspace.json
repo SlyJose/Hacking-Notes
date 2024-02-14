@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRTO-Cheatsheet.md",
+                "file": "Command&Control/Listeners.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,14 +26,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Overpass the Hash.md",
+                "file": "Task Scheduler.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "346ac875d58d7aeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Access Token.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8618a79a5714b33c",
@@ -46,7 +57,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Overpass the Hash.md",
+                "file": "Command&Control/Listeners.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Overpass the Hash.md",
+                "file": "Command&Control/Listeners.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Overpass the Hash.md",
+                "file": "Command&Control/Listeners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Overpass the Hash.md"
+                "file": "Command&Control/Listeners.md"
               }
             }
           }
@@ -204,44 +215,43 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "5e2b83993859b860",
+  "active": "6ae16fabb272b03a",
   "lastOpenFiles": [
-    "Extracting Kerberos Tickets.md",
-    "Actions on Objectives.md",
-    "Extracting NTLM Hashes.md",
-    "Windows/NetNTLM.md",
-    "dcsync.md",
-    "Beacon + Mimikatz.md",
-    "Extracting Kerberos Keys.md",
-    "Extracting Domain Cached Credentials.md",
-    "Overpass the Hash.md",
-    "Cyberkill Chain.md",
-    "Command and Control.md",
-    "Pass the Ticket.md",
+    "Foreign Listener.md",
+    "Pictures/foreign-http.png",
+    "Command&Control/Listeners.md",
     "Command&Control/Cobalt Strike.md",
-    "Pass the Hash.md",
-    "Installation.md",
-    "ADSearch.md",
-    "Windows/LDAP.md",
-    "Sharpview.md",
-    "Powerview.md",
-    "Windows/Group Policy Objects.md",
-    "Windows/Organizational Unit.md",
-    "Delivery.md",
+    "Command&Control/DNS Listener.md",
+    "Command&Control/DNS Beacon.md",
+    "Command&Control/Beacon.md",
+    "Beacon Passing.md",
+    "Windows Management Instrumentation WMI.md",
+    "Pictures/spawn.png",
+    "Lateral Movement.md",
+    "Command and Control.md",
+    "Cyberkill Chain.md",
+    "remote-exec Command.md",
+    "DCOM.md",
+    "jump Command.md",
+    "Token Impersonation.md",
+    "Make the token.md",
+    "Access Token.md",
+    "PSExec.md",
+    "Windows Remote Management WinRM.md",
+    "Pictures/wmi.png",
+    "Pictures/psexec.png",
+    "Pictures/winrm.png",
+    "Actions on Objectives.md",
+    "HTTPS Offloading.md",
     "Exploitation.md",
-    "kwprocessor.md",
-    "Hashcat.md",
-    "Hybrid.md",
+    "UAC Bypass.md",
+    "Windows Services.md",
+    "Installation.md",
+    "Pictures/injection.png",
     "Pictures/kerberos_sessions.png",
     "Pictures/service.png",
     "Pictures/uac-bypass.png",
     "Pictures/system-beacon.png",
-    "Pictures/procmon-filter.png",
-    "Pictures/pivot_listener.png",
-    "Pictures/tcp_beacon.png",
-    "Pictures/cobalt_stream3.png",
-    "Pictures/cobalt_stream2.png",
-    "Pictures/Cobalt_Stream.png",
     "HTTP",
     "Command&Control",
     "AI",

@@ -17,21 +17,25 @@ We can also see the output being sent by Beacon in the POST body.
 
 We should try to have high check-in times since interactive mode can be very noisy.
 
-# 📔 Beacon Types
+## 📔 Beacon Types
 
 - [[HTTP Beacon]]
 - [[DNS Beacon]]
 - [[TCP Beacon]]
 - 
 
-##  📗 Action to perform 
+##  📗 Session Passing 
 
-1. 
+Session passing is a process where you spawn a new C2 session from one payload/listener type to another.
+
+1. [[Beacon Passing]]
+2. 
 
 
 ### Properties
 ---
 📆 created   {{06-02-2024}} 10:41
 🏷️ tags: #redteam #crto   
+
 ---
 

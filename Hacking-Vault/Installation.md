@@ -18,9 +18,6 @@ These beacons must be P2P or DNS to work properly
 - [[WMI Event Subscriptions]]
 - 
 
-##  📗 Action to perform 
-
-1. 
 
 
 ### Properties

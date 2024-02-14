@@ -22,14 +22,18 @@ P2P listeners are designed to chain multiple Beacons together in parent/child re
 P2P listener types: [[SMB Listener]] and [[Raw TCP Listener]].  It's important to understand that these protocols do not leave the target network (i.e. the team server is not listening on port 445 for SMB).  Instead, a child SMB/TCP Beacon will be linked to an egress [[HTTP-HTTPS Listener]] or [[DNS Listener]] Beacon, and the traffic from the child is sent to the parent, which in turn sends it to the team server.
 
 There's another type of P2P listener but works similarly to [[Raw TCP Listener]] but in reverse called [[Pivot Listener]]
-##  📗 Action to perform 
 
-1. 
+##  📗 Other types 
+
+
+1.  [[Foreign Listener]]
+2. 
 
 
 ### Properties
 ---
 📆 created   {{05-02-2024}} 21:00
-🏷️ tags: #redteam   
+🏷️ tags: #redteam   #crto 
+
 ---
 

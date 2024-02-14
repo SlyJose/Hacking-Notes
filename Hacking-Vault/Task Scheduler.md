@@ -31,5 +31,6 @@ beacon> execute-assembly C:\Tools\SharPersist\SharPersist\bin\Release\SharPersis
 ---
 📆 created   {{07-02-2024}} 14:10
 🏷️ tags: #redteam #crto   
+
 ---
 
