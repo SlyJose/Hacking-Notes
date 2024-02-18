@@ -6,6 +6,7 @@ This can involve setting up backdoors, remote access tools, or other means of co
 ## 🖊️ Areas of impact
 
 1) [[Lateral Movement]]
+2) [[Pivoting]]
 
 
 ## 📔 Environment Recoinnaissance Tooling

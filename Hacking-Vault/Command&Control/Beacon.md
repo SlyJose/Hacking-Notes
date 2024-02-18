@@ -29,7 +29,7 @@ We should try to have high check-in times since interactive mode can be very noi
 Session passing is a process where you spawn a new C2 session from one payload/listener type to another.
 
 1. [[Beacon Passing]]
-2. 
+2. [[Spawn & Inject]]
 
 
 ### Properties

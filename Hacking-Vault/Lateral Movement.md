@@ -27,6 +27,10 @@ Cobalt Strike offers a variety of tools to get into remote machines or execute c
 - [[jump Command]] 
 - [[remote-exec Command]]
 
+You may also need to open sock proxies and tunnel communication to be able to lateral move in the environment. Check this section:
+
+- [[Pivoting]]
+
  
 ## 🚀 -
 

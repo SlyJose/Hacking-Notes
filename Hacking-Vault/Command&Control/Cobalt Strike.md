@@ -15,7 +15,7 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 
 #### 2️⃣ [[Malleable C2 Profile]]
 
-#### 3️⃣ 
+#### 3️⃣ [[Pivoting]]
 
 --- 
 # ⚠ Constraints

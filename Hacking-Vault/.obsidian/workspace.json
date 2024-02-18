@@ -6,7 +6,7 @@
       {
         "id": "e2924462b61d0d9e",
         "type": "tabs",
-        "dimension": 58.86917960088693,
+        "dimension": 65.79822616407982,
         "children": [
           {
             "id": "6ae16fabb272b03a",
@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command&Control/Listeners.md",
+                "file": "Pivoting with Kerberos.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e749ef07834c11d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NTLM Relaying.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,12 +56,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 41.13082039911307,
+        "dimension": 34.20177383592018,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -57,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Command&Control/Listeners.md",
+                "file": "NTLM Relaying.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Command&Control/Listeners.md",
+                "file": "NTLM Relaying.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Command&Control/Listeners.md",
+                "file": "NTLM Relaying.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Command&Control/Listeners.md"
+                "file": "NTLM Relaying.md"
               }
             }
           }
@@ -215,43 +229,44 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "6ae16fabb272b03a",
+  "active": "4e749ef07834c11d",
   "lastOpenFiles": [
-    "Foreign Listener.md",
-    "Pictures/foreign-http.png",
-    "Command&Control/Listeners.md",
-    "Command&Control/Cobalt Strike.md",
-    "Command&Control/DNS Listener.md",
-    "Command&Control/DNS Beacon.md",
-    "Command&Control/Beacon.md",
-    "Beacon Passing.md",
-    "Windows Management Instrumentation WMI.md",
-    "Pictures/spawn.png",
+    "Windows/NetNTLM.md",
+    "NTLM Relaying.md",
+    "Windows/NetNTLM Authentication Process.md",
+    "Pivoting.md",
+    "Reverse Port Forwards.md",
+    "Pivoting with Browsers.md",
+    "Pictures/foxy-proxy.png",
+    "Pivoting with Kerberos.md",
+    "Pivoting Windows Tools.md",
+    "Pivot via mssqlclient.md",
+    "Extracting Kerberos Tickets.md",
+    "Pivot via Impacket psexec.md",
+    "Pivot with Powershell.md",
+    "Pivot with mmc.exe.md",
+    "Pivoting Linux Tools.md",
+    "Pivot with WMI.md",
+    "Pivot with Nmap.md",
+    "SOCKS Proxy.md",
+    "Actions on Objectives.md",
     "Lateral Movement.md",
-    "Command and Control.md",
-    "Cyberkill Chain.md",
+    "kirbi.md",
+    "Overpass the Hash.md",
+    "Extracting NTLM Hashes.md",
+    "dcsync.md",
     "remote-exec Command.md",
-    "DCOM.md",
     "jump Command.md",
     "Token Impersonation.md",
-    "Make the token.md",
-    "Access Token.md",
-    "PSExec.md",
-    "Windows Remote Management WinRM.md",
+    "Pictures/foreign-http.png",
+    "Pictures/spawn.png",
     "Pictures/wmi.png",
     "Pictures/psexec.png",
     "Pictures/winrm.png",
-    "Actions on Objectives.md",
-    "HTTPS Offloading.md",
-    "Exploitation.md",
-    "UAC Bypass.md",
-    "Windows Services.md",
-    "Installation.md",
     "Pictures/injection.png",
     "Pictures/kerberos_sessions.png",
     "Pictures/service.png",
     "Pictures/uac-bypass.png",
-    "Pictures/system-beacon.png",
     "HTTP",
     "Command&Control",
     "AI",

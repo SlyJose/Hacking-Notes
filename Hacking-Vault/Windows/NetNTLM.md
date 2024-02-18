@@ -20,7 +20,7 @@ Services that use [[NetNTLM]] can also be exposed to the internet. Check [[NetNT
 # ❗❗ Authentication Risks
 
 - Since the [[NetNTLM]] Challenges can be intercepted, we can use offline cracking techniques to recover the password associated with the [[NetNTLM]] Challenge. However, this cracking process is significantly slower than cracking [[NetNTLM]] hashes directly.
-- We can use a rogue device to stage a man in the middle attack, relaying the [[SMB]] authentication between the client and server, which will provide us with an active authenticated session and access to the target server.
+- We can use a rogue device to stage a man in the middle attack, relaying the [[SMB]] authentication between the client and server, which will provide us with an active authenticated session and access to the target server. This is called [[NTLM Relaying]]
 
 ### Properties
 ---

