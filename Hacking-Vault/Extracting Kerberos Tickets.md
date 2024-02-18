@@ -1,9 +1,9 @@
 
-[[Kerberos]] tickets can help an attacker perform malicious actions like Kerberoasting, lateral movement, generate more tickets, etc.
+[[Kerberos]] tickets can help an attacker perform malicious actions like [[Kerberoasting]], lateral movement, generate more tickets, etc.
 
 These actions can cause a lot of noise though.
 
-### 🖊️ via [Rubeus](https://github.com/GhostPack/Rubeus)
+### 🖊️ extract TGT's via [Rubeus](https://github.com/GhostPack/Rubeus)
 
 Uses legitimate Windows APIs, reducing the noise.
 
@@ -41,6 +41,7 @@ beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe tgtdeleg 
 ```
 
 Here you will obtain a TGT ticket of your current session.
+If you want to extract TGS tickets use [[Kerberoasting]]
 
 ### 🖊️ via Pivoting
 

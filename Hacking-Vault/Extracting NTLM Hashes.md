@@ -20,6 +20,8 @@ SID               : S-1-5-21-569305411-121244042-2357301523-1105
 	 * DPAPI    : 0837e40088a674327961e1d03946f5f2
 ```
 
+Another possible method to obtain NTLM hashes is with an [[NTLM Relaying]] attack.
+
 ### ⚠ Opsec
 
 This module will open a read handle to LSASS which can be logged under event 4656.  Use the "Suspicious Handle to LSASS" saved search in Kibana to see them.

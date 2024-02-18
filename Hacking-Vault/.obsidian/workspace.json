@@ -6,7 +6,7 @@
       {
         "id": "e2924462b61d0d9e",
         "type": "tabs",
-        "dimension": 65.79822616407982,
+        "dimension": 54.60088691796009,
         "children": [
           {
             "id": "6ae16fabb272b03a",
@@ -26,7 +26,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NTLM Relaying.md",
+                "file": "Windows/Active Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4224708b8fc6eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows/Kerberos.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,12 +69,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 34.20177383592018,
+        "dimension": 45.39911308203991,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -70,7 +82,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "NTLM Relaying.md",
+                "file": "Windows/Kerberos.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NTLM Relaying.md",
+                "file": "Windows/Kerberos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NTLM Relaying.md",
+                "file": "Windows/Kerberos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NTLM Relaying.md"
+                "file": "Windows/Kerberos.md"
               }
             }
           }
@@ -229,35 +241,35 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "4e749ef07834c11d",
+  "active": "e4224708b8fc6eeb",
   "lastOpenFiles": [
-    "Windows/NetNTLM.md",
-    "NTLM Relaying.md",
-    "Windows/NetNTLM Authentication Process.md",
-    "Pivoting.md",
-    "Reverse Port Forwards.md",
-    "Pivoting with Browsers.md",
-    "Pictures/foxy-proxy.png",
-    "Pivoting with Kerberos.md",
-    "Pivoting Windows Tools.md",
-    "Pivot via mssqlclient.md",
     "Extracting Kerberos Tickets.md",
-    "Pivot via Impacket psexec.md",
-    "Pivot with Powershell.md",
-    "Pivot with mmc.exe.md",
-    "Pivoting Linux Tools.md",
-    "Pivot with WMI.md",
-    "Pivot with Nmap.md",
-    "SOCKS Proxy.md",
+    "Kerberoasting.md",
+    "Hashcat.md",
+    "Windows/Service Principal Name (SPN).md",
+    "Windows/Ticket Granting Service (TGS).md",
+    "Windows/Kerberos.md",
+    "Kerberos Service Accounts.md",
+    "Windows/Active Directory.md",
+    "Windows/Ticket Granting Ticket (TGT).md",
+    "Windows/Organizational Unit.md",
+    "Windows/Users.md",
+    "Windows/Group Policy Objects.md",
+    "Windows/Groups.md",
+    "Windows/Security Groups.md",
+    "Windows/Windows Domain.md",
+    "Windows/Forest.md",
+    "Windows/Tree.md",
     "Actions on Objectives.md",
-    "Lateral Movement.md",
-    "kirbi.md",
-    "Overpass the Hash.md",
-    "Extracting NTLM Hashes.md",
-    "dcsync.md",
-    "remote-exec Command.md",
-    "jump Command.md",
-    "Token Impersonation.md",
+    "Extracting Kerberos Keys.md",
+    "Scheduled Task Credentials.md",
+    "Credential Manager.md",
+    "Cyberkill Chain.md",
+    "Command and Control.md",
+    "Delivery.md",
+    "Reconnaissance.md",
+    "Installation.md",
+    "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
     "Pictures/spawn.png",
     "Pictures/wmi.png",

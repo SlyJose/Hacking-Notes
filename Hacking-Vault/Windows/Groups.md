@@ -21,5 +21,6 @@ These are default [[Groups]] created in the [[Active Directory]] environment:
 ---
 📆 created   {{22-10-2023}} 18:59
 🏷️ tags: #activedirectory
+
 ---
 

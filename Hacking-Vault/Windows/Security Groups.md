@@ -20,5 +20,6 @@ They are different from [[Organizational Unit]]s.
 ---
 📆 created   {{22-10-2023}} 19:28
 🏷️ tags: #activedirectory  
+
 ---
 

@@ -24,5 +24,6 @@ Elements in request for a [[Ticket Granting Ticket (TGT)]]:
 ---
 📆 created   {{22-10-2023}} 20:23
 🏷️ tags: #activedirectory 
+
 ---
 

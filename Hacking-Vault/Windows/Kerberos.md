@@ -4,25 +4,28 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 # 📜 Kerberos Authentication Process
 
-1. The user sends their username and a timestamp encrypted using a key derived from their password to the Key Distribution Center (KDC), a service usually installed on the [[Domain Controller]] in charge of creating Kerberos tickets on the network. 
+1. The user sends their username and a timestamp encrypted using a key derived from their password to the Key Distribution Center (KDC), a service usually installed on the [[Domain Controller]] in charge of creating Kerberos tickets on the network. This request is called AS-REQ.
 
-	The KDC will create and send back a [[Ticket Granting Ticket (TGT)]] and also a Session Key is given to the user, which they will need to generate the following requests.
+	The KDC will create and send back a [[Ticket Granting Ticket (TGT)]] and also a Session Key is given to the user, which they will need to generate the following requests. This response is known as AS-REP. 
 	
 
 ![[TGT-1.png]]
 
-2. When a user wants to connect to a service on the network like a share, website or database, they will use their TGT to ask the KDC for a [[Ticket Granting Service (TGS)]]. 
+2. When a user wants to connect to a service on the network like a share, website or database, they will use their TGT to ask the KDC for a [[Ticket Granting Service (TGS)]]. This request is known as TGS-REQ.
 	
 
 ![[TGT-2.png]]
 
   As a result, the KDC will send us a TGS along with a Service Session Key, which we will need to authenticate to the service we want to access. The TGS is encrypted using a key derived from the Service Owner Hash. The Service Owner is the user or machine account that the service runs under. The TGS contains a copy of the Service Session Key on its encrypted contents so that the Service Owner can access it by decrypting the TGS.
+  This response is known as TGS-REP.
 
 3. The TGS can then be sent to the desired service to authenticate and establish a connection. The service will use its configured account's password hash to decrypt the TGS and validate the Service Session Key.
 
 ![[TGT-3.png]]
 
+# 📜 Kerberos Service Accounts
 
+- [[Kerberos Service Accounts]]
 
 ### Properties
 ---

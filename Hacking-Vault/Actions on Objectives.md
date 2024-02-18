@@ -10,6 +10,8 @@ Once elevated on a machine, we can obtain credential material for other users wh
 3) [[Extracting Kerberos Keys]]
 4) [[Extracting Domain Cached Credentials]]
 5) [[Extracting Kerberos Tickets]]
+6) [[Credential Manager]]
+7) [[Scheduled Task Credentials]]
 
 ---
 

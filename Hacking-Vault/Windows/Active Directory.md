@@ -22,8 +22,11 @@ Two protocols can be used for network authentication in windows domains:
 - [[Tree]]
 - [[Forest]]
 
+
+
 ### Properties
 ---
 📆 created   {{22-10-2023}} 18:37
 🏷️ tags: #activedirectory
+
 ---

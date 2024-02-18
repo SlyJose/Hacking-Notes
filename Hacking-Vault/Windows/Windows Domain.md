@@ -10,5 +10,6 @@ Windows Workgroups, by contrast, is the other model for grouping computers runni
 ---
 📆 created   {{22-10-2023}} 21:33
 🏷️ tags: #activedirectory  
+
 ---
 

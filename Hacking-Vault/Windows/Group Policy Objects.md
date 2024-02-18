@@ -22,4 +22,5 @@ PS C:\> gpupdate /force
 ---
 📆 created   {{22-10-2023}} 19:46
 🏷️ tags: #activedirectory 
+
 ---

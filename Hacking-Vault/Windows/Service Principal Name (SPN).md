@@ -42,5 +42,6 @@ MyDBService/host3.example.com/CN=hrdb,OU=mktg,DC=example,DC=com
 ---
 📆 created   {{22-10-2023}} 20:43
 🏷️ tags: #activedirectory 
+
 ---
 
