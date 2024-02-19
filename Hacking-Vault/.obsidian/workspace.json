@@ -6,7 +6,7 @@
       {
         "id": "e2924462b61d0d9e",
         "type": "tabs",
-        "dimension": 54.60088691796009,
+        "dimension": 69.95565410199556,
         "children": [
           {
             "id": "6ae16fabb272b03a",
@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Unconstrained Delegation.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +74,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 45.39911308203991,
+        "dimension": 30.044345898004433,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -82,7 +82,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Unconstrained Delegation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "delega",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Unconstrained Delegation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Unconstrained Delegation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extracting Kerberos Tickets.md"
+                "file": "Unconstrained Delegation.md"
               }
             }
           }
@@ -243,9 +243,15 @@
   },
   "active": "e4224708b8fc6eeb",
   "lastOpenFiles": [
-    "Unconstrained Delegation.md",
+    "Constrained Delegation.md",
     "Extracting Kerberos Tickets.md",
+    "Unconstrained Delegation.md",
+    "Local Delegation.md",
+    "S4U2Self Abuse.md",
+    "Pass the Ticket.md",
     "Overpass the Hash.md",
+    "Windows/Kerberos.md",
+    "Alternate Service Name.md",
     "Lateral Movement.md",
     "Token Impersonation.md",
     "Steal the token.md",
@@ -253,7 +259,6 @@
     "Pivoting with Kerberos.md",
     "Kerberoasting.md",
     "Actions on Objectives.md",
-    "Windows/Kerberos.md",
     "AS-REP Roasting.md",
     "Pictures/preauth.png",
     "Hashcat.md",
@@ -265,11 +270,6 @@
     "Windows/Organizational Unit.md",
     "Windows/Users.md",
     "Windows/Group Policy Objects.md",
-    "Windows/Groups.md",
-    "Windows/Security Groups.md",
-    "Windows/Windows Domain.md",
-    "Windows/Forest.md",
-    "Windows/Tree.md",
     "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
     "Pictures/spawn.png",

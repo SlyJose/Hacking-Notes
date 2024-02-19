@@ -23,9 +23,15 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 ![[TGT-3.png]]
 
-# 📜 Kerberos Service Accounts
+### 📜 Kerberos Service Accounts
 
 - [[Kerberos Service Accounts]]
+
+### 📜 Kerberos Attack Surface
+
+- [[Extracting Kerberos Tickets]]
+- [[Alternate Service Name]]
+
 
 ### Properties
 ---

