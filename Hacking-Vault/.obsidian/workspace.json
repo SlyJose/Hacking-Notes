@@ -38,7 +38,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Kerberos.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Windows/Kerberos.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -140,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "delega",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows/Kerberos.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows/Kerberos.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows/Kerberos.md"
+                "file": "Extracting Kerberos Tickets.md"
               }
             }
           }
@@ -243,12 +243,22 @@
   },
   "active": "e4224708b8fc6eeb",
   "lastOpenFiles": [
+    "Unconstrained Delegation.md",
     "Extracting Kerberos Tickets.md",
+    "Overpass the Hash.md",
+    "Lateral Movement.md",
+    "Token Impersonation.md",
+    "Steal the token.md",
+    "extract TGTs with Rubeus.md",
+    "Pivoting with Kerberos.md",
     "Kerberoasting.md",
+    "Actions on Objectives.md",
+    "Windows/Kerberos.md",
+    "AS-REP Roasting.md",
+    "Pictures/preauth.png",
     "Hashcat.md",
     "Windows/Service Principal Name (SPN).md",
     "Windows/Ticket Granting Service (TGS).md",
-    "Windows/Kerberos.md",
     "Kerberos Service Accounts.md",
     "Windows/Active Directory.md",
     "Windows/Ticket Granting Ticket (TGT).md",
@@ -260,15 +270,6 @@
     "Windows/Windows Domain.md",
     "Windows/Forest.md",
     "Windows/Tree.md",
-    "Actions on Objectives.md",
-    "Extracting Kerberos Keys.md",
-    "Scheduled Task Credentials.md",
-    "Credential Manager.md",
-    "Cyberkill Chain.md",
-    "Command and Control.md",
-    "Delivery.md",
-    "Reconnaissance.md",
-    "Installation.md",
     "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
     "Pictures/spawn.png",
@@ -278,7 +279,6 @@
     "Pictures/injection.png",
     "Pictures/kerberos_sessions.png",
     "Pictures/service.png",
-    "Pictures/uac-bypass.png",
     "HTTP",
     "Command&Control",
     "AI",

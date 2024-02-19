@@ -1,34 +1,16 @@
 
-[[Kerberos]] tickets can help an attacker perform malicious actions like [[Kerberoasting]], lateral movement, generate more tickets, etc.
+[[Kerberos]] tickets can help an attacker perform malicious actions.
 
-These actions can cause a lot of noise though.
+#### Methods where you are extracting existing tickets
 
-### 🖊️ extract TGT's via [Rubeus](https://github.com/GhostPack/Rubeus)
+- [[Kerberoasting]] (extracts TGS)
+- [[extract TGTs with Rubeus]] (extracts TGT)
+- [[Unconstrained Delegation]] (extracts TGT)
 
-Uses legitimate Windows APIs, reducing the noise.
+#### Methods where you are asking for a new ticket
 
-- Its `triage` command will list all the Kerberos tickets in your current logon session and if elevated, from all logon sessions on the machine.
+- [[AS-REP Roasting]] (asks for TGT)
 
-`beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe triage`
-
-![[kerberos_sessions.png]]
-
-LUID (local unique identifier) is the logon session identifier. 
-krbtgt - [[Ticket Granting Ticket (TGT)]] tickets
-All others are [[Ticket Granting Service (TGS)]] tickets
-
-- Once listed, you can extract them all or specific tickets from a session
-
-All tickets
-`beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump`
-
----
-A specific ticket
-`beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe dump /luid:0x7049f /service:krbtgt`
-
-This will output the ticket(s) in base64 encoded format.
-
-  You may also add the `/nowrap` option which will format the base64 encoding onto a single line - this makes copy & pasting much easier.
 
 ---
 Using TGT delegation method (non elevated session):
@@ -41,7 +23,6 @@ beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe tgtdeleg 
 ```
 
 Here you will obtain a TGT ticket of your current session.
-If you want to extract TGS tickets use [[Kerberoasting]]
 
 ### 🖊️ via Pivoting
 
