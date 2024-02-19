@@ -47,5 +47,6 @@ https://warroom.rsmus.com/how-to-perform-ntlm-relay/
 ---
 📆 created   {{27-11-2023}} 18:58
 🏷️ tags: #activedirectory #lateralmovement
+
 ---
 

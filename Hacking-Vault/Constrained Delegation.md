@@ -1,3 +1,4 @@
+[[Delegation]]
 
 Created as a safer way to do delegation than [[Unconstrained Delegation]], it aims to restrict the services to which the server can act on behalf of a user.
 

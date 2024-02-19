@@ -1,5 +1,4 @@
-
-Delegation allows a user or machine to act on behalf of another user to another service.  A common implementation of this is where a user authenticates to a front-end web application that serves a back-end database.  The front-end application needs to authenticate to the back-end database (using Kerberos) as the authenticated user.
+[[Delegation]]
 
 An interesting aspect to unconstrained delegation is that it will cache the user’s TGT regardless of which service is being accessed by the user. So, if an admin accesses a file share or any other service on the machine that uses Kerberos, their TGT will be cached.  If we can compromise a machine with unconstrained delegation, we can extract any TGTs from its memory and use them to impersonate the users against other services in the domain.
 

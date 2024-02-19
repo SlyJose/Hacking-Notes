@@ -2,7 +2,7 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 [[Users]] present the ==tickets== to a service to demonstrate they have already authenticated into the network and therefore enabled to use the service.
 
-# 📜 Kerberos Authentication Process
+## 📜 Kerberos Authentication Process
 
 1. The user sends their username and a timestamp encrypted using a key derived from their password to the Key Distribution Center (KDC), a service usually installed on the [[Domain Controller]] in charge of creating Kerberos tickets on the network. This request is called AS-REQ.
 
@@ -23,6 +23,9 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 ![[TGT-3.png]]
 
+Active Directory environments can also include an asymmetric key model of exchange. This is called a [[PKI Solution]].
+
+
 ### 📜 Kerberos Service Accounts
 
 - [[Kerberos Service Accounts]]
@@ -31,12 +34,13 @@ Default authentication protocol for Windows. Logged [[Users]] into [[Kerberos]] 
 
 - [[Extracting Kerberos Tickets]]
 - [[Alternate Service Name]]
+- [[Kerberos Relay Attacks]]
 
 
 ### Properties
 ---
 📆 created   {{22-10-2023}} 20:23
-🏷️ tags: #activedirectory 
+🏷️ tags: #activedirectory #crto 
 
 ---
 

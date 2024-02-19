@@ -12,7 +12,7 @@
 #### Methods where you are asking for a new ticket
 
 - [[AS-REP Roasting]] (asks for TGT)
-
+- [[Shadow Credentials attack]] (asks for a TGT)
 
 ---
 
