@@ -22,7 +22,7 @@ Whilst Kerberos pre-authentication is typically carried out using a symmetric ke
 ### Properties
 ---
 📆 created   {{19-02-2024}} 14:07
-🏷️ tags: #redteam #crto 
+🏷️ tags: #activedirectory 
 
 ---
 

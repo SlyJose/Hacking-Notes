@@ -34,11 +34,6 @@ Started service bd119dd on web
 ```
 
 
-## 📔 Description
-
-- 
-
-##  📗 Action to perform 
 
 
 ### ⚠ Opsec

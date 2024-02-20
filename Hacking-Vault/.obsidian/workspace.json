@@ -4,89 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e2924462b61d0d9e",
+        "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 69.95565410199556,
+        "dimension": 40.41019955654102,
         "children": [
           {
-            "id": "6ae16fabb272b03a",
+            "id": "25549594d69bfd04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pivoting with Kerberos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e749ef07834c11d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows/Active Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4224708b8fc6eeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unconstrained Delegation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9bff015195ddbce1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kerberos Relay with Shadow Credentials.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e2b83993859b860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Task Scheduler.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "346ac875d58d7aeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Access Token.md",
+                "file": "Obsidian-Templates/ContentNote-Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
-        "id": "8618a79a5714b33c",
+        "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 30.044345898004437,
+        "dimension": 59.589800443458984,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -94,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Kerberos Relay with Shadow Credentials.md",
+                "file": "Obsidian-Templates/ContentNote-Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -117,9 +56,21 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.6666666666666666,
                   "close": true
                 }
+              }
+            }
+          },
+          {
+            "id": "454b66bbd846ff79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extracting Kerberos Tickets.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -152,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntlm relay",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,13 +120,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -191,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kerberos Relay with Shadow Credentials.md",
+                "file": "Obsidian-Templates/ContentNote-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kerberos Relay with Shadow Credentials.md",
+                "file": "Obsidian-Templates/ContentNote-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,11 +180,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kerberos Relay with Shadow Credentials.md"
+                "file": "Obsidian-Templates/ContentNote-Template.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -253,34 +203,35 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9bff015195ddbce1",
+  "active": "25549594d69bfd04",
   "lastOpenFiles": [
-    "Run Kerberos Relay Attack.md",
-    "Kerberos Relay with Shadow Credentials.md",
-    "Kerberos Relay with RBCD.md",
-    "Kerberos Relay Attacks.md",
-    "Resource Based Constrained Delegation RBCD.md",
-    "Constrained Delegation.md",
-    "S4U2Self Abuse.md",
-    "Windows/Kerberos.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Spawn & Inject.md",
+    "Exploitation.md",
+    "Windows/NetNTLM.md",
     "Windows/Active Directory.md",
-    "Windows/Breaching Active Directory.md",
-    "Windows/Authentication Relays.md",
+    "Windows/Domain Controller.md",
+    "Windows/Group Policy Objects.md",
+    "Windows/Organizational Unit.md",
+    "Windows/Groups.md",
+    "Windows/Security Groups.md",
+    "Active Directory Certificate Services.md",
+    "Exploiting ADCS.md",
+    "NTLM Relaying to ADCS HTTP Endpoints.md",
+    "NTLM Relaying.md",
+    "ADCS Persistence.md",
     "Extracting Kerberos Tickets.md",
-    "PKI Solution.md",
-    "Key Trust Model.md",
-    "Shadow Credentials attack.md",
-    "Certificate Trust Model.md",
-    "Windows/Service Principal Name (SPN).md",
-    "Delegation.md",
-    "Unconstrained Delegation.md",
-    "Local Delegation.md",
-    "Pass the Ticket.md",
-    "Overpass the Hash.md",
-    "Alternate Service Name.md",
+    "Misconfigured Certificate Templates.md",
+    "Actions on Objectives.md",
     "Lateral Movement.md",
+    "remote-exec Command.md",
+    "Windows Management Instrumentation WMI.md",
+    "jump Command.md",
+    "DCOM.md",
+    "PSExec.md",
+    "Windows Remote Management WinRM.md",
     "Token Impersonation.md",
-    "Steal the token.md",
+    "Pictures/customuser.png",
     "Pictures/preauth.png",
     "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
@@ -290,7 +241,6 @@
     "Pictures/winrm.png",
     "Pictures/injection.png",
     "Pictures/kerberos_sessions.png",
-    "Pictures/service.png",
     "HTTP",
     "Command&Control",
     "AI",

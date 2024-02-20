@@ -13,6 +13,8 @@
 
 - [[AS-REP Roasting]] (asks for TGT)
 - [[Shadow Credentials attack]] (asks for a TGT)
+- [[Misconfigured Certificate Templates]] (asks for TGT)
+- [[ADCS Persistence]] (asks for TGT)
 
 ---
 

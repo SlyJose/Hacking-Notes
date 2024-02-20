@@ -20,11 +20,6 @@ beacon> link web.dev.cyberbotic.io TSVCPIPE-81180acb-0512-44d7-81fd-fbfea25fff10
 
 This method allows remote connection executions and is harder to detect.
 
-## 📔 Description
-
-- 
-
-##  📗 Action to perform 
 
 
 ### ⚠ Opsec

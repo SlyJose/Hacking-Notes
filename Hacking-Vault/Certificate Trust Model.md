@@ -19,7 +19,7 @@ If a PKI solution is in place, such as [[Active Directory Certificate Services]]
 ### Properties
 ---
 📆 created   {{19-02-2024}} 14:10
-🏷️ tags: #redteam #crto 
+🏷️ tags:  #activedirectory 
 
 ---
 

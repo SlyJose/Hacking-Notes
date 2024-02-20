@@ -1,17 +1,16 @@
 
 Description of Topic/Concept/Tool/Technology goes here
 
-## 🖊️ Sub-Topic
+#### 🖊️ A
 
 
-## 📔 Description
-
-- 
-
-##  📗 Action to perform 
+#### 📔 B
 
 
-### ⚠ Opsec
+####  📗 C
+
+
+#### ⚠ Opsec
 
 
 
