@@ -1,7 +1,7 @@
 
 Kerberoasting is a technique for requesting [[Ticket Granting Service (TGS)]] for services running under the context of domain accounts and cracking them offline to reveal their plaintext passwords.
 
-Rubeus `kerberoast` can be used to perform the kerberoasting.  Running it without further arguments will roast every account in the domain that has an [[Service Principal Name (SPN)]] (excluding krbtgt).
+Rubeus `kerberoast` can be used to perform the kerberoasting.  Running it without further arguments will roast every account in the domain that has a [[Service Principal Name (SPN)]] (excluding krbtgt).
 
 ## 🖊️ via Cobalt Strike
 
