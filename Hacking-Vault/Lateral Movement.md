@@ -5,12 +5,12 @@ It is always very useful to both Escalate Privileges and steal credentials from 
 [[Exploitation]] (escalate privileges)
 [[Actions on Objectives]]  (steal credentials)
 
-## 📔 Environment Reconnaissance Tooling
+#### 📔 Environment Reconnaissance Tooling
 
 - [[Powerview]]
 - [[ADSearch]]
 
-## 📔 User Impersonation
+#### 📔 User Impersonation
 
 These techniques will help you have access as other users with more privileges. For jumping into other machines check next section.
 
@@ -20,7 +20,7 @@ These techniques will help you have access as other users with more privileges. 
 - [[Token Impersonation]]
 - [[Process Injection]]
 
-## 📔 Lateral movement via Tooling
+#### 📔 Lateral movement via Tooling
 
 Cobalt Strike offers a variety of tools to get into remote machines or execute commands in remote machines:
 
@@ -32,7 +32,10 @@ You may also need to open sock proxies and tunnel communication to be able to la
 - [[Pivoting]]
 
  
-## 🚀 -
+#### 🚀 - Lateral Movement modifying the environment
+
+- [[Modify Existing GPO]]
+- [[Create and Link GPO]]
 
 ---
 

@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 40.41019955654102,
+        "dimension": 70.67627494456762,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -14,7 +14,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md",
+                "file": "Lateral Movement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0e71e1091776f8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modify Existing GPO.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +37,7 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 59.589800443458984,
+        "dimension": 29.32372505543237,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -33,7 +45,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md",
+                "file": "Lateral Movement.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -124,7 +136,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -140,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md",
+                "file": "Lateral Movement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md",
+                "file": "Lateral Movement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md"
+                "file": "Lateral Movement.md"
               }
             }
           }
@@ -205,14 +218,24 @@
   },
   "active": "25549594d69bfd04",
   "lastOpenFiles": [
+    "Modify Existing GPO.md",
+    "Abusing GPO's.md",
+    "Create and Link GPO.md",
+    "Lateral Movement.md",
+    "Command and Control.md",
+    "Cyberkill Chain.md",
+    "Actions on Objectives.md",
+    "Windows/Group Policy Objects.md",
+    "Pictures/beacons.png",
+    "Powerview.md",
+    "Windows/Organizational Unit.md",
+    "Obsidian-Templates/ContentNote-Template.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Spawn & Inject.md",
     "Exploitation.md",
     "Windows/NetNTLM.md",
     "Windows/Active Directory.md",
     "Windows/Domain Controller.md",
-    "Windows/Group Policy Objects.md",
-    "Windows/Organizational Unit.md",
     "Windows/Groups.md",
     "Windows/Security Groups.md",
     "Active Directory Certificate Services.md",
@@ -222,15 +245,6 @@
     "ADCS Persistence.md",
     "Extracting Kerberos Tickets.md",
     "Misconfigured Certificate Templates.md",
-    "Actions on Objectives.md",
-    "Lateral Movement.md",
-    "remote-exec Command.md",
-    "Windows Management Instrumentation WMI.md",
-    "jump Command.md",
-    "DCOM.md",
-    "PSExec.md",
-    "Windows Remote Management WinRM.md",
-    "Token Impersonation.md",
     "Pictures/customuser.png",
     "Pictures/preauth.png",
     "Pictures/foxy-proxy.png",
@@ -240,7 +254,6 @@
     "Pictures/psexec.png",
     "Pictures/winrm.png",
     "Pictures/injection.png",
-    "Pictures/kerberos_sessions.png",
     "HTTP",
     "Command&Control",
     "AI",
