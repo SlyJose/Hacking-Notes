@@ -1,7 +1,7 @@
 Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enable threat-representative security tests and it was one of the first public red team command and control frameworks.
 
 
-# 🚀 - Elements of Cobalt Strike
+#### 🚀 - Elements of Cobalt Strike
 ---
 1. [[Listeners]]
 2. [[Cobalt Strike Payloads]]
@@ -9,38 +9,15 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 
 ---
 
-# 📜 Team Server
+#### 📜 Team Server
 
-#### 1️⃣  [[Team Server Setup]]
+##### 1️⃣  [[Team Server Setup]]
 
-#### 2️⃣ [[Malleable C2 Profile]]
+##### 2️⃣ [[Malleable C2 Profile]]
 
-#### 3️⃣ [[Pivoting]]
-
---- 
-# ⚠ Constraints
-
-##  1️⃣ -> Time
-- Describe any deadline that exists 
-## 2️⃣ -> Quality
-- Describe any quality criteria that exists
-## 3️⃣ -> Budget
-- Describe any budgetary constraint's that exists
-## 4️⃣ -> Scope
-- Is the scope flexible ?
+##### 3️⃣ [[Pivoting]]
 
 --- 
-# 📦-> Deliverables and Benefits
-
-## 1️⃣ -> Project Deliverables
-- Outline what deliverables are to be produced by the project 
-
-## 2️⃣ -> Benefits
-- Describe the benefits from the project
-
---- 
-# ❗❗ -> Risks
-- Describe any known risks or possible risks here
 
 ### Properties
 ---

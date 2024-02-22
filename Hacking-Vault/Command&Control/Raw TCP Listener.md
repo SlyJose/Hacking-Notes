@@ -3,18 +3,11 @@ Listener for [[TCP Beacon]], this listener works as a bind shell, you create the
 
 To connect to it, from another beacon you run "connect" and it will link it. 
 
+For example:
 
-# 🖊️ 
+`beacon> connect localhost 4444`
 
 
-
-# 📔 Description
-
-- 
-
-##  📗 Action to perform 
-
-1. 
 
 
 ### Properties

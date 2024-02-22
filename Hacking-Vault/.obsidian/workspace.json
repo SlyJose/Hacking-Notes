@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 75.55432372505543,
+        "dimension": 72.89356984478935,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lateral Movement.md",
+                "file": "Obsidian-Templates/ContentNote-Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,19 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSSQL Command Execution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0e71e1091776f8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modify Existing GPO.md",
+                "file": "Sweet Potato.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +38,7 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 24.445676274944567,
+        "dimension": 27.106430155210642,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -58,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "MSSQL Command Execution.md",
+                "file": "Sweet Potato.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -149,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -166,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MSSQL Command Execution.md",
+                "file": "Sweet Potato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MSSQL Command Execution.md",
+                "file": "Sweet Potato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MSSQL Command Execution.md"
+                "file": "Sweet Potato.md"
               }
             }
           }
@@ -231,42 +218,42 @@
   },
   "active": "63fbba48a1bde9b6",
   "lastOpenFiles": [
-    "Pictures/mssqlsvc-beacon.png",
-    "Enable Invoke-SQLOSCmd.md",
-    "MSSQL Command Execution.md",
+    "Command&Control/Pivot Listener.md",
+    "Command&Control/Raw TCP Listener.md",
+    "Sweet Potato.md",
+    "MSSQL Privilege Escalation.md",
+    "Command&Control/Payloads.md",
+    "Command&Control/Beacon.md",
+    "Command&Control/Cobalt Strike.md",
+    "Command&Control/Listeners.md",
+    "Command&Control/Cobalt Strike Payloads.md",
     "MS SQL Servers.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "MSSQL Lateral Movement.md",
+    "Pictures/sql-1-beacon.png",
+    "Pictures/link.png",
+    "MSSQL Command Execution.md",
+    "Lateral Movement.md",
+    "Enable Invoke-SQLOSCmd.md",
+    "Constrained Delegation.md",
+    "Modify Existing GPO.md",
+    "Command&Control/SMB Listener.md",
+    "Command&Control/TCP Beacon.md",
+    "Beacon Passing.md",
+    "Pictures/mssqlsvc-beacon.png",
     "MSSQL Server Enumeration via Cobalt Strike.md",
     "MSSQL Impersonation.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Kerberoasting.md",
     "Extracting Kerberos Tickets.md",
-    "Lateral Movement.md",
-    "Modify Existing GPO.md",
     "Abusing GPO's.md",
-    "Create and Link GPO.md",
-    "Command and Control.md",
-    "Cyberkill Chain.md",
-    "Actions on Objectives.md",
-    "Windows/Group Policy Objects.md",
     "Pictures/beacons.png",
-    "Powerview.md",
-    "Windows/Organizational Unit.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Spawn & Inject.md",
-    "Exploitation.md",
-    "Windows/NetNTLM.md",
-    "Windows/Active Directory.md",
-    "Windows/Domain Controller.md",
-    "Windows/Groups.md",
     "Pictures/customuser.png",
     "Pictures/preauth.png",
     "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
     "Pictures/spawn.png",
     "Pictures/wmi.png",
-    "Pictures/psexec.png",
-    "Pictures/winrm.png",
-    "Pictures/injection.png",
     "HTTP",
     "Command&Control",
     "AI",

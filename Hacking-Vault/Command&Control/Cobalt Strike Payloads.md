@@ -29,21 +29,12 @@ Produces a pre-compiled stageless payload as an EXE, Service EXE, DLL, shellcode
 
 Pretty much what it says on the tin.  Produces every stageless payload variant, for every listener, in x86 and x64.
 
-# 🖊️ Sub-Topic
-
-
-# 📔 Description
-
-- 
-
-##  📗 Action to perform 
-
-1. 
 
 
 ### Properties
 ---
 📆 created   {{06-02-2024}} 10:26
 🏷️ tags: #redteam #crto  
+
 ---
 

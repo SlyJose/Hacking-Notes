@@ -12,18 +12,13 @@ The _listen host_ and _listen port_ options are the connection details that will
 
 ![[pivot_listener.png]]
 
-# 📔 Description
 
-- 
-
-##  📗 Action to perform 
-
-1. 
 
 
 ### Properties
 ---
 📆 created   {{06-02-2024}} 14:54
 🏷️ tags: #redteam #crto   
+
 ---
 

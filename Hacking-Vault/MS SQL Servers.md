@@ -23,11 +23,13 @@ These are powerful tools for enumerating and interacting with MSSQL Servers
 
 - [[MSSQL Command Execution]]
 
+#### 📗 Lateral Movement
 
+- [[MSSQL Lateral Movement]]
 
+#### 📔 Privilege Escalation
 
-
-
+- [[MSSQL Privilege Escalation]]
 
 ⚠ Alert 1
 ⚠ Alert 2
