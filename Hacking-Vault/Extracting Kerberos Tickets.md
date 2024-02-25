@@ -16,6 +16,12 @@
 - [[Misconfigured Certificate Templates]] (asks for TGT)
 - [[ADCS Persistence]] (asks for TGT)
 
+#### Methods where you are creating a new ticket
+
+- [[Silver Tickets]] (creates a TGS)
+- [[Golden Tickets]] (creates a TGT)
+- [[Diamond Tickets]] (creates a custom TGT)
+- [[Forged Certificates]] (creates a signed TGT)
 ---
 
 ### 🖊️ via Pivoting
@@ -24,6 +30,11 @@ In this section is detailed how you can extract tickets with external tools via 
 
 - [[Pivoting with Kerberos]]
 
+#### 📔 Domain Dominance
+
+Once achieved Domain or Enterprise Admin, attackers can extract credential material from the domain and use it to re-obtain DA-level access at any time.  The majority of these credentials are never changed, which grants practically unlimited access.
+
+Check [[Breaching Active Directory]] for this section.
 
 ### ⚠ Rubeus + NTLM hash
 

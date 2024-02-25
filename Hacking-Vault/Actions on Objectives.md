@@ -15,6 +15,11 @@ Once elevated on a machine, we can obtain credential material for other users wh
 
 ---
 
+You can also extract credentials from different services present in the Windows configured environment:
+
+- [[Network Account Credentials]]
+
+
 --- 
 
 

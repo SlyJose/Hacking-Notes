@@ -45,7 +45,7 @@ Credentials:
       des_cbc_md5       (4096) : 629189372a372fda
 ```
 
-Here we have extracted the NTLM and AES keys for the krbtgt account using _lamb_ (a domain admin).
+Here we have extracted the NTLM and AES keys for the krbtgt account using _nlamb_ (a domain admin).
 
 ### ⚠ Opsec
 

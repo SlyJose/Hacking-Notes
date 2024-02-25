@@ -76,5 +76,6 @@ PS C:\Users\Attacker> Get-GlobalAddressList -ExchHostname mail.cyberbotic.io -Us
 ---
 📆 created   {{06-02-2024}} 17:19
 🏷️ tags: #redteam #crto   
+
 ---
 

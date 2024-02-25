@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 72.89356984478935,
+        "dimension": 65.5210643015521,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -26,19 +26,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sweet Potato.md",
+                "file": "WMI Event Subscriptions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac14d71b3a351e5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extracting Kerberos Tickets.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 27.106430155210642,
+        "dimension": 34.47893569844789,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -46,7 +58,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Sweet Potato.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -69,7 +81,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6666666666666666,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -116,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pfx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,11 +145,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -153,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sweet Potato.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sweet Potato.md",
+                "file": "Extracting Kerberos Tickets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sweet Potato.md"
+                "file": "Extracting Kerberos Tickets.md"
               }
             }
           }
@@ -216,44 +230,43 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "63fbba48a1bde9b6",
+  "active": "ac14d71b3a351e5c",
   "lastOpenFiles": [
-    "Command&Control/Pivot Listener.md",
-    "Command&Control/Raw TCP Listener.md",
-    "Sweet Potato.md",
-    "MSSQL Privilege Escalation.md",
-    "Command&Control/Payloads.md",
+    "Windows/Breaching Active Directory.md",
+    "Extracting Kerberos Tickets.md",
+    "Windows/Kerberos.md",
+    "Windows/Active Directory.md",
+    "Active Directory Certificate Services.md",
+    "Forged Certificates.md",
+    "Misconfigured Certificate Templates.md",
+    "ADCS Persistence.md",
+    "Pictures/sub-ca-key.png",
+    "Exploiting ADCS.md",
+    "Key Trust Model.md",
+    "Shadow Credentials attack.md",
+    "Run Kerberos Relay Attack.md",
+    "Kerberos Relay with Shadow Credentials.md",
+    "Certificate Trust Model.md",
+    "NTLM Relaying to ADCS HTTP Endpoints.md",
+    "PKI Solution.md",
+    "Golden Tickets.md",
+    "Diamond Tickets.md",
+    "Silver Tickets.md",
+    "Alternate Service Name.md",
+    "WMI Event Subscriptions.md",
+    "Command&Control/TCP Beacon.md",
     "Command&Control/Beacon.md",
-    "Command&Control/Cobalt Strike.md",
-    "Command&Control/Listeners.md",
-    "Command&Control/Cobalt Strike Payloads.md",
-    "MS SQL Servers.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "MSSQL Lateral Movement.md",
+    "Command&Control/Raw TCP Listener.md",
+    "Weak Service Permissions.md",
+    "Pictures/MCM.png",
     "Pictures/sql-1-beacon.png",
     "Pictures/link.png",
-    "MSSQL Command Execution.md",
-    "Lateral Movement.md",
-    "Enable Invoke-SQLOSCmd.md",
-    "Constrained Delegation.md",
-    "Modify Existing GPO.md",
-    "Command&Control/SMB Listener.md",
-    "Command&Control/TCP Beacon.md",
-    "Beacon Passing.md",
     "Pictures/mssqlsvc-beacon.png",
-    "MSSQL Server Enumeration via Cobalt Strike.md",
-    "MSSQL Impersonation.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Kerberoasting.md",
-    "Extracting Kerberos Tickets.md",
-    "Abusing GPO's.md",
     "Pictures/beacons.png",
     "Pictures/customuser.png",
     "Pictures/preauth.png",
     "Pictures/foxy-proxy.png",
     "Pictures/foreign-http.png",
-    "Pictures/spawn.png",
-    "Pictures/wmi.png",
     "HTTP",
     "Command&Control",
     "AI",
