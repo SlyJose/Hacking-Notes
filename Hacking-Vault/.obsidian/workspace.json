@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 65.5210643015521,
+        "dimension": 81.1529933481153,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -21,36 +21,24 @@
             }
           },
           {
-            "id": "63fbba48a1bde9b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WMI Event Subscriptions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ac14d71b3a351e5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Exploit One-Way Outbound.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 34.47893569844789,
+        "dimension": 18.8470066518847,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -58,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Exploit One-Way Outbound.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -84,18 +72,6 @@
                   "scale": 1,
                   "close": true
                 }
-              }
-            }
-          },
-          {
-            "id": "454b66bbd846ff79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Extracting Kerberos Tickets.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -128,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pfx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Exploit One-Way Outbound.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Extracting Kerberos Tickets.md",
+                "file": "Exploit One-Way Outbound.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extracting Kerberos Tickets.md"
+                "file": "Exploit One-Way Outbound.md"
               }
             }
           }
@@ -232,10 +207,17 @@
   },
   "active": "ac14d71b3a351e5c",
   "lastOpenFiles": [
-    "Windows/Breaching Active Directory.md",
-    "Extracting Kerberos Tickets.md",
-    "Windows/Kerberos.md",
+    "Windows/Trust Relationship.md",
+    "Exploit One-Way Outbound.md",
+    "Exploit One-Way Inbound.md",
+    "Exploit Trust Relationships.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Windows/Forest.md",
+    "Windows/Windows Domain.md",
     "Windows/Active Directory.md",
+    "Windows/Kerberos.md",
+    "Extracting Kerberos Tickets.md",
+    "Windows/Breaching Active Directory.md",
     "Active Directory Certificate Services.md",
     "Forged Certificates.md",
     "Misconfigured Certificate Templates.md",
@@ -252,12 +234,6 @@
     "Golden Tickets.md",
     "Diamond Tickets.md",
     "Silver Tickets.md",
-    "Alternate Service Name.md",
-    "WMI Event Subscriptions.md",
-    "Command&Control/TCP Beacon.md",
-    "Command&Control/Beacon.md",
-    "Command&Control/Raw TCP Listener.md",
-    "Weak Service Permissions.md",
     "Pictures/MCM.png",
     "Pictures/sql-1-beacon.png",
     "Pictures/link.png",
