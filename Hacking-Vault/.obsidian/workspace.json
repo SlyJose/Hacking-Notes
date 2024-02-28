@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 81.1529933481153,
+        "dimension": 77.77161862527716,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -21,24 +21,36 @@
             }
           },
           {
+            "id": "9c1fc35343937b6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian-Templates/ConceptNote-Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ac14d71b3a351e5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Exploit One-Way Outbound.md",
+                "file": "LAPS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 18.8470066518847,
+        "dimension": 22.22838137472284,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -46,7 +58,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Exploit One-Way Outbound.md",
+                "file": "LAPS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -104,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "laps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Exploit One-Way Outbound.md",
+                "file": "LAPS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Exploit One-Way Outbound.md",
+                "file": "LAPS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Exploit One-Way Outbound.md"
+                "file": "LAPS.md"
               }
             }
           }
@@ -207,14 +219,25 @@
   },
   "active": "ac14d71b3a351e5c",
   "lastOpenFiles": [
+    "LAPS Backdoors.md",
+    "Pictures/backdoor.png",
+    "Pictures/add-reference.png",
+    "Pictures/dnspy.png",
+    "LAPS.md",
+    "Persistence LAPS via Password Expiration.md",
+    "LAPS Process.md",
+    "Enumerating LAPS.md",
+    "Enumerate ms-Mcs-AdmPwd.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Windows/Active Directory.md",
+    "Windows/Forest.md",
     "Windows/Trust Relationship.md",
     "Exploit One-Way Outbound.md",
+    "Windows/Windows Domain.md",
+    "Seatbelt.md",
     "Exploit One-Way Inbound.md",
     "Exploit Trust Relationships.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Windows/Forest.md",
-    "Windows/Windows Domain.md",
-    "Windows/Active Directory.md",
     "Windows/Kerberos.md",
     "Extracting Kerberos Tickets.md",
     "Windows/Breaching Active Directory.md",
@@ -225,24 +248,12 @@
     "Pictures/sub-ca-key.png",
     "Exploiting ADCS.md",
     "Key Trust Model.md",
-    "Shadow Credentials attack.md",
-    "Run Kerberos Relay Attack.md",
-    "Kerberos Relay with Shadow Credentials.md",
-    "Certificate Trust Model.md",
-    "NTLM Relaying to ADCS HTTP Endpoints.md",
-    "PKI Solution.md",
-    "Golden Tickets.md",
-    "Diamond Tickets.md",
-    "Silver Tickets.md",
     "Pictures/MCM.png",
     "Pictures/sql-1-beacon.png",
     "Pictures/link.png",
     "Pictures/mssqlsvc-beacon.png",
     "Pictures/beacons.png",
     "Pictures/customuser.png",
-    "Pictures/preauth.png",
-    "Pictures/foxy-proxy.png",
-    "Pictures/foreign-http.png",
     "HTTP",
     "Command&Control",
     "AI",
