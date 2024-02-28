@@ -74,5 +74,6 @@ Created symlink /etc/systemd/system/multi-user.target.wants/teamserver.service �
 ---
 📆 created   {{06-02-2024}} 15:11
 🏷️ tags: #redteam #crto   
+
 ---
 

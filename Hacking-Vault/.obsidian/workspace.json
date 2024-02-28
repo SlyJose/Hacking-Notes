@@ -38,7 +38,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LAPS.md",
+                "file": "Windows Defender Behavioral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81dfe7fcc8ded8e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Malleable C2 Profile.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "LAPS.md",
+                "file": "Windows Defender Behavioral.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -154,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LAPS.md",
+                "file": "Windows Defender Behavioral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LAPS.md",
+                "file": "Windows Defender Behavioral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LAPS.md"
+                "file": "Windows Defender Behavioral.md"
               }
             }
           }
@@ -219,41 +231,41 @@
   },
   "active": "ac14d71b3a351e5c",
   "lastOpenFiles": [
+    "AMSI.md",
+    "Windows Defender Behavioral.md",
+    "Windows Defender.md",
+    "Windows Defender In-memory.md",
+    "Pictures/detection.png",
+    "Windows Defender On-disk.md",
+    "Malleable C2 Profile.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Modify beacon actions in memory.md",
+    "Artifact Kit.md",
+    "Command&Control/Cobalt Strike.md",
+    "Beacon Payload Generation.md",
+    "Build the Artifact Kit.md",
+    "Dissecting Binary Static Signature.md",
+    "Ghidra Artifact Analysis.md",
+    "Scan Artifacts.md",
+    "Scanning with ThreatCheck.md",
+    "Artifact Kit Structure.md",
+    "Pictures/comparison.png",
+    "Pictures/vscode-search.png",
+    "Pictures/bad-code.png",
+    "Pictures/ghidra-search-memory.png",
+    "Command&Control/Team Server Setup.md",
+    "Command&Control/Beacon.md",
+    "Pictures/artifact.png",
+    "Pictures/reflective-loader.png",
+    "LAPS.md",
+    "Beacon Network Communication.md",
+    "Command and Control.md",
     "LAPS Backdoors.md",
     "Pictures/backdoor.png",
     "Pictures/add-reference.png",
     "Pictures/dnspy.png",
-    "LAPS.md",
     "Persistence LAPS via Password Expiration.md",
-    "LAPS Process.md",
-    "Enumerating LAPS.md",
-    "Enumerate ms-Mcs-AdmPwd.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Windows/Active Directory.md",
-    "Windows/Forest.md",
-    "Windows/Trust Relationship.md",
-    "Exploit One-Way Outbound.md",
-    "Windows/Windows Domain.md",
-    "Seatbelt.md",
-    "Exploit One-Way Inbound.md",
-    "Exploit Trust Relationships.md",
-    "Windows/Kerberos.md",
-    "Extracting Kerberos Tickets.md",
-    "Windows/Breaching Active Directory.md",
-    "Active Directory Certificate Services.md",
-    "Forged Certificates.md",
-    "Misconfigured Certificate Templates.md",
-    "ADCS Persistence.md",
-    "Pictures/sub-ca-key.png",
-    "Exploiting ADCS.md",
-    "Key Trust Model.md",
-    "Pictures/MCM.png",
-    "Pictures/sql-1-beacon.png",
-    "Pictures/link.png",
-    "Pictures/mssqlsvc-beacon.png",
-    "Pictures/beacons.png",
-    "Pictures/customuser.png",
     "HTTP",
     "Command&Control",
     "AI",
