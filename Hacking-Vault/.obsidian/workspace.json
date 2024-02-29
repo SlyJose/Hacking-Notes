@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 49.2239467849224,
+        "dimension": 67.51662971175166,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -31,38 +31,14 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "81c0e34e9ecfb86a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows Defender Behavioral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80426b790395d968",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Powerview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 50.77605321507761,
+        "dimension": 32.48337028824834,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -70,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Windows Defender Behavioral.md",
+                "file": "Obsidian-Templates/ConceptNote-Template.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -96,18 +72,6 @@
                   "scale": 1.5,
                   "close": true
                 }
-              }
-            }
-          },
-          {
-            "id": "ebd21ece78f0af95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pass the Hash.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -140,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "laps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Defender Behavioral.md",
+                "file": "Obsidian-Templates/ConceptNote-Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Defender Behavioral.md",
+                "file": "Obsidian-Templates/ConceptNote-Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Defender Behavioral.md"
+                "file": "Obsidian-Templates/ConceptNote-Template.md"
               }
             }
           }
@@ -242,35 +206,36 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "81c0e34e9ecfb86a",
+  "active": "9dba62a0deb68a11",
   "lastOpenFiles": [
-    "Manual PTH.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Bypass DLL Enforcement.md",
+    "DLL enforcement.md",
+    "Application Whitelisting.md",
+    "Windows/Group Policy Objects.md",
+    "Break out Powershell CLM.md",
+    "Powershell CLM.md",
+    "LOLBAS.md",
+    "Shellcode Injector via MSBuild.md",
+    "Writable Paths.md",
+    "AppLocker Enumeration.md",
+    "Untitled.canvas",
+    "Enumerating LAPS.md",
+    "LAPS.md",
+    "Abusing GPO's.md",
+    "Create and Link GPO.md",
+    "Modify Existing GPO.md",
+    "graph.md",
     "Windows Defender Behavioral.md",
+    "Manual PTH.md",
     "Windows Defender.md",
     "Pass the Hash.md",
     "Windows Defender In-memory.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
     "Parent Child Evasion.md",
     "Behavioral Detection Evasion.md",
     "Powerview.md",
-    "Create and Link GPO.md",
     "AMSI Disable.md",
-    "Manual AMSI Bypass.md",
-    "Build the Resource Kit.md",
-    "manual-amsi-code-bypass.md",
     "Pictures/invoke-mimi.png",
-    "Resource Kit.md",
-    "Scripted Web Delivery Method.md",
-    "Ghidra Artifact Analysis.md",
-    "AMSI Evasion Scanning.md",
-    "AMSI.md",
-    "AMSI Detections and Blocks.md",
-    "Arsenal Kit.md",
-    "Artifact Kit.md",
-    "Command&Control/Cobalt Strike.md",
-    "Windows Defender On-disk.md",
-    "Dissecting Binary Static Signature.md",
-    "Build the Artifact Kit.md",
     "Pictures/detection.png",
     "Pictures/comparison.png",
     "Pictures/vscode-search.png",
