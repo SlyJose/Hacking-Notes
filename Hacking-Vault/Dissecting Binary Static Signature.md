@@ -7,10 +7,7 @@ Once you have identified a static signature with a binary scanner, you need to a
 2) 
 
 
-#### 📔 B
 
-
-####  📗 C
 
 
 #### ⚠ Opsec

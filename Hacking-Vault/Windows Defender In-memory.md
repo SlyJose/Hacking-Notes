@@ -1,6 +1,6 @@
 
 
-#### 📔 - In memory
+#### 📔 - memory scans
 
 Malicious processes can also trigger alerts during memory scans, Defender will also carry process scans to determine weird patterns in form and actions. 
 
@@ -12,8 +12,33 @@ Malicious processes can also trigger alerts during memory scans, Defender will a
 
 --- 
 
+#### 📗 AMSI Detections 
+
+Windows Defender utilizes [[AMSI]] to identify fileless malware and malicious input content. 
 
 
+###### 🚀 - Cobalt Strike
+---
+
+**Resource detection**
+1. Cobalt Strike can generate powershell, python, VBA, and other payloads that run in memory, these can be detected by AMSI. Cobalt Strike's [[Resource Kit]] helps Red Teamer's evade Behavioral detections. 
+2. If resources are still detected by Defender check [[Manual AMSI Bypass]]
+
+**Post-Ex Detection**
+1. Also in various post-exploitation commands AMSI will detect you.  To name a few are `powershell`, `powerpick` and `execute-assembly`.  This occurs because Beacon will spawn new processes to execute these commands, and each process gets its own copy of AMSI.
+2. AMSI also detects .NET assemblies known to be malicious, even though they don't touch disk:
+
+```
+beacon> execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe
+[-] Failed to load the assembly w/hr 0x8007000b
+[-] lost link to parent beacon: 10.10.123.102
+```
+
+It would be very time demanding to scan and obfuscate everything, so Cobalt Strike introduced a configuration that we can apply in Malleable C2 called `amsi_disable`.
+
+- [[AMSI Disable]]
+
+--- 
 
 
 

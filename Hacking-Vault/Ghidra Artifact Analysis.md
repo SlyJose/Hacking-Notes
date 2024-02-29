@@ -20,7 +20,7 @@ Unfortunately, we don't have debug symbols for the compiled payloads so function
 
 ![[bad-code.png]]
 
-5) Search in artifact kit files for similar loops:
+5) Using a code framework like VSCode, search in artifact kit files for similar loops:
 
 ![[vscode-search.png]]
 
@@ -60,11 +60,6 @@ To tell Cobalt Strike to use these new artifacts, we must load the aggressor scr
 
 - Go to _Cobalt Strike > Script Manager > Load_ and select the `artifact.cna` file in your output directory.
 - Any DLL and EXE payloads that you generate from hereon will use those new artifacts, so use _Payloads > Windows Stageless Generate All Payloads_ to replace all of your payloads in `C:\Payloads`.
-
-
-
-#### ⚠ Opsec
-
 
 
 

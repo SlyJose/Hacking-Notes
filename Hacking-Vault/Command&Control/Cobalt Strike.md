@@ -21,7 +21,7 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 
 #### 🖊️ - Extending Cobalt Strike
 
-- [[Artifact Kit]]
+- [[Arsenal Kit]]
 
 ### Properties
 ---

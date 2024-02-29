@@ -36,10 +36,6 @@ However, there's not much context around what this is or where it is in the bina
 Go to section "Dissecting Binary Static Signature" in "Build Artifact Kit"
 
 
-#### ⚠ Opsec
-
-
-
 
 ### Properties
 ---

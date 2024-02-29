@@ -2,7 +2,7 @@ The Artifact Kit contains the source code for the artifacts used by Cobalt Strik
 
 The idea is to develop artifacts that inject Beacon shellcode in a way that cannot be emulated by AV engines.  There are several bypass techniques provided with the kit which you can modify, or you can implement entirely new ones yourself.  Where the Artifact Kit does not help is with making Beacon resilient to detection once it's running in memory (e.g. from memory scanners).
 
-#### 🚀 - why using it?
+#### 🚀 - Why using it?
 ---
 For example, we may have access to certain machine:
 
@@ -33,7 +33,7 @@ The file is detected as malicious. These Cobalt Strike "artifacts" are nothing m
 
 --- 
 
-#### 🖊️ - Adding and Running
+#### 🖊️ - Adding and Running to Cobalt Strike
 
 - [[Build the Artifact Kit]]
 
