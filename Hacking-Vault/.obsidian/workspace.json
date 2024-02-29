@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 65.57649667405765,
+        "dimension": 49.2239467849224,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -38,7 +38,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Manual AMSI Bypass.md",
+                "file": "Windows Defender Behavioral.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80426b790395d968",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Powerview.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +62,7 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 34.42350332594235,
+        "dimension": 50.77605321507761,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -58,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Manual AMSI Bypass.md",
+                "file": "Windows Defender Behavioral.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -81,31 +93,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.5,
                   "close": true
                 }
               }
             }
           },
           {
-            "id": "3d611ba47a56371b",
+            "id": "ebd21ece78f0af95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Defender Behavioral.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4521cc57b885d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AMSI Disable.md",
+                "file": "Pass the Hash.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "artifact kit",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Manual AMSI Bypass.md",
+                "file": "Windows Defender Behavioral.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Manual AMSI Bypass.md",
+                "file": "Windows Defender Behavioral.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Manual AMSI Bypass.md"
+                "file": "Windows Defender Behavioral.md"
               }
             }
           }
@@ -244,34 +244,34 @@
   },
   "active": "81c0e34e9ecfb86a",
   "lastOpenFiles": [
-    "manual-amsi-code-bypass.md",
-    "Manual AMSI Bypass.md",
-    "Pictures/invoke-mimi.png",
-    "Windows Defender In-memory.md",
-    "AMSI Disable.md",
+    "Manual PTH.md",
     "Windows Defender Behavioral.md",
-    "Build the Resource Kit.md",
+    "Windows Defender.md",
+    "Pass the Hash.md",
+    "Windows Defender In-memory.md",
     "Obsidian-Templates/ConceptNote-Template.md",
+    "Parent Child Evasion.md",
+    "Behavioral Detection Evasion.md",
+    "Powerview.md",
+    "Create and Link GPO.md",
+    "AMSI Disable.md",
+    "Manual AMSI Bypass.md",
+    "Build the Resource Kit.md",
+    "manual-amsi-code-bypass.md",
+    "Pictures/invoke-mimi.png",
     "Resource Kit.md",
     "Scripted Web Delivery Method.md",
     "Ghidra Artifact Analysis.md",
     "AMSI Evasion Scanning.md",
     "AMSI.md",
     "AMSI Detections and Blocks.md",
-    "Windows Defender.md",
     "Arsenal Kit.md",
     "Artifact Kit.md",
     "Command&Control/Cobalt Strike.md",
     "Windows Defender On-disk.md",
     "Dissecting Binary Static Signature.md",
     "Build the Artifact Kit.md",
-    "Scan Artifacts.md",
-    "Scanning with ThreatCheck.md",
-    "Artifact Kit Structure.md",
-    "Malleable C2 Profile.md",
     "Pictures/detection.png",
-    "Obsidian-Templates/ContentNote-Template.md",
-    "Modify beacon actions in memory.md",
     "Pictures/comparison.png",
     "Pictures/vscode-search.png",
     "Pictures/bad-code.png",

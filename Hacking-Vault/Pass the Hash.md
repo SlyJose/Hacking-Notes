@@ -6,6 +6,7 @@ It works by starting a new logon session with a fake identity and then replacing
 ## 🖊️ via [[Cobalt Strike]]
 
 Beacon has a dedicated `pth` command which executes Mimikatz in the background. It requires elevated privileges.
+(check [[Manual PTH]] to avoid detection )
 
 1) Lets say you are currently a local admin but not a domain admin and want to list the contents of an external C drive.
 
@@ -65,7 +66,7 @@ beacon> rev2self
 ### ⚠ Opsec
 
 Two opportunities to detect PTH are the R/W handle to LSASS; and looking for the `echo foo > \\.\pipe\bar` pattern in command-line logs.
-
+You can avoid detection running PTH manually: [[Manual PTH]]
 
 
 ### Properties
