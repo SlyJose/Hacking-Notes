@@ -3,22 +3,21 @@ After gaining initial access to a network, attackers may establish command and c
 
 This can involve setting up backdoors, remote access tools, or other means of controlling and managing the compromised environment.
 
-## 🖊️ Areas of impact
+#### 🖊️ Areas of impact
 
 1) [[Lateral Movement]]
 2) [[Pivoting]]
 
+####  📗 Environment Actions
 
-## 📔 Environment Recoinnaissance Tooling
+- [[Enumerating File Shares]]
+- [[Enumerating Databases]]
+
+
+#### 📔 Environment Recoinnaissance Tooling
 
 - [[Powerview]]
 - [[ADSearch]]
-
-
-##  📗 Action to perform 
-
-
-
 
 
 

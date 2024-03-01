@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 67.51662971175166,
+        "dimension": 62.63858093126385,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Templates/ConceptNote-Template.md",
+                "file": "Enumerating Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 32.48337028824834,
+        "dimension": 37.36141906873614,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -46,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Obsidian-Templates/ConceptNote-Template.md",
+                "file": "Enumerating Databases.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -69,7 +69,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.5,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "laps",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -121,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian-Templates/ConceptNote-Template.md",
+                "file": "Enumerating Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian-Templates/ConceptNote-Template.md",
+                "file": "Enumerating Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian-Templates/ConceptNote-Template.md"
+                "file": "Enumerating Databases.md"
               }
             }
           }
@@ -206,8 +205,17 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9dba62a0deb68a11",
+  "active": "9c1fc35343937b6c",
   "lastOpenFiles": [
+    "Command and Control.md",
+    "Enumerating Databases.md",
+    "Enumerating File Shares.md",
+    "Cyberkill Chain.md",
+    "Actions on Objectives.md",
+    "Exploitation.md",
+    "Reconnaissance.md",
+    "Powerview.md",
+    "Obsidian-Templates/ContentNote-Template.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Bypass DLL Enforcement.md",
     "DLL enforcement.md",
@@ -226,15 +234,6 @@
     "Create and Link GPO.md",
     "Modify Existing GPO.md",
     "graph.md",
-    "Windows Defender Behavioral.md",
-    "Manual PTH.md",
-    "Windows Defender.md",
-    "Pass the Hash.md",
-    "Windows Defender In-memory.md",
-    "Parent Child Evasion.md",
-    "Behavioral Detection Evasion.md",
-    "Powerview.md",
-    "AMSI Disable.md",
     "Pictures/invoke-mimi.png",
     "Pictures/detection.png",
     "Pictures/comparison.png",
