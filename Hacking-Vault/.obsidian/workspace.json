@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enumerating Databases.md",
+                "file": "Beacon Object Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Enumerating Databases.md",
+                "file": "Beacon Object Files.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -69,9 +69,21 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.5,
                   "close": true
                 }
+              }
+            }
+          },
+          {
+            "id": "285bf8541db50957",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Artifact Kit.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enumerating Databases.md",
+                "file": "Beacon Object Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enumerating Databases.md",
+                "file": "Beacon Object Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enumerating Databases.md"
+                "file": "Beacon Object Files.md"
               }
             }
           }
@@ -207,43 +219,42 @@
   },
   "active": "9c1fc35343937b6c",
   "lastOpenFiles": [
-    "Command and Control.md",
-    "Enumerating Databases.md",
-    "Enumerating File Shares.md",
-    "Cyberkill Chain.md",
-    "Actions on Objectives.md",
-    "Exploitation.md",
-    "Reconnaissance.md",
-    "Powerview.md",
+    "BOF Hello World Integrated.md",
+    "Beacon Object Files.md",
+    "Integrate BOF with Aggressor Scripts.md",
+    "BOF Calling Windows APIs.md",
+    "BOF Arguments.md",
+    "BOF Structure and Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Bypass DLL Enforcement.md",
-    "DLL enforcement.md",
-    "Application Whitelisting.md",
-    "Windows/Group Policy Objects.md",
-    "Break out Powershell CLM.md",
-    "Powershell CLM.md",
-    "LOLBAS.md",
-    "Shellcode Injector via MSBuild.md",
-    "Writable Paths.md",
-    "AppLocker Enumeration.md",
-    "Untitled.canvas",
+    "Pictures/msgbox.png",
+    "Pictures/msgbox-code.png",
+    "Pictures/data-formats.png",
+    "Pictures/multiple-args.png",
+    "BOF Hello World.md",
+    "Pictures/unpack-data.png",
+    "Pictures/demo-bof-aggressor.png",
+    "Pictures/demo-bof-beacon.png",
+    "Pictures/debug-output.png",
+    "Pictures/hello-world.png",
+    "Pictures/vs-template.png",
+    "Command&Control/Cobalt Strike.md",
+    "Extracting Kerberos Tickets.md",
+    "Kerberoasting.md",
+    "MSSQL Server Enumeration via Cobalt Strike.md",
+    "Actions on Objectives.md",
+    "Extracting Kerberos Keys.md",
+    "Beacon + Mimikatz.md",
+    "Cyberkill Chain.md",
+    "Command and Control.md",
+    "ADSearch.md",
     "Enumerating LAPS.md",
-    "LAPS.md",
-    "Abusing GPO's.md",
-    "Create and Link GPO.md",
-    "Modify Existing GPO.md",
-    "graph.md",
-    "Pictures/invoke-mimi.png",
-    "Pictures/detection.png",
-    "Pictures/comparison.png",
-    "Pictures/vscode-search.png",
-    "Pictures/bad-code.png",
-    "Pictures/ghidra-search-memory.png",
-    "Pictures/artifact.png",
-    "Pictures/reflective-loader.png",
-    "Pictures/backdoor.png",
-    "Pictures/add-reference.png",
+    "Aggressor Scripts.md",
+    "Jump + Invoke-DCOM.md",
+    "Jump + Invoke-DCOM Walkthrough.md",
+    "Mimikatz Kit.md",
+    "Build the Mimikatz Kit.md",
+    "Artifact Kit.md",
+    "Untitled.canvas",
     "HTTP",
     "Command&Control",
     "AI",

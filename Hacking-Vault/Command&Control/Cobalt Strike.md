@@ -6,7 +6,6 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 1. [[Listeners]]
 2. [[Cobalt Strike Payloads]]
 3. [[Beacon]]
-
 ---
 
 #### 📜 Team Server
@@ -22,6 +21,10 @@ Raphael Mudge created [Cobalt Strike](https://cobaltstrike.com/) in 2012 to enab
 #### 🖊️ - Extending Cobalt Strike
 
 - [[Arsenal Kit]]
+- [[Resource Kit]]
+- [[Mimikatz Kit]]
+- [[Aggressor Scripts]]
+- [[Beacon Object Files]]
 
 ### Properties
 ---

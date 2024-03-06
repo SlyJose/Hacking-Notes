@@ -38,20 +38,6 @@ The file is detected as malicious. These Cobalt Strike "artifacts" are nothing m
 - [[Build the Artifact Kit]]
 
 
-⚠ Alert 1
-⚠ Alert 2
-⚠ Alert 3
-
-
---- 
-
- 1️⃣ A
- 2️⃣ B
- 
---- 
-
-❗C
-
 
 ### Properties
 ---
