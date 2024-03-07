@@ -4,7 +4,7 @@ Since these spawn a sacrificial process and use process injection to run the pos
 
 #### 📗 - Structure
 
--  [[BOF Structure and Template]]
+- [[BOF Structure and Template]]
 - [[BOF Arguments]]
 - [[BOF Calling Windows APIs]]
 

@@ -1,11 +1,15 @@
 
+Many of Beacon's indicators are controllable via malleable C2 profiles, including network and in-memory artifacts.
 
 #### 🚀 - Evasion
 
-- [[Modify beacon actions in memory]]
+- [[Malleable In-Memory Changes]]
+- [[Malleable In-Network Changes]]
 
 ---
-#### 📦 - B
+#### 📦 - Samples
+
+- Raphael Mudge [collection](https://github.com/Cobalt-Strike/Malleable-C2-Profiles)
 --- 
 
 #### 🖊️ - C
