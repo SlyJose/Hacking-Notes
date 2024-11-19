@@ -6,7 +6,7 @@
       {
         "id": "8618a79a5714b33c",
         "type": "tabs",
-        "dimension": 62.63858093126385,
+        "dimension": 44.76454293628809,
         "children": [
           {
             "id": "25549594d69bfd04",
@@ -14,8 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian-Templates/ContentNote-Template.md",
-                "mode": "source",
+                "file": "Extracting NTLM Hashes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -32,13 +32,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 37.36141906873614,
+        "dimension": 55.23545706371191,
         "children": [
           {
             "id": "9dba62a0deb68a11",
@@ -46,7 +45,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Malleable In-Network Changes.md",
+                "file": "Extracting NTLM Hashes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -72,18 +71,6 @@
                   "scale": 1,
                   "close": true
                 }
-              }
-            }
-          },
-          {
-            "id": "285bf8541db50957",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Artifact Kit.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -137,7 +124,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 329.5,
     "collapsed": true
   },
   "right": {
@@ -154,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Malleable In-Network Changes.md",
+                "file": "Extracting NTLM Hashes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Malleable In-Network Changes.md",
+                "file": "Extracting NTLM Hashes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Malleable In-Network Changes.md"
+                "file": "Extracting NTLM Hashes.md"
               }
             }
           }
@@ -217,10 +204,22 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9c1fc35343937b6c",
+  "active": "25549594d69bfd04",
   "lastOpenFiles": [
-    "Malleable C2 Profile.md",
+    "Windows/NetNTLM.md",
+    "Extracting NTLM Hashes.md",
+    "Windows/Authentication Relays.md",
+    "Windows/SMB.md",
+    "NTLM Relaying.md",
+    "dcsync.md",
+    "Pass the Hash.md",
+    "Manual PTH.md",
+    "Windows/Active Directory.md",
+    "Windows/Breaching Active Directory.md",
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Artifact Kit.md",
     "Malleable In-Network Changes.md",
+    "Malleable C2 Profile.md",
     "Malleable In-Memory Changes.md",
     "Command&Control/Cobalt Strike.md",
     "Beacon Object Files.md",
@@ -229,7 +228,6 @@
     "BOF Calling Windows APIs.md",
     "BOF Arguments.md",
     "BOF Structure and Template.md",
-    "Obsidian-Templates/ContentNote-Template.md",
     "Pictures/msgbox.png",
     "Pictures/msgbox-code.png",
     "Pictures/data-formats.png",
@@ -244,17 +242,6 @@
     "Extracting Kerberos Tickets.md",
     "Kerberoasting.md",
     "MSSQL Server Enumeration via Cobalt Strike.md",
-    "Actions on Objectives.md",
-    "Extracting Kerberos Keys.md",
-    "Beacon + Mimikatz.md",
-    "Cyberkill Chain.md",
-    "Command and Control.md",
-    "ADSearch.md",
-    "Enumerating LAPS.md",
-    "Aggressor Scripts.md",
-    "Jump + Invoke-DCOM.md",
-    "Jump + Invoke-DCOM Walkthrough.md",
-    "Mimikatz Kit.md",
     "Untitled.canvas",
     "HTTP",
     "Command&Control",
