@@ -4,7 +4,6 @@ DCSync is a technique used particularly in the context of [[Active Directory]] e
 
 DCSync is a feature within the [[Mimikatz]] toolkit.
 
-
 ## 🖊️ How it works
 
 1. **Domain Controller Interaction**: Mimikatz uses DCSync to interact with the domain controller's replication protocol, which is used to synchronize data between domain controllers in an Active Directory environment.

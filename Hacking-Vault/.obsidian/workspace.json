@@ -4,48 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "8618a79a5714b33c",
+        "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 44.76454293628809,
+        "dimension": 62.890094979647216,
         "children": [
           {
-            "id": "25549594d69bfd04",
+            "id": "55569a565d099893",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extracting NTLM Hashes.md",
-                "mode": "preview",
+                "file": "Abusing GPO's.md",
+                "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Abusing GPO's"
             }
           },
           {
-            "id": "9c1fc35343937b6c",
+            "id": "00b10348e78f9064",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malleable In-Network Changes.md",
+                "file": "Actions on Objectives.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Actions on Objectives"
+            }
+          },
+          {
+            "id": "3457e855bc802449",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abusing GPO's.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Abusing GPO's"
+            }
+          },
+          {
+            "id": "5afbb0404874c9ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Access Token.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Access Token"
+            }
+          },
+          {
+            "id": "bfccb12a701f870e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
-        "id": "43f8877d88713b35",
+        "id": "f188ff6ad543e81c",
         "type": "tabs",
-        "dimension": 55.23545706371191,
+        "dimension": 37.10990502035278,
         "children": [
           {
-            "id": "9dba62a0deb68a11",
+            "id": "74726baba845212f",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Extracting NTLM Hashes.md",
+                "file": "Cloud/Untitled.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -71,7 +118,9 @@
                   "scale": 1,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Untitled"
             }
           }
         ]
@@ -94,7 +143,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -103,13 +154,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#redteam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -117,15 +170,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -149,7 +203,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Extracting NTLM Hashes"
             }
           },
           {
@@ -161,7 +217,9 @@
                 "file": "Extracting NTLM Hashes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Extracting NTLM Hashes"
             }
           },
           {
@@ -172,7 +230,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -182,7 +242,9 @@
               "type": "outline",
               "state": {
                 "file": "Extracting NTLM Hashes.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Extracting NTLM Hashes"
             }
           }
         ],
@@ -204,45 +266,46 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "25549594d69bfd04",
+  "active": "bfccb12a701f870e",
   "lastOpenFiles": [
+    "Obsidian-Templates/ContentNote-Template.md",
+    "Cloud/Untitled.md",
+    "Obsidian-Templates/Markdown.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Abusing GPO's.md",
+    "Cloud",
+    "Actions on Objectives.md",
+    "Access Token.md",
+    "Pictures/simple_neural_network.png",
+    "Pictures/dnspy.png",
+    "Pictures/demo-bof-aggressor.png",
+    "Pictures/comparison.png",
+    "Pictures/add-reference.png",
+    "dcsync.md",
+    "CRTO-Cheatsheet.md",
+    "Command&Control/Listeners.md",
+    "Command&Control/HTTP-HTTPS Listener.md",
+    "Untitled.canvas",
+    "Pass the Hash.md",
+    "Malleable In-Network Changes.md",
     "Windows/NetNTLM.md",
+    "Pass the Ticket.md",
     "Extracting NTLM Hashes.md",
+    "Windows/Responder.md",
     "Windows/Authentication Relays.md",
     "Windows/SMB.md",
     "NTLM Relaying.md",
-    "dcsync.md",
-    "Pass the Hash.md",
     "Manual PTH.md",
     "Windows/Active Directory.md",
     "Windows/Breaching Active Directory.md",
-    "Obsidian-Templates/ContentNote-Template.md",
     "Artifact Kit.md",
-    "Malleable In-Network Changes.md",
     "Malleable C2 Profile.md",
     "Malleable In-Memory Changes.md",
-    "Command&Control/Cobalt Strike.md",
-    "Beacon Object Files.md",
-    "BOF Hello World Integrated.md",
-    "Integrate BOF with Aggressor Scripts.md",
-    "BOF Calling Windows APIs.md",
-    "BOF Arguments.md",
-    "BOF Structure and Template.md",
     "Pictures/msgbox.png",
     "Pictures/msgbox-code.png",
     "Pictures/data-formats.png",
     "Pictures/multiple-args.png",
-    "BOF Hello World.md",
     "Pictures/unpack-data.png",
-    "Pictures/demo-bof-aggressor.png",
-    "Pictures/demo-bof-beacon.png",
-    "Pictures/debug-output.png",
-    "Pictures/hello-world.png",
-    "Pictures/vs-template.png",
-    "Extracting Kerberos Tickets.md",
-    "Kerberoasting.md",
-    "MSSQL Server Enumeration via Cobalt Strike.md",
-    "Untitled.canvas",
     "HTTP",
     "Command&Control",
     "AI",
@@ -251,7 +314,6 @@
     "Red_Team",
     "Linux",
     "Windows",
-    "Pictures",
-    "Obsidian-Templates"
+    "Pictures"
   ]
 }
