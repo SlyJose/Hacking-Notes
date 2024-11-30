@@ -31,6 +31,6 @@
 ### Properties
 ---
 📆 created   {{date}} {{time}}
-🏷️ tags: #redteam #crto 
+🏷️ tags: #cloud #google 
 
 ---

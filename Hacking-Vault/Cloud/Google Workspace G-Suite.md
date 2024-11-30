@@ -1,5 +1,5 @@
-
-Description of Topic/Concept/Tool/Technology goes here
+Used for SaaS. 
+Services like: gmail, calendar, meet, chat, etc.
 
 #### 🖊️ A
 
@@ -17,7 +17,7 @@ Description of Topic/Concept/Tool/Technology goes here
 
 ### Properties
 ---
-📆 created   {{date}} {{time}}
+📆 created   {{30-11-2024}} 14:43
 🏷️ tags: #cloud #google 
 
 ---
