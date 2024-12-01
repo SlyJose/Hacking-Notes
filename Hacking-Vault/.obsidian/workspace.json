@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/gcloud.md",
+                "file": "Cloud/Google Cloud Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gcloud"
+              "title": "Google Cloud Privilege Escalation"
             }
           }
         ]
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cloud/gcloud.md",
+                "file": "Cloud/Google Cloud Privilege Escalation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -63,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of gcloud"
+              "title": "Graph of Google Cloud Privilege Escalation"
             }
           }
         ]
@@ -211,18 +211,20 @@
   },
   "active": "04c17dd92067aeb4",
   "lastOpenFiles": [
+    "Cloud/Google Cloud.md",
+    "Cloud/Google Cloud Privilege Escalation.md",
     "Cloud/Google Cloud Core Services Enumeration.md",
+    "Cloud/Google Cloud Metadata Extraction via Application Exploitation.md",
+    "Obsidian-Templates/Markdown.md",
     "Cloud/Identity and Access Management (IAM).md",
     "Cloud/Google Service Accounts.md",
-    "Cloud/Google Cloud.md",
+    "Cloud/Google Cloud Platform.md",
+    "Cloud/Cloud Identity.md",
+    "Cloud/gcloud.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
-    "Cloud/gcloud.md",
-    "Cloud/Google Cloud Platform.md",
     "⚠ Hierarchy of Resources.md",
     "Cloud/Google Workspace G-Suite.md",
-    "Cloud/Cloud Identity.md",
-    "Obsidian-Templates/Markdown.md",
     "Archite[[Google.md",
     "Pictures/gcp-IAMstructure.png",
     "Pictures/gcp-hierarchy.png",
@@ -238,8 +240,6 @@
     "Pictures/gcp-architecture.png",
     "Windows/Internal Phishing.md",
     "Command&Control/Mimikatz Kit Structure.md",
-    "Command&Control/Mimikatz Kit.md",
-    "Command&Control/Malleable In-Network Changes.md",
     "Cloud",
     "Pictures/simple_neural_network.png",
     "Pictures/dnspy.png",

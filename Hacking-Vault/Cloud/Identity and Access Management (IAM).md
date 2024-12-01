@@ -44,7 +44,7 @@ Each role has a list of permissions.
 - Long Term (GUI, CLI/SDK): you use username and password or json files to get into gmail or gsuite
 - Short Term (CLI, SDK,API): you use an access token to use the services provided
 
-The CLI access uses the [[gcloud]] binary to contact the cloud platform. 
+The CLI access uses the [[gcloud]] binary to contact the cloud platform. Gcloud can use json files to authenticate, they work as a certificate.
 
 
 
