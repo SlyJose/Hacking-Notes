@@ -15,6 +15,8 @@ If you land in a victim machine and wish to enumerate accounts, credentials, pro
 If you find multiple service accounts either in the system or you stole (an access token for example), you can either try to auth with that account:
 
 `gcloud auth activate-service-account --key-file authfile.json`
+==Make sure== you configure the project ID as well, otherwise you will get errors:
+`gcloud config set project [project ID]`
 
 Or, enumerate using a token:
 
@@ -35,9 +37,6 @@ As an attacker,  you want to enumerate each project completely and individually.
 
 -Check project policy
 `gcloud projects get-iam-policy [project id]`  - you will see the members that have access to certain roles in that resource (the project id). Also check the type of access they have (owner, edit, read)
-
--List projects:
-`gcloud projects list`     - it will show only the projects you have access to
 
 ###### Accounts
 
@@ -74,19 +73,21 @@ You will see the permissions on the project.
 
 -Check the roles a service account has on a project:
 ```
-gcloud projects get-iam-policy [project ID] --flatten="bindings[].members"
---filter="bindings.members=serviceaccount:[service account ID]" --format="value(bindings.role)"
+gcloud projects get-iam-policy [project ID] --flatten="bindings[].members" --filter="bindings.members=serviceaccount:[service account ID]" --format="value(bindings.role)"
 ```
+
+-Check the description of all the service accounts and find their associated roles:
+`gcloud projects get-iam-policy alert-nimbus-335411 --format="json" --access-token-file token.txt > roles.txt`
 
 ###### Assets
 Even if you only have viewer access in a project, always start checking of resources in the project like machines, DBs, containers, etc.
 
--Check for compute instances:
+-Check for **compute instances**:
 `gcloud compute instances list`
 
 Try to reach any instances either over the browser or scan it. Attempt any exploitation in them.
 
--Check for storage instances:
+-Check for **storage instances**:
 `gcloud storage ls`
 Or
 `gcloud storage ls --access-token-file [token auth file.txt]`  - if you have a token file for another account
@@ -100,6 +101,15 @@ Example:
 
 -Obtain a file from storage:
 `gcloud storage cp [storage resource url] . --access-token-file token.txt `
+
+==Always check the service accounts associated with new instances or resources you discover:==
+- For compute instances:
+`gcloud compute instances describe INSTANCE_NAME --zone=ZONE --format="get(serviceAccounts)"
+`
+-> Repeat enumeration if any new accounts are discovered
+
+-Check for **local files**:
+gcloud files location: `/home/user/.config/gcloud`
 
 #### 🚀 - Local CLI Enumeration - Automated
 

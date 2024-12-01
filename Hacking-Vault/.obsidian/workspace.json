@@ -6,7 +6,7 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 62.890094979647216,
+        "dimension": 39.41299790356394,
         "children": [
           {
             "id": "bfccb12a701f870e",
@@ -14,20 +14,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Google Cloud Privilege Escalation.md",
+                "file": "MCRTA-GCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Google Cloud Privilege Escalation"
+              "title": "MCRTA-GCP"
+            }
+          },
+          {
+            "id": "80f83eb7c1883481",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Google Cloud.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f188ff6ad543e81c",
         "type": "tabs",
-        "dimension": 37.10990502035278,
+        "dimension": 60.58700209643606,
         "children": [
           {
             "id": "74726baba845212f",
@@ -35,7 +50,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Cloud/Google Cloud Privilege Escalation.md",
+                "file": "Cloud/Google Cloud Core Services Enumeration.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -63,10 +78,53 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Google Cloud Privilege Escalation"
+              "title": "Graph of Google Cloud Core Services Enumeration"
+            }
+          },
+          {
+            "id": "a87a9e86de4807fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Google Cloud Core Services Enumeration.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Core Services Enumeration"
+            }
+          },
+          {
+            "id": "56fdabf9bdd9eafb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Google Cloud Metadata Extraction via Application Exploitation.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Metadata Extraction via Application Exploitation"
+            }
+          },
+          {
+            "id": "0c63a755190446b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Google Cloud Platform.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Google Cloud Platform"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,17 +267,18 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "04c17dd92067aeb4",
+  "active": "a87a9e86de4807fa",
   "lastOpenFiles": [
     "Cloud/Google Cloud.md",
-    "Cloud/Google Cloud Privilege Escalation.md",
+    "MCRTA-GCP.md",
     "Cloud/Google Cloud Core Services Enumeration.md",
     "Cloud/Google Cloud Metadata Extraction via Application Exploitation.md",
-    "Obsidian-Templates/Markdown.md",
-    "Cloud/Identity and Access Management (IAM).md",
-    "Cloud/Google Service Accounts.md",
     "Cloud/Google Cloud Platform.md",
     "Cloud/Cloud Identity.md",
+    "Cloud/Google Service Accounts.md",
+    "Cloud/Google Cloud Privilege Escalation.md",
+    "Obsidian-Templates/Markdown.md",
+    "Cloud/Identity and Access Management (IAM).md",
     "Cloud/gcloud.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
@@ -239,7 +298,6 @@
     "Windows/Actions on Objectives.md",
     "Pictures/gcp-architecture.png",
     "Windows/Internal Phishing.md",
-    "Command&Control/Mimikatz Kit Structure.md",
     "Cloud",
     "Pictures/simple_neural_network.png",
     "Pictures/dnspy.png",
