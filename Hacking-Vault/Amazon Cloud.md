@@ -9,9 +9,10 @@ Main components of Amazon Cloud:
 
 #### 🚀 [[AWS Authentication]]
 
+---
 
 #### ❗Attacking Amazon Cloud
----
+
 Configure a user compromised credential:
 `aws configure --profile [profile name]`
 
@@ -20,7 +21,8 @@ Configure a user compromised credential:
 
 
 
----
+
+
 
 ### Properties
 ---
