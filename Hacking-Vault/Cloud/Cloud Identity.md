@@ -5,7 +5,7 @@ It can be configured to use other providers such as [[Active Directory]] or [[Az
 
 API: https://cloudidentity.googleapis.com 
 
-#### 📔 [[Identity and Access Management (IAM)]]
+#### 📔 [[Google Identity and Access Management (IAM)]]
 
 
 ### Properties

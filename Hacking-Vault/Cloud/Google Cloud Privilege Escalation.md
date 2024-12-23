@@ -12,7 +12,7 @@ Another tool:
 
 ⚠ IAM Configurations
 
-Exploit identified misconfigured [[Identity and Access Management (IAM)]] permissions for privilege escalation.
+Exploit identified misconfigured [[Google Identity and Access Management (IAM)]] permissions for privilege escalation.
 
 `python3 ExploitScripts/iam.roles.update.py`
 

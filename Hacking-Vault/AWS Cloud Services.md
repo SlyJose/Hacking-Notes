@@ -1,5 +1,7 @@
 
-Description of Topic/Concept/Tool/Technology goes here
+Overview of the services:
+
+![[aws-services.png]]
 
 #### 🖊️ A
 
@@ -17,7 +19,7 @@ Description of Topic/Concept/Tool/Technology goes here
 
 ### Properties
 ---
-📆 created   {{date}} {{time}}
+📆 created   {{15-12-2024}} 10:59
 🏷️ tags: #cloud #aws 
 
 ---
