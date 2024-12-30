@@ -18,7 +18,7 @@ Description of Topic/Concept/Tool/Technology goes here
 ### Properties
 ---
 📆 created   {{date}} {{time}}
-🏷️ tags: #cloud #aws 
+🏷️ tags: #cloud #azure 
 
 ---
 

@@ -31,6 +31,6 @@
 ### Properties
 ---
 📆 created   {{date}} {{time}}
-🏷️ tags: #cloud #aws 
+🏷️ tags: #cloud #azure 
 
 ---

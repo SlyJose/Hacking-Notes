@@ -12,9 +12,14 @@ Profiles are usually used when you have multiple credentials.
 
 Programmatic Access ( Access Key ID + Access Key Secret + Session Token )
 
-`aws configure`
-
-You will be guided into entering all the required credentials.
+Go to your ~/.aws folder and open the "credentials" file, write down the credentials like this:
+```
+[default]
+[new-profile-name]
+aws_access_key_id = ASIAUI7PQBNFXFGHTQ67
+aws_secret_access_key = Bps0OxO8w1kLAKRS/ECvbYsAipQkIQzsPmqQ6gaU
+aws_session_token = IQoJb3JpZ2luX2[...]
+```
 
 --- 
 
