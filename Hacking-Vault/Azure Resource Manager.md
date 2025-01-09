@@ -18,10 +18,6 @@ Azure handles authorization and permissions using [[Azure RBAC]]
 ####  📗 C
 
 
-#### ⚠ Opsec
-
-
-
 
 ### Properties
 ---

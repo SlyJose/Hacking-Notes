@@ -8,9 +8,9 @@ It has mainly three components:
 ![[azure-elements.png]]
 
 
-#### 🖊️ Cloud Space
+#### 🖊️ [[Azure Cloud Authentication Methods]]
 
-The following graph explains how to access and manage the Azure services in the cloud space:
+Here you can see both Cloud and User spaces, and how users can access the cloud space:
 
 ![[azure-cloudspace.png]]
 
@@ -20,10 +20,14 @@ Each of these spaces manages certain areas like identity ([[Azure Active Directo
 
 ![[azure-cloudservices.png]]
 
-####  📗 C
+####  📗 Attacking Azure
 
+[[Azure Enumeration]]
 
+#### 📦 - Red Team Operations
+--- 
 
+[[Azured Red Team Operations]]
 
 
 ### Properties

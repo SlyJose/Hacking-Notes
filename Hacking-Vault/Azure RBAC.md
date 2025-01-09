@@ -13,7 +13,8 @@ Process of attaching a user, group, [[Service Principal]], or managed identity (
 2. [[Scope]]  
 3. [[Roles Definition]]
 
-All assignments can be done throught the API:
+All assignments are inhered.
+All assignments can be done through the API:
 
 ```
 {HTTP method} https://management.azure.com/{version}/{resource}?{query-parameters}

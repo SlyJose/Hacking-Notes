@@ -1,19 +1,38 @@
 
 Office 365 is a cloud-based suite of productivity & collaboration apps.
 
-#### 🖊️ A
+#### 🖊️ Enterprise Applications
 
+Some of the applications are:
 
-#### 📔 B
+- Exchange Online
+- Sharepoint Online
+- Outlook
+- One Drive
+- Skype
+- Teams
+- Intune
 
+#### 📔 Access
 
-####  📗 C
+- Admin portal: has all the configurations for the applications.
 
+`https://admin.microsoft.com`
 
-#### ⚠ Opsec
+API communications:
+`{HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}`
 
+- User portal: access the application assigned to you. Either productive or personal.
 
+`https://portal.microsoft.com`
 
+API Communications:
+`{HTTP method} https://*.office.com/{version}/{resource}?{query-parameters}`
+
+Microsoft Graph API:
+```
+{HTTP method} https://graph.microsoft.com/{version}/{resource}?{query-parameters}
+```
 
 ### Properties
 ---

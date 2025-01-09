@@ -6,7 +6,6 @@
       {
         "id": "43f8877d88713b35",
         "type": "tabs",
-        "dimension": 69.33701657458563,
         "children": [
           {
             "id": "bfccb12a701f870e",
@@ -28,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure RBAC.md",
+                "file": "Azured Red Team Operations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Azure RBAC"
+              "title": "Azured Red Team Operations"
             }
           },
           {
@@ -80,50 +79,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "f188ff6ad543e81c",
-        "type": "tabs",
-        "dimension": 30.662983425414364,
-        "children": [
-          {
-            "id": "74726baba845212f",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Azure RBAC.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of Azure RBAC"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -269,12 +224,24 @@
   },
   "active": "e59f1acb9b3148db",
   "lastOpenFiles": [
-    "Azure Resource Manager.md",
     "Azure.md",
+    "Azure Enumeration.md",
+    "Azure Resource Manager Enumeration.md",
+    "Azure Entra ID Enumeration.md",
+    "Azured Red Team Operations.md",
+    "Azure Authentication via CLI.md",
+    "Azure Authentication via browser.md",
+    "Azure Cloud Authentication Methods.md",
+    "Cloud/Amazon Cloud.md",
+    "Office 365.md",
+    "Azure RBAC.md",
+    "Azure Short Term Credentials.md",
+    "Azure Long Term Credentials.md",
+    "Pictures/azure-authmethods.png",
+    "Azure Resource Manager.md",
     "Azure AD.md",
     "Entra ID Objects.md",
     "Service Principal.md",
-    "Azure RBAC.md",
     "Security Principal.md",
     "Roles Definition.md",
     "Scope.md",
@@ -287,24 +254,12 @@
     "Pictures/azure-adapplications.png",
     "Pictures/azure-cloudservices.png",
     "Pictures/azure-cloudspace.png",
-    "Office 365.md",
     "Pictures/azure-elements.png",
-    "Cloud/Amazon Cloud.md",
     "Obsidian-Templates/Markdown.md",
     "Obsidian-Templates/ConceptNote-Template.md",
     "Obsidian-Templates/ContentNote-Template.md",
     "Cloud/AWS Cloud Core Services Enumeration.md",
-    "Cloud/AWS IAM Policies.md",
-    "Cloud/AWS CLI.md",
-    "Cloud/AWS CLI Authentication.md",
-    "Cloud/AWS Authentication.md",
-    "Cloud/AWS Cloud EC2 Instance Enumeration.md",
-    "Cloud/EC2 Instance Manual Enumeration.md",
-    "Cloud/AWS Exploitation of SSRF or RCE.md",
-    "Cloud/EC2 Instance Automated Enumeration.md",
-    "Cloud/Pacu.md",
     "Pictures/aws-authentication.png",
-    "Pictures/aws-roles-structure.png",
     "Cloud",
     "Untitled.canvas",
     "HTTP",
