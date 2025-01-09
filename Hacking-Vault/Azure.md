@@ -22,12 +22,7 @@ Each of these spaces manages certain areas like identity ([[Azure Active Directo
 
 ####  📗 Attacking Azure
 
-[[Azure Enumeration]]
-
-#### 📦 - Red Team Operations
---- 
-
-[[Azured Red Team Operations]]
+[[Azure Red Team Operations]]
 
 
 ### Properties

@@ -1,6 +1,9 @@
 
 ##### **Manual Enumeration**
 
+Check for any logged in accounts in your attacker machine
+`az account list`
+
 1) Log in with obtained credentials:
 `az login`
 
@@ -43,6 +46,8 @@ So for example you may see a Security Principal with a Owner role assigned to an
 11) List of roles assigned to an identity (user, service principal, identity)
 `az role assignment list --assignee ObjectID/Sign-InEmail/ServicePrincipal --all`
 
+Check for the "roleDefinitionName" that is your permission over the "scope" which is the object.
+
 Now that you've narrowed down the interesting roles, you can check their details:
 
 11) Check all the assigned roles
@@ -53,6 +58,15 @@ Now that you've narrowed down the interesting roles, you can check their details
 
 13) Also check for custom roles with assigned permissions:
 `az role definition list --custom-role-only`
+
+==Virtual Instances==
+
+Check all the VM instances your user may access:
+`az vm list`
+
+More details on them:
+`az vm list-ip-addresses --name prod-vm --resource-group PROD-RG`
+
 
 
 
