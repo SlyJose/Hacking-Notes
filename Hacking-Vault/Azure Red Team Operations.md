@@ -20,13 +20,6 @@ Now recheck the account worked with `az account list`
 
 
 
-`PS> `
-`PS> `
-`PS> `
-1. A
-2. B
-3. C
-
 ---
 #### 📦 - B
 --- 

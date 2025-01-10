@@ -27,7 +27,12 @@ Or, you can ingest your credentials in the command:
 ---
 Used in Windows, this tool also allows you to connect:
 
-`> Connect-AzAccount`
+Install the module:
+`> Install-Module Az
+`> Import-Module Az
+
+Now, log into the account with an access token:
+`PS> Connect-AzAccount -AccessToken $token -AccountId [Subscription ID]`
 
 Or, use your [[Service Principal]]:
 

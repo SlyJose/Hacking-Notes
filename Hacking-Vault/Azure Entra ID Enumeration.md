@@ -65,7 +65,8 @@ Applications have two types of permissions, the ones assigned to the app (Role) 
 Any "Scope" tags are for delegated permissions, and any "Role" tags are for application permissions.
 
 - Check the details of a delegation permission:
-`$app= Get-MgApplication -ApplicationId [ApplicationObjectID] $app.Oauth2RequirePostResponse | ConvertTo-Json`
+`$app= Get-MgApplication -ApplicationId [ApplicationObjectID] `
+`$app.Oauth2RequirePostResponse | ConvertTo-Json`
 
 - Now, check the details of a the role permission (you can also use it for delegation permission):
 `$res=Get-MgServicePrincipal -Filter "DisplayName eq 'Microsoft Graph'"`

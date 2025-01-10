@@ -15,6 +15,8 @@ This payload can retrieve metadata of the endpoint, and obtain an authentication
 You can further expand your knowledge on the token using this site:
 https://jwt.io/
 It will break down the information about it.
+You can obtain the subscription ID from the token, it could be like this:
+"/subscriptions/[value of the subscription ID]/"
 
 Once you are logged in with the token, you can check the role assignment of a managed identity attached to the VM:
 
