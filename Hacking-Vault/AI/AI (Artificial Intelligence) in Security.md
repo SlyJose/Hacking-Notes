@@ -31,6 +31,6 @@ Systems that simulate intelligent behavior—often unpredictably—based on lear
 ### Properties
 ---
 📆 created   {{12-08-2025}} 14:47
-🏷️ tags: #cloud #azure 
+🏷️ tags: #offensiveaisecurity  #ai  
 
 ---

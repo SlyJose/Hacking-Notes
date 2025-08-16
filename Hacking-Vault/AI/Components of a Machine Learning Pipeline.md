@@ -7,7 +7,7 @@ These components are part of [[ML (Machine Learning) in Security]] and can be at
 | **[[Feature Engineering]]** | Sensitive features may leak private data      | Feature inference                            |
 | **[[Model Training]]**      | Training code or libraries can be compromised | Supply chain attack, backdoor injection      |
 | **[[Model Evaluation]]**    | Evaluation on synthetic metrics can be gamed  | Metric manipulation                          |
-| **[[Inference]]**           | Inference APIs become the attack interface    | Model extraction, prompt injection           |
+| **[[Inference]]**           | Inference APIs become the attack interface    | Model extraction, [[Prompt Injection]]       |
 
 > **Example**: If an adversary can inject mislabeled data into a spam detection training set, they could train the model to misclassify phishing emails as benign.
 
