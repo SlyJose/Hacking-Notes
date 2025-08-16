@@ -1,6 +1,8 @@
 
 Process injection allows us to inject arbitrary shellcode into a process of our choosing.  You can only inject into processes that you can obtain a handle to with enough privileges to write into its memory.  In a non-elevated context, which usually limits you to your own processes.  In an elevated context, this includes processes owned by other users.
 
+Check [[Executing a Beacon vs Process Injection]] for a clear distinction between the two.
+
 ## 🖊️ via Cobalt Strike
 
 Beacon has two main injection commands - `shinject` and `inject`.

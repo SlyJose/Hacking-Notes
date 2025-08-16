@@ -1,5 +1,5 @@
 
-If we would manually wanted to call Windows APIs, the calls would look something like this:
+If we would manually wanted to do [[Windows API Calls]], the calls would look something like this:
 
 `DECLSPEC_IMPORT INT WINAPI USER32$MessageBoxA(HWND, LPCSTR, LPCSTR, UINT);`
 

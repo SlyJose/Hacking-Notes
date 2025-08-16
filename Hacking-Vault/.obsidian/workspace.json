@@ -6,7 +6,7 @@
       {
         "id": "e51841fb682835df",
         "type": "tabs",
-        "dimension": 78.83110906580764,
+        "dimension": 71.88649500788229,
         "children": [
           {
             "id": "df001a352ea9ce36",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md",
+                "file": "Process Memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cobalt Strike"
+              "title": "Process Memory"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "b2dc4fe2eb4dfb5e",
         "type": "tabs",
-        "dimension": 21.168890934192362,
+        "dimension": 28.11350499211771,
         "children": [
           {
             "id": "cb6b21720f4ae796",
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Command&Control/Cobalt Strike.md",
+                "file": "Process Memory.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -63,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cobalt Strike"
+              "title": "Graph of Process Memory"
             }
           }
         ]
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5110321044922
+    "width": 270.5124969482422
   },
   "right": {
     "id": "e9db7edc22470148",
@@ -214,43 +214,43 @@
   },
   "active": "df001a352ea9ce36",
   "lastOpenFiles": [
+    "Executing a Beacon vs Process Injection.md",
+    "Windows/Process Injection.md",
+    "Process Memory.md",
+    "Command&Control/Beacon.md",
+    "Windows/Spawn & Inject.md",
+    "Processes.md",
+    "Pictures/Process Memory.png",
+    "Process Threads.md",
+    "Windows API Calls.md",
+    "Pictures/Processes Windows APIs.png",
+    "Obsidian-Templates/ConceptNote-Template-CRTO.md",
+    "Command&Control/BOF Calling Windows APIs.md",
+    "Malware Essentials.md",
+    "PE File Structure.md",
+    "PE Sections.md",
+    "NT Headers.md",
+    "Pictures/PE Sections.png",
+    "Pictures/Optional Header.png",
+    "Pictures/File Header.png",
+    "DOS Stub.md",
+    "Pictures/DOS Stub.png",
+    "DOS Header.md",
+    "Pictures/DOS Header.png",
+    "Pictures/PE Structure.svg.png",
+    "Command&Control/Build the Artifact Kit.md",
+    "Obsidian-Templates/Content Note-Template-CRTO.md",
+    "Obsidian-Templates/Content Note-Template.md",
+    "Obsidian-Templates/ConceptNote-Template.md",
+    "Command&Control/Cobalt Strike.md",
     "AI Red Team Lab.md",
     "Cloud/AWS IAM.md",
     "Pictures/AI Red Team Lab Topology.png",
     "Foundations of Offensive AI Security.md",
     "AI Red Team Lab - Components.md",
     "Offensive AI Security.md",
-    "AI Red Team.md",
-    "Tools for AI Red Team Operations.md",
-    "Gauntlet.md",
-    "Adversarial ML Techniques for Offensive Operations.md",
-    "BackdoorBox.md",
-    "PromptInject, Gauntlet.md",
-    "MCP in Red Teaming.md",
-    "Traditional vs AI Attack Surfaces.md",
-    "Attack Surface of AI.md",
-    "OWASP Top 10 for LLMs.md",
-    "MITRE ATLAS.md",
-    "AI/LLM Entry Points.md",
-    "Targeting the Model.md",
-    "The Attack Life cycle in ML Context.md",
-    "ector Clustering Attacks.md",
-    "AI Attack Vectors.md",
-    "Adversarial Machine Learning AML.md",
-    "AML Backdooring.md",
-    "AML Extraction.md",
-    "AML Inference.md",
-    "AML Poisoning.md",
     "AI/Offensive AI Security",
     "Pictures/azure-authmethods.png",
-    "Pictures/azure-roledefinition.png",
-    "Pictures/azure-roleassignment.png",
-    "Pictures/azure-resourcehierarchy.png",
-    "Pictures/azure-adobjects.png",
-    "Pictures/azure-adapplications.png",
-    "Pictures/azure-cloudservices.png",
-    "Pictures/azure-cloudspace.png",
-    "Pictures/azure-elements.png",
     "Cloud",
     "Untitled.canvas",
     "HTTP",
