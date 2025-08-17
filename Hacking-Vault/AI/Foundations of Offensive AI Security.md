@@ -1,14 +1,12 @@
 
 Let's see all the core aspects of AI in Offensive Security.
 
-#### 🖊️[[AI and ML from an Adversarial Perspective]]
-#### 📔[[Attack Surface of AI]]
-####  📗[[Adversarial ML Techniques for Offensive Operations]]
-#### 🖊️[[AI Red Team]]
-#### 📔 [[AI Red Team Lab]]
-
-
-#### ⚠ Opsec
+Checking AI and ML from an attacker's perspective: 🖊️[[AI and ML from an Adversarial Perspective]]
+What are the vulnerable areas of AI?: 📔[[Attack Surface of AI]]
+Attacker techniques against ML:  📗[[Adversarial ML Techniques for Offensive Operations]]
+What is an AI Red Team: 🖊️[[AI Red Team]]
+What are the components of an: 📔 [[AI Red Team Lab]]
+What is the MCP Protocol?: [[MCP]]
 
 
 

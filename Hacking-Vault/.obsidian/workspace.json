@@ -6,7 +6,7 @@
       {
         "id": "e51841fb682835df",
         "type": "tabs",
-        "dimension": 71.88649500788229,
+        "dimension": 59.984338292873915,
         "children": [
           {
             "id": "df001a352ea9ce36",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Process Memory.md",
+                "file": "Command&Control/Cyberkill Chain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process Memory"
+              "title": "Cyberkill Chain"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "b2dc4fe2eb4dfb5e",
         "type": "tabs",
-        "dimension": 28.11350499211771,
+        "dimension": 40.01566170712608,
         "children": [
           {
             "id": "cb6b21720f4ae796",
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Process Memory.md",
+                "file": "Command&Control/Cyberkill Chain.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -58,12 +58,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.3439163793441222,
+                  "scale": 0.8959442528960815,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Process Memory"
+              "title": "Graph of Cyberkill Chain"
             }
           }
         ]
@@ -214,41 +214,41 @@
   },
   "active": "df001a352ea9ce36",
   "lastOpenFiles": [
-    "Executing a Beacon vs Process Injection.md",
-    "Windows/Process Injection.md",
-    "Process Memory.md",
-    "Command&Control/Beacon.md",
-    "Windows/Spawn & Inject.md",
-    "Processes.md",
+    "AI Weaponization.md",
+    "AI/The Attack Life cycle in ML Context.md",
+    "Command&Control/Cyberkill Chain.md",
+    "AI/Offensive AI Security.md",
+    "AI/Foundations of Offensive AI Security.md",
+    "Windows/Exploitation.md",
+    "Windows/Reconnaissance.md",
+    "AI/AI Red Team.md",
+    "AI/MCP in Red Teaming.md",
+    "MCP.md",
+    "AI/OWASP Top 10 for LLMs.md",
+    "[[OWASP.md",
+    "().md",
+    "AI/MITRE ATLAS.md",
+    "Overreliance.md",
+    "Model Theft.md",
+    "Excessive Agency.md",
+    "Insecure Plugin Design.md",
+    "Sensitive Information Disclosure.md",
+    "Supply Chain Vulnerabilities.md",
+    "Model Denial of Service.md",
+    "Training Data Poisoning.md",
+    "Insecure Output Handling.md",
+    "Prompt Injection.md",
+    "AI/Adversarial ML Techniques for Offensive Operations.md",
+    "AI/AI Red Team Lab.md",
     "Pictures/Process Memory.png",
-    "Process Threads.md",
-    "Windows API Calls.md",
     "Pictures/Processes Windows APIs.png",
-    "Obsidian-Templates/ConceptNote-Template-CRTO.md",
-    "Command&Control/BOF Calling Windows APIs.md",
-    "Malware Essentials.md",
-    "PE File Structure.md",
-    "PE Sections.md",
-    "NT Headers.md",
     "Pictures/PE Sections.png",
     "Pictures/Optional Header.png",
     "Pictures/File Header.png",
-    "DOS Stub.md",
     "Pictures/DOS Stub.png",
-    "DOS Header.md",
     "Pictures/DOS Header.png",
     "Pictures/PE Structure.svg.png",
-    "Command&Control/Build the Artifact Kit.md",
-    "Obsidian-Templates/Content Note-Template-CRTO.md",
-    "Obsidian-Templates/Content Note-Template.md",
-    "Obsidian-Templates/ConceptNote-Template.md",
-    "Command&Control/Cobalt Strike.md",
-    "AI Red Team Lab.md",
-    "Cloud/AWS IAM.md",
     "Pictures/AI Red Team Lab Topology.png",
-    "Foundations of Offensive AI Security.md",
-    "AI Red Team Lab - Components.md",
-    "Offensive AI Security.md",
     "AI/Offensive AI Security",
     "Pictures/azure-authmethods.png",
     "Cloud",

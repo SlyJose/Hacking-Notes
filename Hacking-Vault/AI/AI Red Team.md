@@ -38,17 +38,21 @@
 
 
 #### 📔  Categories of AI Red Team Tests
-|Category|Example Techniques|
-|---|---|
-|**Prompt Engineering Abuse**|Indirect prompt injection, persona switching|
-|**Data Supply Chain Attacks**|Dataset poisoning, model pretraining corruption|
-|**Inference API Exploits**|Extraction, over-query, rate abuse|
-|**Access Control Failures**|Plugin misuse, sandbox breakout|
-|**Misalignment Detection**|Covert goal changes, contradictory outputs|
+| Category                      | Example Techniques                              |
+| ----------------------------- | ----------------------------------------------- |
+| **Prompt Engineering Abuse**  | Indirect prompt injection, persona switching    |
+| **Data Supply Chain Attacks** | Dataset poisoning, model pretraining corruption |
+| **Inference API Exploits**    | Extraction, over-query, rate abuse              |
+| **Access Control Failures**   | Plugin misuse, sandbox breakout                 |
+| **Misalignment Detection**    | Covert goal changes, contradictory outputs      |
 
 #### 🖊️ [[MCP in Red Teaming]]
 
 #### ⚠ [[Tools for AI Red Team Operations]]
+
+
+
+
 ### Properties
 ---
 📆 created   {{15-08-2025}} 20:29

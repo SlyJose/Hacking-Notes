@@ -1,7 +1,12 @@
 
+Basic concepts and theory:
 #### 🖊️ [[Foundations of Offensive AI Security]]
 
-#### 📔 B
+How AI Red Team maps to the Cyber Kill Chain:
+#### 📔 [[Cyberkill Chain#📜 AI Red Team Phases]]
+
+
+
 
 ####  📗 C
 

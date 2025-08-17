@@ -2,7 +2,7 @@
 | System Type         | Entry Points                                                               | Threat Model                                                                                  |
 | ------------------- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | Traditional Web App | Input forms, APIs, auth, DB, JS logic                                      | XSS, SQLi, IDOR, CSRF, RCE                                                                    |
-| AI-Augmented System | Prompt endpoints, plugin interfaces, toolchains, embeddings, training data | [[Prompt Injection]], [[Model Hijacking]], Tool Abuse, [[AI Data Poisoning]], [[Model Theft]] |
+| AI-Augmented System | Prompt endpoints, plugin interfaces, toolchains, embeddings, training data | [[Prompt Injection]], [[Model Hijacking]], Tool Abuse, [[Training Data Poisoning]], [[Model Theft]] |
 
 > AI systems amplify attack surfaces not only by adding more endpoints but also by introducing **non-deterministic behavior**, **emergent logic**, and **contextual memory vulnerabilities**.
 

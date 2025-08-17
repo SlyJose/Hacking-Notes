@@ -24,7 +24,7 @@ These are entry points that an adversary can target:
 - Vulnerable to _[[Rate-Based Extraction]]_, _[[Jailbreak-as-a-Service]]_, _[[Billing Abuse]]_
 #### 🖊️ - Training and Fine Tunning Pipelines
 - Data preprocessing, prompt datasets, labeling systems
-- Vulnerable to _[[AI Data Poisoning]]_, _[[AI Backdoor Injection]]_, _[[LoRA Vector Hijacking]]_
+- Vulnerable to _[[Training Data Poisoning]]_, _[[AI Backdoor Injection]]_, _[[LoRA Vector Hijacking]]_
 
 
 ### Properties
