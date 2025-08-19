@@ -1,14 +1,13 @@
 
-Basic concepts and theory:
+Basic concepts and theory: 
 #### 🖊️ [[Foundations of Offensive AI Security]]
 
-How AI Red Team maps to the Cyber Kill Chain:
+Attack phases, tools associated with each, types of models used for each phase:
 #### 📔 [[Cyberkill Chain#📜 AI Red Team Phases]]
 
+####  📗 [[AI Model Types]]
 
 
-
-####  📗 C
 
 #### ⚠ Opsec
 

@@ -9,11 +9,12 @@ Manipulating LLMs via crafted inputs can lead to unauthorized access, data breac
     - Indirect prompt injection via RAG source
     - Multi-turn conditioning
 
-#### 🚀 - A
+#### 🚀 - Tools
 ---
-1. A
-2. B
-3. C
+- LangChain
+- PromptLayer
+- FlowiseAI
+- LM Studio (for local experimentation)
 
 ---
 #### 📦 - B

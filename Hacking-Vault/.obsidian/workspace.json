@@ -6,7 +6,7 @@
       {
         "id": "e51841fb682835df",
         "type": "tabs",
-        "dimension": 59.984338292873915,
+        "dimension": 74.1568112133158,
         "children": [
           {
             "id": "df001a352ea9ce36",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Command&Control/Cyberkill Chain.md",
+                "file": "AI/Offensive AI Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cyberkill Chain"
+              "title": "Offensive AI Security"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "b2dc4fe2eb4dfb5e",
         "type": "tabs",
-        "dimension": 40.01566170712608,
+        "dimension": 25.843188786684184,
         "children": [
           {
             "id": "cb6b21720f4ae796",
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Command&Control/Cyberkill Chain.md",
+                "file": "AI/Offensive AI Security.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -63,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Cyberkill Chain"
+              "title": "Graph of Offensive AI Security"
             }
           }
         ]
@@ -98,10 +98,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Prompt Injection",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -119,7 +119,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,14 +215,23 @@
   },
   "active": "df001a352ea9ce36",
   "lastOpenFiles": [
-    "AI Weaponization.md",
-    "AI/The Attack Life cycle in ML Context.md",
-    "Command&Control/Cyberkill Chain.md",
-    "AI/Offensive AI Security.md",
     "AI/Foundations of Offensive AI Security.md",
+    "AI/AI Red Team.md",
+    "AI/AI Red Team Lab.md",
+    "Prompt Injection.md",
+    "AI Model Types.md",
+    "AI/Offensive AI Security.md",
+    "Command&Control/Cyberkill Chain.md",
+    "AI Actions on Objectives.md",
+    "AI Command and Control.md",
+    "AI Delivery.md",
+    "AI Weaponization.md",
+    "AI Reconnaissance.md",
+    "AI Installation.md",
+    "AI Exploitation.md",
+    "AI/The Attack Life cycle in ML Context.md",
     "Windows/Exploitation.md",
     "Windows/Reconnaissance.md",
-    "AI/AI Red Team.md",
     "AI/MCP in Red Teaming.md",
     "MCP.md",
     "AI/OWASP Top 10 for LLMs.md",
@@ -231,15 +241,6 @@
     "Overreliance.md",
     "Model Theft.md",
     "Excessive Agency.md",
-    "Insecure Plugin Design.md",
-    "Sensitive Information Disclosure.md",
-    "Supply Chain Vulnerabilities.md",
-    "Model Denial of Service.md",
-    "Training Data Poisoning.md",
-    "Insecure Output Handling.md",
-    "Prompt Injection.md",
-    "AI/Adversarial ML Techniques for Offensive Operations.md",
-    "AI/AI Red Team Lab.md",
     "Pictures/Process Memory.png",
     "Pictures/Processes Windows APIs.png",
     "Pictures/PE Sections.png",
