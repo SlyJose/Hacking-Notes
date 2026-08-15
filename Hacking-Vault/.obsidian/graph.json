@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#activedirectory  ",
+      "color": {
+        "a": 1,
+        "rgb": 784885
+      }
+    },
+    {
+      "query": "tag:#ai  ",
+      "color": {
+        "a": 1,
+        "rgb": 5562450
+      }
+    },
+    {
+      "query": "tag:#redteam",
+      "color": {
+        "a": 1,
+        "rgb": 15539485
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.13873223932666073,
+  "close": true
+}

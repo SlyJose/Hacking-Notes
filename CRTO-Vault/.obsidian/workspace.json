@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "6db0620ab6a31fc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "837b82dd75ed5bd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e52c243c3d649094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-MOCs/CRTO-Master-MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CRTO-Master-MOC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a8c7eab2416d919c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0699b4f0c2809ab1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d74c9ea9e37999a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4ebfe0c095b18425",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "392cecf61246bb85",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "72e41e0f76f95a1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e16644fea5737c1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "180f92400872a2e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-MOCs/CRTO-Master-MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3a1acd07f41be9f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-MOCs/CRTO-Master-MOC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "19f40366768ca112",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4d37edac8f923af3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "34139edddf78080a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-MOCs/CRTO-Master-MOC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e52c243c3d649094",
+  "lastOpenFiles": [
+    "02-Domains/Defense-Evasion-OPSEC/MOC.md",
+    "02-Domains/Credential-Access/Kerberoasting.md",
+    "CLAUDE.md",
+    "Welcome.md",
+    "99-Archive/README.md",
+    "00-Inbox/README.md",
+    "02-Domains/Initial-Access/README.md",
+    "02-Domains/Initial-Access/MOC.md",
+    "02-Domains/Initial-Access/HTA-Payload-Delivery.md",
+    "02-Domains/Domain-Recon/SharpHound-Collection.md",
+    "04-Flashcards/Credential-Access-Cards.md.tmp.16524.021c4568a3cb",
+    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md.tmp.16524.43ddb9abcdde",
+    "02-Domains/Forest-Trust-Abuse/SID-History-Abuse.md",
+    "02-Domains/Host-Persistence/Scheduled-Task-Persistence.md",
+    "02-Domains/Host-Persistence/MOC.md",
+    "02-Domains/Forest-Trust-Abuse/README.md",
+    "02-Domains/Forest-Trust-Abuse/MOC.md",
+    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md",
+    "02-Domains/Domain-Privilege-Escalation/Unconstrained-Delegation.md",
+    "02-Domains/Domain-Privilege-Escalation/MOC.md",
+    "03-Lab-Logs/_template.md",
+    "03-Lab-Logs/README.md",
+    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md.tmp.16524.ed6d33d98a09",
+    "04-Flashcards/Credential-Access-Cards.md",
+    "04-Flashcards/Credential-Access-Cards.md.tmp.16524.2a0abe415754",
+    "02-Domains/Data-Hunting-Exfiltration/File-Share-Enumeration.md",
+    "02-Domains/Data-Hunting-Exfiltration/File-Share-Enumeration.md.tmp.16524.db396c0462dd",
+    "02-Domains/Data-Hunting-Exfiltration/MOC.md",
+    "02-Domains/Data-Hunting-Exfiltration/MOC.md.tmp.16524.f21318edb769",
+    "02-Domains/Data-Hunting-Exfiltration/README.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Listeners.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Listeners.md.tmp.16524.cb77d3195c1d",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/MOC.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/README.md.tmp.16524.56b5e453b3d2",
+    "02-Domains/Defense-Evasion-OPSEC/AMSI-Bypass.md.tmp.16524.c3b914408fba",
+    "02-Domains/Defense-Evasion-OPSEC/MOC.md.tmp.16524.22f6dc1babcc"
+  ]
+}

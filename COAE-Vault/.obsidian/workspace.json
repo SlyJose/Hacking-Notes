@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "2d62679268a63551",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dc2ab92a63b5dd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e821b875f617cfa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a2aaaed1848583a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "82d724af3593f703",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "101bfaebaadd3572",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dfd4e82ba9840c34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4b8420a0d91ba9d5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a1942c19d47b4105",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b51dada1be338f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8c84aae194961f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4e554a6f0788f23b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5787ca2307aeb9ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "111a13740b9be7e4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c03c569d03adf6c5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2e821b875f617cfa",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "CLAUDE.md",
+    "99-Archive/README.md",
+    "06-Personal-Notes/README.md",
+    "05-Tools-Cheatsheets/README.md",
+    "05-Tools-Cheatsheets/PyTorch-Cheatsheet.md",
+    "05-Tools-Cheatsheets/Garak-Cheatsheet.md",
+    "05-Tools-Cheatsheets/ART-Cheatsheet.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md",
+    "04-Flashcards/AI-Data-Attacks-Cards.md",
+    "03-Lab-Logs/_template.md",
+    "03-Lab-Logs/README.md",
+    "00-Inbox/README.md",
+    "01-MOCs/README.md",
+    "01-MOCs/COAE-Master-MOC.md",
+    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Core-Concepts.md",
+    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md",
+    "02-Modules/Fundamentals-of-AI/Model-Evaluation-and-Generalization.md",
+    "02-Modules/Fundamentals-of-AI/ML-Learning-Paradigms.md",
+    "02-Modules/Fundamentals-of-AI/Linear-Regression.md",
+    "02-Modules/Fundamentals-of-AI/Deep-Learning-Fundamentals.md",
+    "02-Modules/Fundamentals-of-AI/AI-ML-DL-Relationship.md",
+    "02-Modules/Fundamentals-of-AI/README.md",
+    "02-Modules/Fundamentals-of-AI/MOC.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.04c1bafd7250",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.d1fe10362a41",
+    "02-Modules/Fundamentals-of-AI/Linear-Regression.md.tmp.6955.14713d6067c0",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.c000c01c96cf",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.e2b9e8a220a5",
+    "02-Modules/Fundamentals-of-AI/Model-Evaluation-and-Generalization.md.tmp.6955.fb1df7ddd403",
+    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Core-Concepts.md.tmp.6955.c1695d55e78f",
+    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md.tmp.6955.0f9d9f475646",
+    "02-Modules/AI-Data-Attacks/MOC.md",
+    "02-Modules/Fundamentals-of-AI/Supervised-vs-Unsupervised-Learning.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.01d7fab95b4b",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.40a8173b3e30"
+  ]
+}
