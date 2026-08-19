@@ -15,6 +15,9 @@ tags: [moc]
 - [[Supervised-Learning-Core-Concepts]] — training data, features, labels, model, prediction vs inference
 - [[Model-Evaluation-and-Generalization]] — accuracy/precision/recall/F1, overfitting, underfitting, cross-validation, regularization
 - [[Linear-Regression]] — simple/multiple linear regression, OLS, assumptions
+- [[Logistic-Regression]] — binary classification via sigmoid, decision boundary, threshold tuning
+- [[Decision-Trees]] — classification/regression via recursive feature splits; Gini, entropy, information gain
+- [[Naive-Bayes]] — probabilistic classifier via Bayes' theorem; Gaussian/Multinomial/Bernoulli variants
 
 ## Key Concepts
 

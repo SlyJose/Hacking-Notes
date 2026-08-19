@@ -11,10 +11,14 @@
             "id": "2e821b875f617cfa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02-Modules/Fundamentals-of-AI/ML-Learning-Paradigms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ML-Learning-Paradigms"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:supervised-learning",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 413.71875
   },
   "right": {
     "id": "a1942c19d47b4105",
@@ -186,6 +190,22 @@
   },
   "active": "2e821b875f617cfa",
   "lastOpenFiles": [
+    "02-Modules/Fundamentals-of-AI/Naive-Bayes.md",
+    "02-Modules/Fundamentals-of-AI/Decision-Trees.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6082.e385336fe825",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6082.5e677bea77a5",
+    "02-Modules/Fundamentals-of-AI/Naive-Bayes.md.tmp.6082.12f9fce10051",
+    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6082.d7a285a253ed",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6082.16bd2acd4aaa",
+    "02-Modules/Fundamentals-of-AI/Decision-Trees.md.tmp.6082.bb298722ce41",
+    "02-Modules/Fundamentals-of-AI/Logistic-Regression.md",
+    "02-Modules/Fundamentals-of-AI/Linear-Regression.md",
+    "02-Modules/Fundamentals-of-AI/MOC.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6082.6a840303387d",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6082.e06323ed56a3",
+    "02-Modules/Fundamentals-of-AI/Logistic-Regression.md.tmp.6082.3f122b14f05c",
     "Welcome.md",
     "CLAUDE.md",
     "99-Archive/README.md",
@@ -194,7 +214,6 @@
     "05-Tools-Cheatsheets/PyTorch-Cheatsheet.md",
     "05-Tools-Cheatsheets/Garak-Cheatsheet.md",
     "05-Tools-Cheatsheets/ART-Cheatsheet.md",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md",
     "04-Flashcards/AI-Data-Attacks-Cards.md",
     "03-Lab-Logs/_template.md",
     "03-Lab-Logs/README.md",
@@ -202,25 +221,9 @@
     "01-MOCs/README.md",
     "01-MOCs/COAE-Master-MOC.md",
     "02-Modules/Fundamentals-of-AI/Supervised-Learning-Core-Concepts.md",
-    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md",
     "02-Modules/Fundamentals-of-AI/Model-Evaluation-and-Generalization.md",
     "02-Modules/Fundamentals-of-AI/ML-Learning-Paradigms.md",
-    "02-Modules/Fundamentals-of-AI/Linear-Regression.md",
     "02-Modules/Fundamentals-of-AI/Deep-Learning-Fundamentals.md",
-    "02-Modules/Fundamentals-of-AI/AI-ML-DL-Relationship.md",
-    "02-Modules/Fundamentals-of-AI/README.md",
-    "02-Modules/Fundamentals-of-AI/MOC.md",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.04c1bafd7250",
-    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.d1fe10362a41",
-    "02-Modules/Fundamentals-of-AI/Linear-Regression.md.tmp.6955.14713d6067c0",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.c000c01c96cf",
-    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.e2b9e8a220a5",
-    "02-Modules/Fundamentals-of-AI/Model-Evaluation-and-Generalization.md.tmp.6955.fb1df7ddd403",
-    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Core-Concepts.md.tmp.6955.c1695d55e78f",
-    "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md.tmp.6955.0f9d9f475646",
-    "02-Modules/AI-Data-Attacks/MOC.md",
-    "02-Modules/Fundamentals-of-AI/Supervised-vs-Unsupervised-Learning.md",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.01d7fab95b4b",
-    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6955.40a8173b3e30"
+    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6955.04c1bafd7250"
   ]
 }

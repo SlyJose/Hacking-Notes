@@ -83,3 +83,63 @@ Linearity (linear relationship between predictors and target), Independence (obs
 What is homoscedasticity?::The variance of errors is constant across all levels of the predictor variables — the spread of residuals is roughly uniform across predicted values
 
 What is the Residual Sum of Squares (RSS)?::The sum of all squared residuals (differences between actual and predicted values) — the single value OLS aims to minimize
+
+What is logistic regression used for?::Binary classification — predicts which of two classes an input belongs to (0 or 1, spam or not spam)
+
+What is the sigmoid function and what does it output?::P(x) = 1 / (1 + e^-z). Maps any input to a value between 0 and 1, representing the probability of belonging to the positive class.
+
+What is `z` in the logistic regression sigmoid function?::The linear combination of features: z = m1·x1 + m2·x2 + ... + mn·xn + c — identical in form to the linear regression equation
+
+What is a decision boundary in logistic regression?::The threshold that separates classes. In 2D it's a line; in higher dimensions it's a hyperplane. Inputs above threshold → positive class, below → negative class.
+
+What is a hyperplane?::A flat subspace one dimension below the ambient space that acts as a decision boundary — a line in 2D, a flat plane in 3D, and the equivalent concept in higher dimensions
+
+What is the default classification threshold in logistic regression and how does adjusting it affect outcomes?
+?
+Default is 0.5. Raising it reduces false positives but increases false negatives (stricter). Lowering it catches more positives but increases false positives (permissive). Trade-off depends on cost of each error type.
+
+What are the four data assumptions of logistic regression?
+?
+(1) Binary outcome (only two classes), (2) Linearity of log-odds (linear relationship between features and log(p/1-p)), (3) No/little multicollinearity (correlated predictors distort coefficients), (4) Large sample size (needed for reliable parameter estimation).
+
+What is multicollinearity and why is it a problem for logistic regression?::When predictor variables are highly correlated with each other. Makes it hard to isolate the individual effect of each predictor, producing unstable and misleading coefficients.
+
+How does logistic regression differ from linear regression?
+?
+Linear regression outputs a continuous value using an identity function. Logistic regression outputs a probability [0,1] using the sigmoid function and makes class predictions via a threshold. Both share the same linear combination z as input.
+
+What are the three components of a decision tree?::Root node (full dataset, first split), Internal nodes (feature splits with branches), Leaf nodes (final class prediction or regression value)
+
+What does Gini impurity measure and what is its formula?
+?
+Probability of misclassifying a randomly chosen element. Lower = purer subset.
+Gini(S) = 1 - Σ(pi²), where pi is the proportion of class i in the set.
+
+What does entropy measure in the context of decision trees?::Disorder or uncertainty in a set. Lower entropy = more homogeneous. Formula: Entropy(S) = -Σ(pi · log2(pi))
+
+What is information gain and how is it used?::The reduction in entropy achieved by splitting on a feature. The feature with the highest information gain is chosen as the split point. Formula: InfoGain(S, A) = Entropy(S) - Σ((|Sv|/|S|) · Entropy(Sv))
+
+What are the three stopping criteria for growing a decision tree?::Maximum depth reached, minimum number of data points in a node, or all data points in a node belong to the same class (pure node)
+
+What data assumptions do decision trees require?::Minimal — no linearity assumption, no normality assumption, and relatively robust to outliers since splits are based on feature values not distance calculations
+
+How do decision trees differ from logistic regression in terms of assumptions?::Decision trees require no linearity assumption and handle non-linear feature relationships; logistic regression assumes a linear relationship between features and the log-odds of the outcome
+
+What is the "naive" assumption in Naive Bayes?::That all features are conditionally independent given the class label — i.e., the presence of one feature does not affect any other feature's probability, given the class
+
+Write Bayes' theorem and define each term.
+?
+P(A|B) = (P(B|A) * P(A)) / P(B)
+P(A|B) = posterior (probability of A given B), P(B|A) = likelihood, P(A) = prior, P(B) = evidence/normalizing constant
+
+What are the four steps of Naive Bayes classification?
+?
+(1) Calculate prior P(class) for each class. (2) Calculate likelihood P(feature|class) for each feature. (3) Compute posterior P(class|features) ∝ P(class) * Π P(feature_i|class). (4) Predict the class with the highest posterior.
+
+What are the three types of Naive Bayes and when is each used?
+?
+Gaussian — continuous features assumed normally distributed. Multinomial — discrete count features (e.g., word frequency in text). Bernoulli — binary features (e.g., word present/absent in document).
+
+Why can a highly accurate test still give a low posterior probability of disease?::Because the prior probability (disease prevalence) is very low. Bayes' theorem multiplies the likelihood by the prior — a rare event remains unlikely even after a positive test result.
+
+How does Naive Bayes compare to Logistic Regression for classification?::Both output class probabilities, but Naive Bayes assumes feature independence and is more efficient; logistic regression models feature interactions and assumes linearity of log-odds. Naive Bayes often wins on text data; logistic regression on structured data.

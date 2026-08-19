@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "837b82dd75ed5bd6",
+        "id": "64461f968ad06f8f",
         "type": "tabs",
         "children": [
           {
-            "id": "e52c243c3d649094",
+            "id": "4fd58014e7a18c15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-MOCs/CRTO-Master-MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CRTO-Master-MOC"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -79,11 +75,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 617.7109375
   },
   "right": {
     "id": "72e41e0f76f95a1c",
@@ -99,9 +96,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-MOCs/CRTO-Master-MOC.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -174,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,43 +184,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "e52c243c3d649094",
+  "active": "4fd58014e7a18c15",
   "lastOpenFiles": [
+    "02-Domains/Malware-Essentials/C2-Payload-Architecture.md",
+    "02-Domains/Malware-Essentials/MOC.md",
+    "04-Flashcards/Malware-Essentials-Cards.md",
+    "01-MOCs/CRTO-Master-MOC.md",
+    "02-Domains/Malware-Essentials/PInvoke-CSharp.md",
+    "02-Domains/Malware-Essentials/Process-Hollowing.md",
+    "01-MOCs/CRTO-Master-MOC.md.tmp.6491.ecb765ad7d70",
+    "04-Flashcards/Malware-Essentials-Cards.md.tmp.6491.4ea7a1b33d0a",
+    "02-Domains/Malware-Essentials/Process-Injection-Overview.md",
+    "02-Domains/Malware-Essentials/Thread-Hijacking.md",
+    "02-Domains/Malware-Essentials/Windows-Memory.md",
+    "02-Domains/Malware-Essentials/MOC.md.tmp.6491.9fbaabc5779f",
+    "02-Domains/Malware-Essentials/PInvoke-CSharp.md.tmp.6491.58db08c5cb61",
+    "02-Domains/Malware-Essentials/PE-File-Structure.md",
+    "02-Domains/Malware-Essentials/Classic-Process-Injection.md",
+    "04-Flashcards/Malware-Essentials-Cards.md.tmp.6491.c55f0d6d5aa2",
+    "02-Domains/Malware-Essentials/MOC.md.tmp.6491.c731298763f1",
+    "02-Domains/Malware-Essentials/Process-Hollowing.md.tmp.6491.071f4ddcd4e2",
+    "02-Domains/Malware-Essentials/APC-Injection.md",
+    "02-Domains/Malware-Essentials/APC-Injection.md.tmp.6491.a2339e345c16",
+    "02-Domains/Malware-Essentials/Thread-Hijacking.md.tmp.6491.47d96e485b09",
+    "02-Domains/Malware-Essentials/Classic-Process-Injection.md.tmp.6491.fb3df48a979f",
+    "02-Domains/Malware-Essentials/Access-Tokens-and-Privileges.md",
+    "02-Domains/Malware-Essentials/Windows-Processes-and-Threads.md",
+    "02-Domains/Malware-Essentials/assets/PE-structure.png",
+    "02-Domains/Malware-Essentials/assets/file header.png",
+    "02-Domains/Malware-Essentials/assets/emagic elfanew.png",
+    "02-Domains/Malware-Essentials/assets/dos stub.png",
+    "02-Domains/Malware-Essentials/assets/data directory.png",
+    "02-Domains/Red-Team-Fundamentals/Attack-Lifecycle.md",
+    "00-Inbox/data directory.png",
+    "00-Inbox/file header.png",
+    "00-Inbox/dos stub.png",
+    "00-Inbox/emagic elfanew.png",
+    "00-Inbox/PE-structure.png",
+    "02-Domains/Red-Team-Fundamentals/Red-Teaming-Overview.md",
+    "02-Domains/Red-Team-Fundamentals/MOC.md",
+    "02-Domains/Red-Team-Fundamentals/Engagement-Planning.md",
+    "04-Flashcards/Red-Team-Fundamentals-Cards.md",
+    "02-Domains/Red-Team-Fundamentals/Emulation-vs-Simulation.md",
+    "02-Domains/Red-Team-Fundamentals/TTPs-Framework.md",
     "02-Domains/Defense-Evasion-OPSEC/MOC.md",
     "02-Domains/Credential-Access/Kerberoasting.md",
     "CLAUDE.md",
-    "Welcome.md",
-    "99-Archive/README.md",
-    "00-Inbox/README.md",
-    "02-Domains/Initial-Access/README.md",
-    "02-Domains/Initial-Access/MOC.md",
-    "02-Domains/Initial-Access/HTA-Payload-Delivery.md",
-    "02-Domains/Domain-Recon/SharpHound-Collection.md",
-    "04-Flashcards/Credential-Access-Cards.md.tmp.16524.021c4568a3cb",
-    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md.tmp.16524.43ddb9abcdde",
-    "02-Domains/Forest-Trust-Abuse/SID-History-Abuse.md",
-    "02-Domains/Host-Persistence/Scheduled-Task-Persistence.md",
-    "02-Domains/Host-Persistence/MOC.md",
-    "02-Domains/Forest-Trust-Abuse/README.md",
-    "02-Domains/Forest-Trust-Abuse/MOC.md",
-    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md",
-    "02-Domains/Domain-Privilege-Escalation/Unconstrained-Delegation.md",
-    "02-Domains/Domain-Privilege-Escalation/MOC.md",
-    "03-Lab-Logs/_template.md",
-    "03-Lab-Logs/README.md",
-    "05-Tools-Cheatsheets/Rubeus-Cheatsheet.md.tmp.16524.ed6d33d98a09",
-    "04-Flashcards/Credential-Access-Cards.md",
-    "04-Flashcards/Credential-Access-Cards.md.tmp.16524.2a0abe415754",
-    "02-Domains/Data-Hunting-Exfiltration/File-Share-Enumeration.md",
-    "02-Domains/Data-Hunting-Exfiltration/File-Share-Enumeration.md.tmp.16524.db396c0462dd",
-    "02-Domains/Data-Hunting-Exfiltration/MOC.md",
-    "02-Domains/Data-Hunting-Exfiltration/MOC.md.tmp.16524.f21318edb769",
-    "02-Domains/Data-Hunting-Exfiltration/README.md",
-    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Listeners.md",
-    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Listeners.md.tmp.16524.cb77d3195c1d",
-    "02-Domains/C2-Infrastructure-Cobalt-Strike/MOC.md",
-    "02-Domains/C2-Infrastructure-Cobalt-Strike/README.md.tmp.16524.56b5e453b3d2",
-    "02-Domains/Defense-Evasion-OPSEC/AMSI-Bypass.md.tmp.16524.c3b914408fba",
-    "02-Domains/Defense-Evasion-OPSEC/MOC.md.tmp.16524.22f6dc1babcc"
+    "Welcome.md"
   ]
 }
