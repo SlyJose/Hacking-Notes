@@ -22,7 +22,7 @@ Central index for all CRTO domains. Each link goes to the domain-level MOC insid
 | 12  | Domain Dominance                  | [[02-Domains/Domain-Dominance/MOC\|Domain Dominance MOC]]           | 🔴 Not started |
 | 13  | Forest & Trust Abuse              | [[02-Domains/Forest-Trust-Abuse/MOC\|Forest Trust MOC]]             | 🔴 Not started |
 | 14  | Defense Evasion & OPSEC           | [[02-Domains/Defense-Evasion-OPSEC/MOC\|Defense Evasion MOC]]       | 🔴 Not started |
-| 15  | C2 Infrastructure & Cobalt Strike | [[02-Domains/C2-Infrastructure-Cobalt-Strike/MOC\|C2 MOC]]          | 🔴 Not started |
+| 15  | C2 Infrastructure & Cobalt Strike | [[02-Domains/C2-Infrastructure-Cobalt-Strike/MOC\|C2 MOC]]          | 🟡 In progress |
 | 16  | Data Hunting & Exfiltration       | [[02-Domains/Data-Hunting-Exfiltration/MOC\|Data Hunting MOC]]      | 🔴 Not started |
 
 ## Coverage Legend

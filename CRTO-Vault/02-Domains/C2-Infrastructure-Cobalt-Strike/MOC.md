@@ -7,7 +7,10 @@ tags: [moc]
 
 ## Techniques
 
+- [[Cobalt-Strike-Overview]]
 - [[Beacon-Listeners]]
+- [[Beacon-Payloads]]
+- [[Interacting-with-Beacon]]
 
 ## Detection & OPSEC Notes
 
