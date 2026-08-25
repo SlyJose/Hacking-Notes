@@ -7,6 +7,9 @@ tags: [moc]
 
 ## Techniques
 
+- [[Defense-Evasion-Overview]]
+- [[Artifact-Kit]]
+- [[Resource-Kit]]
 - [[AMSI-Bypass]]
 
 ## Detection & OPSEC Notes

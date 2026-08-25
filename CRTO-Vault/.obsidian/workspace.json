@@ -11,10 +11,14 @@
             "id": "4fd58014e7a18c15",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02-Domains/Defense-Evasion-OPSEC/Resource-Kit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resource-Kit"
             }
           }
         ]
@@ -75,8 +79,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,50 +189,51 @@
   },
   "active": "4fd58014e7a18c15",
   "lastOpenFiles": [
+    "02-Domains/Defense-Evasion-OPSEC/Resource-Kit.md.tmp.7937.ab3f5651ad6c",
+    "02-Domains/Defense-Evasion-OPSEC/Artifact-Kit.md.tmp.7937.cbc4543a1eb8",
+    "02-Domains/Defense-Evasion-OPSEC/Artifact-Kit.md",
+    "02-Domains/Defense-Evasion-OPSEC/AMSI-Bypass.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/MOC.md",
+    "04-Flashcards/Defense-Evasion-Cards.md.tmp.7937.1f33be4ac4d3",
+    "02-Domains/Defense-Evasion-OPSEC/MOC.md.tmp.7937.05a7a3c6d870",
+    "02-Domains/Defense-Evasion-OPSEC/Resource-Kit.md",
+    "02-Domains/Defense-Evasion-OPSEC/Resource-Kit.md.tmp.7937.d73bd4dc01ad",
+    "02-Domains/Defense-Evasion-OPSEC/AMSI-Bypass.md.tmp.7937.d9793e3deeb7",
+    "02-Domains/Defense-Evasion-OPSEC/assets/amsi infrastructure.jpg",
+    "00-Inbox/amsi infrastructure.jpg",
+    "00-Inbox/Unconfirmed 6418.crdownload",
+    "04-Flashcards/Defense-Evasion-Cards.md",
+    "04-Flashcards/Defense-Evasion-Cards.md.tmp.7937.950f5d71d867",
+    "02-Domains/Defense-Evasion-OPSEC/MOC.md.tmp.7937.31a87c298655",
+    "02-Domains/Defense-Evasion-OPSEC/Artifact-Kit.md.tmp.7937.0127986758de",
+    "02-Domains/Defense-Evasion-OPSEC/assets/Ghidra Analysis.png",
+    "02-Domains/Defense-Evasion-OPSEC/assets/Artifact Kit Structure.png",
+    "02-Domains/Defense-Evasion-OPSEC/assets",
+    "02-Domains/Defense-Evasion-OPSEC/Defense-Evasion-Overview.md",
+    "00-Inbox/Ghidra Analysis.png",
+    "00-Inbox/Artifact Kit Structure.png",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Interacting-with-Beacon.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Cobalt-Strike-Overview.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Payloads.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/Beacon-Listeners.md",
+    "02-Domains/Malware-Essentials/PE-File-Structure.md",
+    "04-Flashcards/C2-Cobalt-Strike-Cards.md",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/assets/Prepend loader.png",
+    "02-Domains/C2-Infrastructure-Cobalt-Strike/assets/Beacon Loading Process.png",
+    "00-Inbox/Prepend loader.png",
+    "00-Inbox/Beacon Loading Process.png",
     "02-Domains/Malware-Essentials/C2-Payload-Architecture.md",
     "02-Domains/Malware-Essentials/MOC.md",
     "04-Flashcards/Malware-Essentials-Cards.md",
     "01-MOCs/CRTO-Master-MOC.md",
     "02-Domains/Malware-Essentials/PInvoke-CSharp.md",
     "02-Domains/Malware-Essentials/Process-Hollowing.md",
-    "01-MOCs/CRTO-Master-MOC.md.tmp.6491.ecb765ad7d70",
-    "04-Flashcards/Malware-Essentials-Cards.md.tmp.6491.4ea7a1b33d0a",
     "02-Domains/Malware-Essentials/Process-Injection-Overview.md",
     "02-Domains/Malware-Essentials/Thread-Hijacking.md",
     "02-Domains/Malware-Essentials/Windows-Memory.md",
-    "02-Domains/Malware-Essentials/MOC.md.tmp.6491.9fbaabc5779f",
-    "02-Domains/Malware-Essentials/PInvoke-CSharp.md.tmp.6491.58db08c5cb61",
-    "02-Domains/Malware-Essentials/PE-File-Structure.md",
     "02-Domains/Malware-Essentials/Classic-Process-Injection.md",
-    "04-Flashcards/Malware-Essentials-Cards.md.tmp.6491.c55f0d6d5aa2",
-    "02-Domains/Malware-Essentials/MOC.md.tmp.6491.c731298763f1",
-    "02-Domains/Malware-Essentials/Process-Hollowing.md.tmp.6491.071f4ddcd4e2",
     "02-Domains/Malware-Essentials/APC-Injection.md",
-    "02-Domains/Malware-Essentials/APC-Injection.md.tmp.6491.a2339e345c16",
-    "02-Domains/Malware-Essentials/Thread-Hijacking.md.tmp.6491.47d96e485b09",
-    "02-Domains/Malware-Essentials/Classic-Process-Injection.md.tmp.6491.fb3df48a979f",
     "02-Domains/Malware-Essentials/Access-Tokens-and-Privileges.md",
-    "02-Domains/Malware-Essentials/Windows-Processes-and-Threads.md",
-    "02-Domains/Malware-Essentials/assets/PE-structure.png",
-    "02-Domains/Malware-Essentials/assets/file header.png",
-    "02-Domains/Malware-Essentials/assets/emagic elfanew.png",
-    "02-Domains/Malware-Essentials/assets/dos stub.png",
-    "02-Domains/Malware-Essentials/assets/data directory.png",
-    "02-Domains/Red-Team-Fundamentals/Attack-Lifecycle.md",
-    "00-Inbox/data directory.png",
-    "00-Inbox/file header.png",
-    "00-Inbox/dos stub.png",
-    "00-Inbox/emagic elfanew.png",
-    "00-Inbox/PE-structure.png",
-    "02-Domains/Red-Team-Fundamentals/Red-Teaming-Overview.md",
-    "02-Domains/Red-Team-Fundamentals/MOC.md",
-    "02-Domains/Red-Team-Fundamentals/Engagement-Planning.md",
-    "04-Flashcards/Red-Team-Fundamentals-Cards.md",
-    "02-Domains/Red-Team-Fundamentals/Emulation-vs-Simulation.md",
-    "02-Domains/Red-Team-Fundamentals/TTPs-Framework.md",
-    "02-Domains/Defense-Evasion-OPSEC/MOC.md",
-    "02-Domains/Credential-Access/Kerberoasting.md",
-    "CLAUDE.md",
-    "Welcome.md"
+    "02-Domains/Malware-Essentials/Windows-Processes-and-Threads.md"
   ]
 }
