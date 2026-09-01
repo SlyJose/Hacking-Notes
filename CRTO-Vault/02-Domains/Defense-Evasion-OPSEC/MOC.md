@@ -11,6 +11,8 @@ tags: [moc]
 - [[Artifact-Kit]]
 - [[Resource-Kit]]
 - [[AMSI-Bypass]]
+- [[Beacon-Memory]]
+- [[Beacon-Command-Behavior]]
 
 ## Detection & OPSEC Notes
 
