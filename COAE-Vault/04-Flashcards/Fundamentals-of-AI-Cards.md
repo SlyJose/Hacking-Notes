@@ -143,3 +143,98 @@ Gaussian — continuous features assumed normally distributed. Multinomial — d
 Why can a highly accurate test still give a low posterior probability of disease?::Because the prior probability (disease prevalence) is very low. Bayes' theorem multiplies the likelihood by the prior — a rare event remains unlikely even after a positive test result.
 
 How does Naive Bayes compare to Logistic Regression for classification?::Both output class probabilities, but Naive Bayes assumes feature independence and is more efficient; logistic regression models feature interactions and assumes linearity of log-odds. Naive Bayes often wins on text data; logistic regression on structured data.
+
+What is the goal of an SVM?::Find the optimal hyperplane that maximally separates classes by maximizing the margin — the distance between the hyperplane and the nearest data points (support vectors) of each class.
+
+What are support vectors?::The data points closest to the decision hyperplane. They define and "support" the hyperplane and the margin — removing other points doesn't change the hyperplane.
+
+Write the SVM hyperplane equation and define each term.
+?
+w * x + b = 0. w = weight vector (perpendicular to hyperplane), x = input feature vector, b = bias term (shifts hyperplane from origin).
+
+Write the SVM optimization objective.
+?
+Minimize: 1/2 * ||w||²
+Subject to: yi * (w·xi + b) >= 1 for all i
+Minimizing ||w||² maximizes the margin; the constraint ensures correct classification with margin ≥ 1.
+
+What is the kernel trick in SVMs?::A technique that maps data into a higher-dimensional space using a kernel function, where it becomes linearly separable. The resulting linear hyperplane maps back to a non-linear boundary in the original space.
+
+Name the three common SVM kernel functions and their use cases.
+?
+Polynomial — adds polynomial terms (x², x³), moderate non-linearity. RBF/Gaussian — Gaussian mapping, most versatile, handles complex patterns (default choice). Sigmoid — sigmoid-shaped boundary, similar to logistic regression.
+
+What are SVMs' data assumptions?::Minimal — no distributional assumptions, effective in high-dimensional spaces (features > data points), and relatively robust to outliers since optimization focuses on margin not individual points.
+
+What are the three categories of unsupervised learning problems?::Clustering (group similar data points), Dimensionality Reduction (reduce features while preserving information), Anomaly Detection (identify points that deviate from the norm)
+
+What is the key difference between supervised and unsupervised learning?::Supervised learning uses labeled data with known outcomes; unsupervised learning uses unlabeled data and discovers structure without predefined answers.
+
+What are the three main similarity measures used in unsupervised learning and when is each used?
+?
+Euclidean distance — straight-line distance, general clustering. Cosine similarity — angle between vectors, best for text/NLP where direction matters more than magnitude. Manhattan distance — sum of absolute differences, useful in high-dimensional or grid-like spaces.
+
+What is the curse of dimensionality?::As the number of features grows, data becomes sparse and distances between points lose meaning, degrading algorithm performance. Dimensionality reduction targets the intrinsic (true underlying) dimensionality to counter this.
+
+What are cohesion and separation in cluster validity?::Cohesion measures how similar points are within a cluster (higher = more compact). Separation measures how different clusters are from each other (higher = more distinct). Both should be high for good clustering.
+
+What is the difference between an anomaly and an outlier?::An anomaly deviates significantly from expected patterns — operationally tied to fraud, attacks, or errors. An outlier is a broader term for any data point far from the majority — may be an error, unusual observation, or interesting pattern.
+
+Why is feature scaling essential before distance-based unsupervised algorithms?::Unscaled features with larger ranges dominate distance calculations. Min-Max scaling (fixed range) or standardization (zero mean, unit variance) ensures all features contribute equally.
+
+What are the four steps of the K-means algorithm?
+?
+(1) Initialization — pick K random centroids. (2) Assignment — assign each point to nearest centroid by Euclidean distance. (3) Update — recalculate centroids as mean of assigned points. (4) Iterate steps 2–3 until centroids stabilize or max iterations reached.
+
+What is WCSS and how is it used in the elbow method?::Within-Cluster Sum of Squares — total variance within each cluster. Plot WCSS vs K; the "elbow" where WCSS stops decreasing sharply is the recommended K. Beyond the elbow, complexity increases without significant compactness gain.
+
+What does a silhouette score of -1, 0, and 1 each mean?
+?
+1 = point well-matched to its cluster, poorly matched to others. 0 = point near the decision boundary between clusters. -1 = point likely assigned to the wrong cluster.
+
+What are the three data assumptions K-means makes?
+?
+(1) Clusters are spherical and roughly similar in size. (2) Features must be on the same scale (standardize before applying). (3) Sensitive to outliers — they distort centroids and corrupt cluster assignments.
+
+What is the Euclidean distance formula used in K-means?::d(x, y) = sqrt(Σ(xi - yi)²) — the straight-line distance between two points across all feature dimensions.
+
+What is PCA and what problem does it solve?::Principal Component Analysis — a dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional representation while preserving maximum variance. Solves the curse of dimensionality and enables visualization, noise reduction, and faster ML.
+
+What are the six steps of PCA?
+?
+(1) Standardize data (zero mean, unit variance). (2) Compute the covariance matrix. (3) Compute eigenvectors and eigenvalues of the covariance matrix. (4) Sort eigenvectors by descending eigenvalue. (5) Select top k eigenvectors. (6) Transform data: Y = X * V.
+
+What is an eigenvector and eigenvalue in plain terms?
+?
+Eigenvector: a direction that remains unchanged when a linear transformation (matrix multiplication) is applied — it only stretches or shrinks. Eigenvalue: the scalar factor by which the eigenvector stretches/shrinks. In PCA, eigenvectors are the principal component directions; eigenvalues represent how much variance each captures.
+
+Write the PCA eigenvalue equation and define each term.
+?
+C * v = λ * v. C = covariance matrix of standardized data, v = eigenvector (principal component direction), λ = eigenvalue (variance explained by that component). Larger λ → more important component.
+
+How do you choose the number of PCA components to keep?::Plot explained variance ratio vs number of components and choose k where cumulative variance reaches a target threshold (commonly 95%). More components = more information, less compression.
+
+What are PCA's three data assumptions?::Linearity (assumes linear feature relationships), Correlation (works best when features are correlated), Scale sensitivity (larger-scale features dominate — always standardize first).
+
+What are the three types of anomalies?
+?
+Point — single data point deviates significantly (e.g., spike in network traffic). Contextual — anomalous within a specific context but not in isolation (e.g., 30°C in winter). Collective — a group of points collectively deviate even if individual points look normal (e.g., coordinated login attempts from many IPs).
+
+What are the three categories of anomaly detection techniques?::Statistical (assumes Gaussian distribution, uses z-score/boxplots), Clustering-based (outliers don't belong to any cluster), ML-based (learns normal patterns — One-Class SVM, Isolation Forest, LOF).
+
+How does One-Class SVM detect anomalies?::It learns a boundary enclosing all normal training data using kernel functions. Points outside the boundary at inference time are flagged as anomalies. Only trained on normal data — no anomaly labels needed.
+
+How does Isolation Forest work and what is its anomaly score formula?
+?
+Randomly partitions data into isolation trees by picking random features and split values. Anomalies need fewer splits to isolate → shorter path lengths.
+score(x) = 2^(-E(h(x)) / c(n)). Score near 1 = anomaly; near 0.5 = normal.
+
+How does Local Outlier Factor (LOF) detect anomalies?::Compares the local density of a point to its k nearest neighbors. Points with much lower local density than neighbors get high LOF scores (>> 1) and are flagged as outliers. Effective when cluster density varies across the dataset.
+
+What is the LOF score formula and what does each symbol mean?
+?
+LOF(p) = (Σ lrd(o) / k) / lrd(p). lrd(p) = local reachability density of p. lrd(o) = local reachability density of neighbor o. k = number of nearest neighbors. LOF >> 1 means p is much less dense than its neighbors → outlier.
+
+Compare One-Class SVM, Isolation Forest, and LOF on scalability and best use case.
+?
+One-Class SVM — moderate scalability, best for high-dimensional data. Isolation Forest — high scalability, best for large datasets. LOF — low scalability (expensive), best when cluster density varies significantly.

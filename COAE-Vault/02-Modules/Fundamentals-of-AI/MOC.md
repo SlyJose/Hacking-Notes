@@ -18,6 +18,11 @@ tags: [moc]
 - [[Logistic-Regression]] — binary classification via sigmoid, decision boundary, threshold tuning
 - [[Decision-Trees]] — classification/regression via recursive feature splits; Gini, entropy, information gain
 - [[Naive-Bayes]] — probabilistic classifier via Bayes' theorem; Gaussian/Multinomial/Bernoulli variants
+- [[Support-Vector-Machines]] — margin-maximizing classifier; linear + kernel trick for non-linear data
+- [[Unsupervised-Learning-Algorithms]] — clustering, dimensionality reduction, anomaly detection; similarity measures, cluster validity, feature scaling
+- [[K-Means-Clustering]] — partitions data into K clusters; elbow method and silhouette analysis for optimal K
+- [[Principal-Component-Analysis]] — dimensionality reduction via eigenvectors/eigenvalues; explained variance ratio
+- [[Anomaly-Detection]] — point/contextual/collective anomalies; One-Class SVM, Isolation Forest, LOF
 
 ## Key Concepts
 
