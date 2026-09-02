@@ -238,3 +238,40 @@ LOF(p) = (Σ lrd(o) / k) / lrd(p). lrd(p) = local reachability density of p. lrd
 Compare One-Class SVM, Isolation Forest, and LOF on scalability and best use case.
 ?
 One-Class SVM — moderate scalability, best for high-dimensional data. Isolation Forest — high scalability, best for large datasets. LOF — low scalability (expensive), best when cluster density varies significantly.
+
+What is the difference between model-based and model-free RL?::Model-based — agent builds an internal model of the environment to plan actions (map of the maze). Model-free — agent learns directly from experience with no environment model (navigating without a map, pure trial and error).
+
+Define the six core RL concepts: agent, environment, state, action, reward, policy.
+?
+Agent — learner/decision-maker. Environment — everything outside the agent; responds to actions. State — current snapshot of the environment. Action — decision the agent makes that transitions the environment. Reward — scalar feedback (positive reinforces, negative discourages). Policy — strategy mapping states to actions; goal is to maximize cumulative reward.
+
+What are the two types of value functions in RL?
+?
+State-value V(s) — expected cumulative reward from state s under a given policy. Action-value Q(s,a) — expected cumulative reward from taking action a in state s, then following policy. Q-values are the basis of Q-learning.
+
+What is the discount factor (γ) in RL and what do extreme values mean?
+?
+γ controls how much future rewards are valued. γ=0 → only immediate reward matters (myopic). γ=1 → all future rewards weighted equally (far-sighted). Typical range: 0.9–0.99.
+
+What is the difference between episodic and continuous RL tasks?::Episodic — interaction ends at a terminal state (e.g., winning a game, reaching maze exit). Continuous — no explicit end, runs indefinitely (e.g., robot arm control, traffic management).
+
+What is the difference between a deterministic and stochastic policy?::Deterministic — always selects the same action in a given state. Stochastic — selects actions with certain probabilities, allowing exploration.
+
+What is a Q-value?::The expected cumulative reward an agent obtains by taking a specific action in a given state and then following the optimal policy afterward. Stored in the Q-table for every state-action pair.
+
+Write the Q-learning update rule and define each term.
+?
+Q(s, a) = Q(s, a) + α * [r + γ * max(Q(s', a')) - Q(s, a)]
+α = learning rate, r = immediate reward, γ = discount factor, max(Q(s', a')) = best Q-value from next state s'. The update pulls Q(s,a) toward the Bellman target r + γ * max(Q(s', a')).
+
+What is the Q-table and how is it structured?::A lookup table storing Q-values for every state-action pair. Rows = states, Columns = actions, Cells = Q-values. Initialized to zero and updated iteratively as the agent learns.
+
+What are the six steps of the Q-learning algorithm?
+?
+(1) Initialize Q-table. (2) Choose action via exploration-exploitation strategy. (3) Take action, observe new state s' and reward r. (4) Update Q-value using Bellman equation. (5) Update current state to s'. (6) Repeat until Q-values converge or stopping condition met.
+
+What is the epsilon-greedy strategy and how does ε affect behavior?
+?
+With probability ε → take a random action (explore). With probability 1-ε → take the action with the highest Q-value (exploit). High ε = heavy exploration; low ε = heavy exploitation. Common practice: start high and decay ε over training.
+
+What are the two data assumptions Q-learning makes?::Markov property (next state depends only on current state and action, not history) and stationary environment (transition probabilities and rewards don't change over time).

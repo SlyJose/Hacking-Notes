@@ -23,6 +23,8 @@ tags: [moc]
 - [[K-Means-Clustering]] — partitions data into K clusters; elbow method and silhouette analysis for optimal K
 - [[Principal-Component-Analysis]] — dimensionality reduction via eigenvectors/eigenvalues; explained variance ratio
 - [[Anomaly-Detection]] — point/contextual/collective anomalies; One-Class SVM, Isolation Forest, LOF
+- [[Reinforcement-Learning-Algorithms]] — agent/environment/state/action/reward/policy; model-based vs model-free; discount factor
+- [[Q-Learning]] — model-free RL; Q-table, Bellman update rule, epsilon-greedy exploration-exploitation
 
 ## Key Concepts
 
