@@ -13,6 +13,8 @@ tags: [moc]
 - [[AMSI-Bypass]]
 - [[Beacon-Memory]]
 - [[Beacon-Command-Behavior]]
+- [[Blending-Post-Ex]]
+- [[Command-Line-Detections]]
 
 ## Detection & OPSEC Notes
 
