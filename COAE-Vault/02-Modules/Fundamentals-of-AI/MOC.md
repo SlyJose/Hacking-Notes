@@ -10,7 +10,8 @@ tags: [moc]
 
 - [[AI-ML-DL-Relationship]] — hierarchy of AI ⊃ ML ⊃ DL, what each field covers
 - [[ML-Learning-Paradigms]] — supervised, unsupervised, and reinforcement learning
-- [[Deep-Learning-Fundamentals]] — CNNs, RNNs, Transformers, key DL characteristics
+- [[Deep-Learning-Fundamentals]] — CNNs, RNNs, Transformers, ANNs, backpropagation, activation functions, optimizers
+- [[Perceptron]] — single-neuron building block; weighted inputs + bias + activation; limited to linearly separable problems
 - [[Supervised-Learning-Algorithms]] — classification vs regression, how supervised learning works
 - [[Supervised-Learning-Core-Concepts]] — training data, features, labels, model, prediction vs inference
 - [[Model-Evaluation-and-Generalization]] — accuracy/precision/recall/F1, overfitting, underfitting, cross-validation, regularization
@@ -25,6 +26,7 @@ tags: [moc]
 - [[Anomaly-Detection]] — point/contextual/collective anomalies; One-Class SVM, Isolation Forest, LOF
 - [[Reinforcement-Learning-Algorithms]] — agent/environment/state/action/reward/policy; model-based vs model-free; discount factor
 - [[Q-Learning]] — model-free RL; Q-table, Bellman update rule, epsilon-greedy exploration-exploitation
+- [[SARSA]] — on-policy model-free RL; updates Q-values using actual next action taken, safer than Q-Learning in risk-sensitive environments
 
 ## Key Concepts
 

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d2d4b7e8ded15a50",
+        "id": "382671af02173f84",
         "type": "tabs",
         "children": [
           {
-            "id": "6093d0d92efe209e",
+            "id": "dae8bfe86c1a47ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-Modules/Fundamentals-of-AI/Perceptron.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Perceptron"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:unsupervised-learning",
+                "query": "deep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,52 +188,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "6093d0d92efe209e",
+  "active": "dae8bfe86c1a47ed",
   "lastOpenFiles": [
+    "02-Modules/Fundamentals-of-AI/Deep-Learning-Fundamentals.md",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.7148.42b6fbc40e28",
+    "02-Modules/Fundamentals-of-AI/Perceptron.md",
+    "02-Modules/Fundamentals-of-AI/Perceptron.md.tmp.7148.a66acff0372f",
+    "02-Modules/Fundamentals-of-AI/assets/perceptron.png",
+    "02-Modules/Fundamentals-of-AI/assets/Unconfirmed 392729.crdownload",
+    "04-Flashcards/Fundamentals-of-AI-Cards.md",
+    "02-Modules/Fundamentals-of-AI/Deep-Learning-Fundamentals.md.tmp.7148.515626fc1245",
+    "02-Modules/Fundamentals-of-AI/Support-Vector-Machines.md",
+    "02-Modules/Fundamentals-of-AI/SARSA.md",
     "02-Modules/Fundamentals-of-AI/Reinforcement-Learning-Algorithms.md",
+    "02-Modules/AI-Evasion-First-Order-Attacks/README.md",
+    "02-Modules/Fundamentals-of-AI/README.md",
     "02-Modules/Fundamentals-of-AI/Q-Learning.md",
+    "02-Modules/Fundamentals-of-AI/MOC.md",
+    "02-Modules/Fundamentals-of-AI/AI-ML-DL-Relationship.md",
+    "02-Modules/Fundamentals-of-AI/Linear-Regression.md",
+    "02-Modules/Fundamentals-of-AI/Decision-Trees.md",
+    "02-Modules/Fundamentals-of-AI/Naive-Bayes.md",
+    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.7148.5bf4ce1ca159",
+    "02-Modules/Fundamentals-of-AI/SARSA.md.tmp.7148.0332b3f32e75",
+    "02-Modules/Fundamentals-of-AI/assets/softmax.png",
+    "02-Modules/Fundamentals-of-AI/assets/epsilon greedy.png",
+    "02-Modules/Fundamentals-of-AI/assets/03 - SARSA (State-Action-Reward-State-Action)_0.png",
+    "02-Modules/Fundamentals-of-AI/assets/sarsa.png",
+    "02-Modules/Fundamentals-of-AI/assets/Unconfirmed 194504.crdownload",
     "02-Modules/Fundamentals-of-AI/ML-Learning-Paradigms.md",
     "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6306.48bb20272a25",
     "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6306.a4a83525f70b",
     "02-Modules/Fundamentals-of-AI/Q-Learning.md.tmp.6306.ac4c1f333afe",
     "02-Modules/Fundamentals-of-AI/assets/02 - Q-Learning_0.png",
-    "02-Modules/Fundamentals-of-AI/assets/Unconfirmed 511210.crdownload",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.6306.bec144ab1e83",
-    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.6306.d242a2c0e3d2",
-    "02-Modules/Fundamentals-of-AI/Reinforcement-Learning-Algorithms.md.tmp.6306.622fbb1f9bfe",
     "02-Modules/Fundamentals-of-AI/Principal-Component-Analysis.md",
     "02-Modules/Fundamentals-of-AI/Unsupervised-Learning-Algorithms.md",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md.tmp.7067.7d7329b16b5d",
-    "02-Modules/Fundamentals-of-AI/MOC.md.tmp.7067.faef478f0ad2",
     "02-Modules/Fundamentals-of-AI/Anomaly-Detection.md",
-    "02-Modules/Fundamentals-of-AI/Anomaly-Detection.md.tmp.7067.c0494cda6b6b",
     "02-Modules/Fundamentals-of-AI/assets/local_outlier_factor.png",
     "02-Modules/Fundamentals-of-AI/assets/isolation_forest.png",
     "02-Modules/Fundamentals-of-AI/assets/one_class_svm.png",
     "02-Modules/Fundamentals-of-AI/K-Means-Clustering.md",
     "02-Modules/Fundamentals-of-AI/Logistic-Regression.md",
     "02-Modules/Fundamentals-of-AI/assets/pca_facial_features.png",
-    "02-Modules/Fundamentals-of-AI/assets/pca.png",
-    "02-Modules/Fundamentals-of-AI/Linear-Regression.md",
-    "00-Inbox/pca_facial_features.png",
-    "00-Inbox/pca.png",
-    "02-Modules/Fundamentals-of-AI/assets/k_means_clustering.png",
-    "00-Inbox/k_means_clustering.png",
-    "02-Modules/Fundamentals-of-AI/Support-Vector-Machines.md",
     "02-Modules/Fundamentals-of-AI/Supervised-Learning-Core-Concepts.md",
     "02-Modules/Fundamentals-of-AI/Supervised-Learning-Algorithms.md",
-    "02-Modules/Fundamentals-of-AI/AI-ML-DL-Relationship.md",
-    "02-Modules/Fundamentals-of-AI/Naive-Bayes.md",
-    "02-Modules/Fundamentals-of-AI/Decision-Trees.md",
-    "02-Modules/Fundamentals-of-AI/MOC.md",
-    "04-Flashcards/Fundamentals-of-AI-Cards.md",
     "Welcome.md",
     "CLAUDE.md",
-    "99-Archive/README.md",
-    "06-Personal-Notes/README.md",
-    "05-Tools-Cheatsheets/README.md",
-    "05-Tools-Cheatsheets/PyTorch-Cheatsheet.md",
-    "05-Tools-Cheatsheets/Garak-Cheatsheet.md",
-    "05-Tools-Cheatsheets/ART-Cheatsheet.md"
+    "99-Archive/README.md"
   ]
 }
